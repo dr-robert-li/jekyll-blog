@@ -5,19 +5,21 @@ date: 2024-04-09
 categories: [AI, Culture, Research]
 ---
 
+![](https://media.licdn.com/dms/image/D562DAQFuIEIDQkUu7Q/profile-treasury-image-shrink_800_800/0/1712648403296?e=1713254400&v=beta&t=imH_Z40kGKnKARyxXyO4oI1ucdzBLCsDWT4mErHGqfY)
+
 *LLMs are only as unbiased as the data they are trained on.* 
 
 While chatbots and image generators have exploded in mainstream popularity, underpinning all of this are the models that inform these generated responses, and behind that, billions of points of data from sources as varied as scientific research papers, to social media networks, to forums of Redditors. 
 
-Embedded throughout these layers of abstracted data, but perhaps lost in translation, is the fact that every source of data is not only a product of the source's culture, but, like all cultures, it also propogates that culture as well.
+Embedded throughout these layers of abstracted data, but perhaps lost in translation, is the fact that every source of data is not only a product of the source's culture, but, like all cultures, it also propagates that culture as well.
 
 While this allows LLMs to sometimes produce strongly culturally relevant outputs in certain scenarios, it also reinforces the less desirable tendencies of said culture over many training runs leading to implicit biases, that can appear as stereotyping, discrimination and shared cultural beliefs that may not be based on objective reality.
 
-For example, in an MIT 2023 paper by Luo and Glass it was found with professions, a language model implicitely associated “flight attendant,” “secretary,” and “physician’s assistant” with feminine jobs, while “fisherman,” “lawyer,” and “judge” with the masculine. Concerning emotions, LLMs identified “anxious,” “depressed,” and “devastated” as implicitely feminine. 
+For example, in an MIT 2023 paper by Luo and Glass it was found with professions, a language model implicitly associated “flight attendant,” “secretary,” and “physician’s assistant” with feminine jobs, while “fisherman,” “lawyer,” and “judge” with the masculine. Concerning emotions, LLMs identified “anxious,” “depressed,” and “devastated” as implicitly feminine. 
 
 A recent separate study published in March, 2024 (Naous et. al: [https://arxiv.org/pdf/2305.14456.pdf](https://arxiv.org/pdf/2305.14456.pdf)), found that this extended deeper than simply the choice of data corpora themselves. Even training on specifically non-Western sources that were identified by the researches as of the highest quality, there still existed a strong bias towards Western culture, suggesting that, perhaps, the models that govern tokenizing also have a part to play when embedding culture within an LLM.
 
-But this hasn't just been academic. More public incidents include Workday, a Payroll and HR SaaS implementing algorithms for screening of applicants that tended to discriminate against Black applicants in their 40s; accusations of Stable Diffusion generating images perpetuating gender and racial stereotypes, for example, over-representating women and people with darker complexions in lower paid jobs, and under-representing the same in higher paying jobs; and, perhaps, most visibly, the recent launch of Google's Gemini family of LLMs spawning many examples where, in an attempt to ensure gender and racial diversity, the model over-corrected, leading to historically inaccurate, and offensive images being generated (to put it *mildly*).
+But this hasn't just been academic. More public incidents include Workday, a Payroll and HR SaaS implementing algorithms for screening of applicants that tended to discriminate against Black applicants in their 40s; accusations of Stable Diffusion generating images perpetuating gender and racial stereotypes, for example, over-representing women and people with darker complexions in lower paid jobs, and under-representing the same in higher paying jobs; and, perhaps, most visibly, the recent launch of Google's Gemini family of LLMs spawning many examples where, in an attempt to ensure gender and racial diversity, the model over-corrected, leading to historically inaccurate, and offensive images being generated (to put it *mildly*).
 
 ## Responsible use of AI and the inflection point of the Hype Cycle
 
@@ -33,7 +35,7 @@ For research into artificial intelligence, genesis for this first phase of the c
 
 It wasn't until the creation of the Transformer architecture by DeepMind (now Google) in the early 2020s, that allowed researchers to defeat the scaling limitations posed by the use of RNNs and CNNs, and create LLMs with, eventually, tens and even hundreds of billions of parameters.
 
-The emergent behaviours that these models exhibited due to the unnumerable number and complexity of patterns within allowed them to excel at a variety of tasks in ways that more narrow models used to typically succeed. As meaning-making humans, their magical outputs allowed ourselves and researchers to contemplate, for the first time, being on the cusp of create an Artificial General Intelligence (AGI), a self learning model, capable of reasoning and exhibiting patterns reminiscent of human consciousness. 
+The emergent behaviours that these models exhibited due to the innumerable number and complexity of patterns within allowed them to excel at a variety of tasks in ways that more narrow models used to typically succeed. As meaning-making humans, their magical outputs allowed ourselves and researchers to contemplate, for the first time, being on the cusp of create an Artificial General Intelligence (AGI), a self learning model, capable of reasoning and exhibiting patterns reminiscent of human consciousness. 
 
 This was distilled into a small chat interface called ChatGPT in November 2022, and it ushered in the hype phase of the Hype cycle.
 
@@ -54,15 +56,15 @@ My advocacy is for the sustainable use of AI for the betterment of humankind. If
 
 And, to that end, just like aligning any LLM with human values, the first step *is knowledge.*
 
-While it could be argued that the organizations that pre-train these LLMs should publish their own research on the values, behaviours, and quirks, emergent of otherwise, of their models in relation to others, herein, we have assessed the behaviour of several popular LLMs using the VSM2013 ([https://geerthofstede.com/research-and-vsm/vsm-2013/](https://geerthofstede.com/research-and-vsm/vsm-2013/)) assessment which is designed to measure 6 factors that are used to classify the cultural background of a group of respondants in relation to other cultures using a questionnaire.
+While it could be argued that the organizations that pre-train these LLMs should publish their own research on the values, behaviors, and quirks, emergent or otherwise, of their models in relation to others, herein, we have assessed the behavior of several popular LLMs using the VSM2013 ([https://geerthofstede.com/research-and-vsm/vsm-2013/](https://geerthofstede.com/research-and-vsm/vsm-2013/)) assessment which is designed to measure 6 factors that are used to classify the cultural background of a group of respondents in relation to other cultures using a questionnaire.
 
-All of the models were hosted on HuggingFace inference endpoints and asked to answer the same set of questions using a lichardt scale.
+All of the models were hosted on HuggingFace inference endpoints and asked to answer the same set of questions using a Likert scale.
 
-Typically this would be done with groups of respondants, and the assessment is not designed for individual assessment, but, as the model weights are frozen in this experiment, the answers provided did not change between steps, so only 1 iteration was recorded for each model.
+Typically this would be done with groups of respondents, and the assessment is not designed for individual assessment, but, as the model weights are frozen in this experiment, the answers provided did not change between steps, so only 1 iteration was recorded for each model.
 
 The results for each factor are below.
 
-```
+
 VSM2013 Results for:google/gemma-7b-it
 Constant Used: 50
 
@@ -82,7 +84,7 @@ MAS:35.0
 UAI:100.0
 LTO:0.0
 IVR:0.0
-```
+
 
 You can compare them to country results here: ([https://geerthofstede.com/country-comparison-graphs/](https://geerthofstede.com/country-comparison-graphs/))
 
@@ -99,10 +101,10 @@ Because of we, as builders, only have 2 layers we can exploit, the input and out
 	- One could argue that we wouldn't have these problems if we were deliberative about the data we pre-train a model on in the first place. However, this is easier said than done. One would require a similarly massive amount of *DEI* *trained* manpower to moderate said data when doing RHLF, and it may require multiple training runs with different cohorts from diverse backgrounds. And given the higher bar for reward, therefore, a larger portion of the data being discarded as potentially harmful, one would require an even larger corpora of data than is currently being mined (which is already the entire Internet... basically).
 - Full Finetuning
 	- But what about after the fact? While using PEFT and LoRA techniques do not fundamentally change the underlying model weights, full finetuning does, and it would require less manpower and additional data to finetune an existing foundational model than pre-training a new one.
-	- However, researchers haven't found a way to catastrophically forget in a targetted fashion or *excise* specific model weights to get rid of harmful responses, without also risking excising responses which are desirable.
+	- However, researchers haven't found a way to catastrophically forget in a targeted fashion or *excise* specific model weights to get rid of harmful responses, without also risking excising responses which are desirable.
 	- It also *still requires a lot of manpower and compute.*
 - Using Embedded data
-	- One can also embed the data that they would like the model to reference, and explicitely provide context to not reference any other data.
+	- One can also embed the data that they would like the model to reference, and explicitly provide context to not reference any other data.
 	- However, again, the underlying biases and therefore, interpretation of the embedded data remains unchanged.
 - Using context for guard rails at the output layer.
 	- There are already open source libraries being shared and improved upon.
