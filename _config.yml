@@ -1,0 +1,10 @@
+title: Your Blog Title
+description: Your blog description
+baseurl: ""
+url: "https://yourusername.github.io"
+
+markdown: kramdown
+permalink: /blog/:title/
+
+plugins:
+  - jekyll-feed
