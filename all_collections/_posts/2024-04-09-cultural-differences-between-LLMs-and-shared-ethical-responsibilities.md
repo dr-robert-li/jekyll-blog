@@ -64,7 +64,7 @@ Typically this would be done with groups of respondents, and the assessment is n
 
 The results for each factor are below.
 
-
+```
 VSM2013 Results for:google/gemma-7b-it
 Constant Used: 50
 
@@ -84,7 +84,7 @@ MAS:35.0
 UAI:100.0
 LTO:0.0
 IVR:0.0
-
+```
 
 You can compare them to country results here: ([https://geerthofstede.com/country-comparison-graphs/](https://geerthofstede.com/country-comparison-graphs/))
 
