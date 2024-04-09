@@ -5,7 +5,7 @@ date: 2024-04-09
 categories: [AI, Culture, Research]
 ---
 
-![](https://media.licdn.com/dms/image/D562DAQFuIEIDQkUu7Q/profile-treasury-image-shrink_800_800/0/1712648403296?e=1713254400&v=beta&t=imH_Z40kGKnKARyxXyO4oI1ucdzBLCsDWT4mErHGqfY)
+![](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/culture-llm-header.jpeg)
 
 *LLMs are only as unbiased as the data they are trained on.* 
 
