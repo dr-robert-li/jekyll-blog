@@ -1,4 +1,9 @@
-# 12 Simple Techniques to Improve Your Prompts
+---
+layout: post
+title: 12 Simple Techniques to Improve Your Prompts.
+date: 2024-04-11
+categories: [AI, Chatbots, Prompt Engineering, Tips]
+---
 
 [https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/human-talking-to-robot.jpeg](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/human-talking-to-robot.jpeg)
 
