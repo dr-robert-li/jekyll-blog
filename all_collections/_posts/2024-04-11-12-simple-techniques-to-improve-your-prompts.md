@@ -5,7 +5,7 @@ date: 2024-04-11
 categories: [AI, Chatbots, Prompt Engineering, Tips]
 ---
 
-[https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/human-talking-to-robot.jpeg](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/human-talking-to-robot.jpeg)
+![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/human-talking-to-robot.jpeg](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/human-talking-to-robot.jpeg)
 
 As someone who is deep into AI engineering, reading research and learning about novel implementations, I often find myself drawn to the bleeding edge, and that's what I end up sharing.
 
