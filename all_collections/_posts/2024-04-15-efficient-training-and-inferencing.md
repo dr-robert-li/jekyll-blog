@@ -5,6 +5,8 @@ date: 2024-04-15
 categories: [AI, Research, Future]
 ---
 
+![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/dali-earth-wrap.jpeg](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/dali-earth-wrap.jpeg)
+
 News about Large Language Models (LLMs) breakthroughs is everywhere at the moment, showcasing remarkable capabilities in natural language understanding, generation, and reasoning. 
 
 However, use of them in real world applications, isn't as pervasive. That is because as these models have grown in size and complexity, the computational resources required to train and deploy them have become a significant bottleneck. 
