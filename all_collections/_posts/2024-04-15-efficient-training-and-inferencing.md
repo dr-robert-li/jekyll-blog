@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Efficient Training and Inference - Unlocking the Potential of Large Language Models
+title: Efficient Training and Inference - What the future of scalable Large Language Models looks like
 date: 2024-04-15
 categories: [AI, Research, Future]
 ---
