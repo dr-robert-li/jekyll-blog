@@ -5,6 +5,8 @@ date: 2024-04-29
 categories: [AI, Research, Training, Data, Model Collapse]
 ---
 
+![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/model-collapse.jpeg](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/model-collapse.jpeg)
+
 In recent years, as LLMs have moved from having millions of parameters to billions of parameters, from GPT to Claude 3 one of the more surprising developments has been the emergent capabilities in natural language understanding and generation this models have started to provide, and now power experiences through applications from search engines to coding assistants to chatbots, that mirror our own behaviours and tendencies remarkably well. The recipe for this meteoric progress has relied on three key ingredients - more efficient algorithms and architectures, most influentially the invention of transformer architecture, a massive increase in compute driven by the raw firepower of GPUs first and now the proliferation of specialized AI chipsets and cloud hyperscalers using them, and the actual trigger of this acceleration in LLM development, (basically) OpenAI's, Ilya Sutskever's, choice to improve LLM performance by scaling data to ever larger training datasets scraped from (mainly) the Internet and other sources.
 
 But, what happens when we run out of... the Internet?
