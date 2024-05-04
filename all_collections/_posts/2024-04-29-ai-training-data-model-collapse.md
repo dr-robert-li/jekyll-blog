@@ -61,19 +61,55 @@ So model collapse is not some distant, theoretical concern - it's likely already
 
 So what can be done to avert the looming crisis of peak data and model collapse? There are no easy answers, but here are a few potential directions the field may take:
 
-1) A shift to more efficient learning architectures that can achieve strong performance with less training data. We're already seeing some movement in this direction with models like Chinchilla that aim to be compute-optimal. Other non-transformer architectures like Hyena show promise in reducing the computational overhead of attention. Techniques like retrieval augmented generation, few-shot learning, and reinforcement learning may also help boost data efficiency.
+- We can explore novel architectures, selective data usage, hardware optimization, and improved embedding techniques to make AI models more data-efficient and capable of handling complex tasks with limited resources:
 
-2) Expanding the data supply through sim-to-real approaches, where 3D environments and simulations are used to generate vast amounts of synthetic training data that mimics the structure of the real world. This is already a common approach in fields like robotics and autonomous driving. For language models, one could imagine training in game-like simulated worlds to learn grounded language use.
+    - Designing architectures that can dynamically expand their learning capacity as needed is a promising direction for data efficiency. For example, the mixed expert architecture has been used to great effect with Mistral's Mixtral LLM recently, is parameter-efficient and can grow its learning capacity to better balance the stability-plasticity tradeoff in lifelong learning scenarios with limited data. For example as proposed in:
 
-3) A shift away from huge, generic models trained on raw internet data to more specialized models trained on carefully curated, domain-specific datasets. For many applications, a smaller model with deep knowledge of a particular area like law, medicine, science etc. may be more useful than a jack-of-all-trades mega-model. Focusing on quality over quantity of data will be key.
+        - **Hypermixer**  (https://arxiv.org/abs/2203.03691): An MLP-based low-cost alternative to transformers that forms token mixing MLPs dynamically using hypernetworks.
 
-4) Increased use of human feedback and oversight in the training process to catch model errors and instill more coherent behavior. Techniques like reinforcement learning from human feedback (RLHF), debate and iterated amplification show promise here. The goal is to rely more on human knowledge and less on brute force data ingestion.
+        - **MLP-Mixer**  (https://openreview.net/pdf?id=r8h2uUX22d): An all-MLP architecture for vision tasks that mixes per-location features and spatial information via MLPs instead of convolutions or self-attention.
 
-5) Grappling with the societal impacts of widespread AI-generated content online. This may require developing robust watermarking techniques to tag synthetic content, as well as norms and regulations around disclosure of AI authorship. Platforms may need to more aggressively filter and fact-check AI outputs before dissemination.
+    Other novel approaches showing promise include:
 
-6) In the longer run, fundamental advances in our understanding of intelligence and reasoning that can yield more data-efficient and generalizable models. Today's language models operate by pattern matching and information retrieval - they have no real understanding of the world. Cognitive architectures that can learn causal models from less data, or that incorporate techniques like analogical reasoning, abstraction and compositionality, may be necessary to transcend the limits of scale.
+    - **H3**  (https://arize.com/blog/hungry-hungry-hippos-h3-state-space-models/): A state-space model that performs comparably to transformers while admitting much longer context lengths, scaling as n log(n) rather than n^2 with sequence length.  
 
-None of these paths are easy or guaranteed to succeed. But the AI field will need to grapple with them if we want to sustain the incredible progress of recent years into the future. The era of cheap, exponential data growth powering ever-larger models is coming to an end. What comes next will require more than just scaling up, but a fundamental rethinking of how we build and train AI systems.
+    - **Hyena**  (https://hazyresearch.stanford.edu/blog/2023-03-07-hyena): Builds on H3 using gated convolutions, showing promising results on language modeling at scale.
+
+    - **The SwiftLearn approach** (https://hazyresearch.stanford.edu/blog/2023-03-07-hyena) accelerates training by using only a subset of the most important data samples selected during initial warm-up stages. This subset is chosen based on an importance criteria measured over the entire dataset, with the aim of preserving model performance while using fewer examples for the remaining training. The importance measure can be updated during training to allow previously excluded samples back into the training loop if they become more important.
+
+    - **EVA**  (https://web.eecs.umich.edu/~taustin/papers/CASES2013-eva.pdf): An efficient vision architecture using custom accelerators and a 2D-aware cache for mobile systems.  
+
+    - **RoFormer**  (https://arxiv.org/abs/2104.09864): Leverages rotary position embeddings to improve transformers' ability to model long sequences.
+
+    - **Dynamic Convolutions**  (https://arxiv.org/abs/1912.03458): Instead of using a single convolution kernel per layer as in standard CNNs, dynamic convolution aggregates multiple parallel convolution kernels dynamically based upon their attentions, which are input dependent. Assembling multiple kernels is not only computationally efficient due to the small kernel size, but also has more representation power since these kernels are aggregated in a non-linear way via attention. It showed image classification is boosted by 2.9% with only 4% additional FLOPs.
+
+- A shift away from huge, generic models trained on raw internet data to more specialized models trained on carefully curated, domain-specific datasets. For many applications, a smaller model with deep knowledge of a particular area like law, medicine, science etc. may be more useful than a jack-of-all-trades mega-model. 
+
+- Model-based training simulators for large language models (LLMs) (https://arxiv.org/html/2312.00678v2) offer a cost-effective way to estimate model perplexity before extensive computational resources are used. These simulators mimic the real training environment using simpler, less resource-intensive models to predict how well LLMs will perform. By enabling researchers to test various configurations and training strategies, these tools help optimize resource allocation and accelerate model development. However, ensuring the accuracy and calibration of these simulators is essential for them to be truly effective in advancing AI efficiency and capabilities.
+
+- Modular training strategies (https://arxiv.org/pdf/2312.03863.pdf) to enhance training speed and reduce resource consumption in LLMs, which can be split into three non-exclusive approaches:
+    - Distributed Training involves partitioning the training process across multiple devices or machines to accelerate the training. 
+    - Mixed Precision Training uses varying precision levels for different parts of the model to optimize memory and computational resources. 
+    - GPU to CPU Offloading involves transferring certain computations from GPUs to CPUs to further optimize memory usage and computational efficiency. 
+
+- Using Stratified Cluster Sampling - careful data curation via stratified cluster sampling aims to make the most effective use of available data by selecting representative and high-quality samples. This data-efficient approach can yield better-performing models without requiring as much data scaling, bypassing some of the limitations of the power-law scaling bottleneck. A very good recent paper surveying the current efficiency of LLMs by Ding et al. can be found here: https://arxiv.org/html/2312.00678v2
+
+- The paper "How to Train Data-Efficient LLMs" introduces methods like Ask-LLM and Density sampling (https://arxiv.org/html/2402.09668v1). These methods significantly reduce the data needed for training without compromising model performance, potentially speeding up convergence and outperforming models trained on full datasets.
+    - Ask-LLM is a method for optimizing data efficiency during LLM training by leveraging the model's own capabilities to generate questions based on the training data it has already seen. This helps in focusing the training on data areas that are less understood by the model, thereby improving its learning efficiency. 
+    - Density sampling, on the other hand, involves selecting training data based on the density of information it contains. This method prioritizes diverse and information-rich examples to ensure broad coverage and effective learning. 
+
+- Increased use of human feedback and oversight in the training process to catch model errors and instill more coherent behavior. Techniques like reinforcement learning from human feedback (RLHF), debate and iterated amplification show promise here. The goal is to rely more on human knowledge and less on brute force data ingestion.
+
+- Expanding the data supply through generating sythetic data. This is already a common approach in fields like robotics and autonomous driving where sim-to-real approaches are used that mimics the structure of the real world. Some approaches have been explored with large language models several papers including "Best Practices and Lessons Learned on Synthetic Data for Language Models" (https://arxiv.org/html/2404.07503v1) where the following approaches are discussed allowing for increased data privacy and expanded training datasets, although it was noted that some challenges included maintaining data quality and the ethical issues of potentially magnifying biases in the existing dataset:
+    - Generative Adversarial Networks (GANs): These involve training two neural networks, a generator and a discriminator, that compete against each other to produce increasingly realistic data.
+    - Variational Autoencoders (VAEs): VAEs generate new data points by learning to encode inputs into a low-dimensional space and then decoding from this space.
+
+- Grappling with the societal impacts of widespread AI-generated content online. This may require developing robust watermarking techniques to tag synthetic content, as well as norms and regulations around disclosure of AI authorship. Platforms may need to more aggressively filter and fact-check AI outputs before dissemination.
+
+- In the longer run, fundamental advances in our understanding of intelligence and reasoning that can yield more data-efficient and generalizable models. Today's language models operate by pattern matching and information retrieval - they have no real understanding of the world. Cognitive architectures that can learn causal models from less data, or that incorporate techniques like analogical reasoning, abstraction and compositionality, may be necessary to transcend the limits of scale.
+
+None of these paths are easy or guaranteed to succeed. But the AI field will need to grapple with them if we want to sustain progress. 
+It is widely acknowledged that the value of data exceeds even the value of oil, and the demand created by training models has made this more and more concrete. The era of cheap and easily accessible data is coming to an end. What comes next will require more than just scaling up, but a fundamental rethinking of how we build and train AI systems.
 
 ## The Specter of Hyperreality
 
