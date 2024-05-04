@@ -69,19 +69,21 @@ So what can be done to avert the looming crisis of peak data and model collapse?
 
         - **MLP-Mixer**  (https://openreview.net/pdf?id=r8h2uUX22d): An all-MLP architecture for vision tasks that mixes per-location features and spatial information via MLPs instead of convolutions or self-attention.
 
-    Other novel approaches showing promise include:
+Other novel approaches showing promise include:
 
-    - **H3**  (https://arize.com/blog/hungry-hungry-hippos-h3-state-space-models/): A state-space model that performs comparably to transformers while admitting much longer context lengths, scaling as n log(n) rather than n^2 with sequence length.  
+- **H3**  (https://arize.com/blog/hungry-hungry-hippos-h3-state-space-models/): A state-space model that performs comparably to transformers while admitting much longer context lengths, scaling as n log(n) rather than n^2 with sequence length.  
 
-    - **Hyena**  (https://hazyresearch.stanford.edu/blog/2023-03-07-hyena): Builds on H3 using gated convolutions, showing promising results on language modeling at scale.
+- **Hyena**  (https://hazyresearch.stanford.edu/blog/2023-03-07-hyena): Builds on H3 using gated convolutions, showing promising results on language modeling at scale.
 
-    - **The SwiftLearn approach** (https://hazyresearch.stanford.edu/blog/2023-03-07-hyena) accelerates training by using only a subset of the most important data samples selected during initial warm-up stages. This subset is chosen based on an importance criteria measured over the entire dataset, with the aim of preserving model performance while using fewer examples for the remaining training. The importance measure can be updated during training to allow previously excluded samples back into the training loop if they become more important.
+- **The SwiftLearn approach** (https://hazyresearch.stanford.edu/blog/2023-03-07-hyena) accelerates training by using only a subset of the most important data samples selected during initial warm-up stages. This subset is chosen based on an importance criteria measured over the entire dataset, with the aim of preserving model performance while using fewer examples for the remaining training. The importance measure can be updated during training to allow previously excluded samples back into the training loop if they become more important.
 
-    - **EVA**  (https://web.eecs.umich.edu/~taustin/papers/CASES2013-eva.pdf): An efficient vision architecture using custom accelerators and a 2D-aware cache for mobile systems.  
+- **EVA**  (https://web.eecs.umich.edu/~taustin/papers/CASES2013-eva.pdf): An efficient vision architecture using custom accelerators and a 2D-aware cache for mobile systems.  
 
-    - **RoFormer**  (https://arxiv.org/abs/2104.09864): Leverages rotary position embeddings to improve transformers' ability to model long sequences.
+- **RoFormer**  (https://arxiv.org/abs/2104.09864): Leverages rotary position embeddings to improve transformers' ability to model long sequences.
 
-    - **Dynamic Convolutions**  (https://arxiv.org/abs/1912.03458): Instead of using a single convolution kernel per layer as in standard CNNs, dynamic convolution aggregates multiple parallel convolution kernels dynamically based upon their attentions, which are input dependent. Assembling multiple kernels is not only computationally efficient due to the small kernel size, but also has more representation power since these kernels are aggregated in a non-linear way via attention. It showed image classification is boosted by 2.9% with only 4% additional FLOPs.
+- **Dynamic Convolutions**  (https://arxiv.org/abs/1912.03458): Instead of using a single convolution kernel per layer as in standard CNNs, dynamic convolution aggregates multiple parallel convolution kernels dynamically based upon their attentions, which are input dependent. Assembling multiple kernels is not only computationally efficient due to the small kernel size, but also has more representation power since these kernels are aggregated in a non-linear way via attention. It showed image classification is boosted by 2.9% with only 4% additional FLOPs.
+
+Outside of novel architectures we need to consider:
 
 - **Specialised Models**: A shift away from huge, generic models trained on raw internet data to more specialized models trained on carefully curated, domain-specific datasets. For many applications, a smaller model with deep knowledge of a particular area like law, medicine, science etc. may be more useful than a jack-of-all-trades mega-model. 
 
