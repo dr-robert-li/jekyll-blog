@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Looming Crisis of AI Training Data and the Spectre of Model Collapse. What can we do about it?
-date: 2024-04-29
+date: 2024-05-05
 categories: [AI, Research, Training, Data, Model Collapse]
 ---
 
