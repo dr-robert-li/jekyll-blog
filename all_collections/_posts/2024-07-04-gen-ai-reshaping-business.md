@@ -5,6 +5,8 @@ date: 2024-07-04
 categories: [AI, Business, Advisory]
 ---
 
+![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/gen-ai-in-business.png](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/gen-ai-in-business.png)
+
 # Generative AI: Reshaping Business Processes and Customer Experiences
 
 In the fast-moving world of technology, AI and, more specifically, generative AI has emerged as a powerful tool for businesses across industries. This innovative technology is changing how companies operate, interact with customers, and create content. Let's look at how different companies are using generative AI and the real benefits they're seeing.
