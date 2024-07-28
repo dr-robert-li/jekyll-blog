@@ -5,7 +5,7 @@ date: 2024-07-28
 categories: [Personal Development, Personal Branding, Career Advice, Software Developer, Software Engineering]
 ---
 
-![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/gen-ai-in-business.png](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/gen-ai-in-business.png)
+![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/importance-personal-branding.png](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/importance-personal-branding.png)
 
 As a developer, you might think that writing flawless code is the key to career success. While technical skills are crucial, they're only part of the equation. In today's competitive tech landscape, developing a strong personal brand can set you apart and open doors to new opportunities. Let's explore why personal branding matters and how you can build yours effectively.
 
