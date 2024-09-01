@@ -5,7 +5,7 @@ date: 2024-08-27
 categories: [AI, Research, Development, Scalability, Future Trends, Internet of Things, Spatial Computing]
 ---
 
-![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/importance-personal-branding.png](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/importance-personal-branding.png)
+![https://github.com/dr-robert-li/jekyll-blog/blob/main/images/sad-investor-hdr.jpeg](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/sad-investor-hdr.jpeg)
 
 Recently private investment in AI technologies and companies has hit a bit of a snag. This can largely be attributed to unmet expectations from private investors and has led to a wholesale reassessment of their potential (many "I told you so's" and "I saw this coming's" pundits are having their 15 minutes of fame).
 
@@ -14,6 +14,8 @@ But it's crucial to recognize that this slowdown is not indicative of a failure 
 ## We are heading into the Trough of Disillusionment
 
 For those of you unfamiliar, Gartner's Hype Cycle describes the normal progression of adoption of new technologies in five phases:
+
+![](https://media.licdn.com/dms/image/D5612AQEGbAWj-dTgVg/article-cover_image-shrink_720_1280/0/1718762258257?e=2147483647&v=beta&t=u_c3mmUQEY0jStKmOgJjrBq9wDRfjhBdPhMGYivNaXI)
 
 * Innovation Trigger: A breakthrough or a new technology generates initial excitement and attracts attention.
 * Peak of Inflated Expectations: Early success stories and media attention lead to overhyped expectations. During this phase, investments soar as businesses and investors anticipate rapid, transformative changes.
@@ -25,9 +27,9 @@ Where AI investors are at right now is tumbling down the very steep slope after 
 
 During the peak, the excitement around AI, especially generative AI, led to massive investments with the expectation that these technologies would quickly revolutionize industries and disrupt whole parts of our lives. This might still come to pass in time, however, as current technologies have taken a lot more effort to implement, have experienced resistance to adoption, and produced lower than expected returns, that initial enthusiasm has cooled.
 
-However, this view overlooks the fact that AI development has always been characterized by cycles of rapid progress followed by periods of adjustment and consolidation.
+However, this view overlooks the fact that AI development has always been characterized by cycles of rapid progress followed by periods of adjustment where research is slower.
 
-Historically, AI research has experienced several "AI winters," where progress slowed due to overpromised results and underdelivered outcomes. Each time, the field eventually rebounded, often with new approaches and technologies that laid the groundwork for future breakthroughs. 
+Historically, AI research has experienced several "AI winters/ice ages" where progress slowed due to overpromised results and underdelivered outcomes. Each time, the field eventually rebounded, often with new approaches and technologies that laid the groundwork for future breakthroughs. 
 
 In fact, transformer architecture was the underlying technological shift that catapulted the current class of LLMs out of the previous AI winter.
 
@@ -36,7 +38,8 @@ Now that I've primed you, the reader, let me introduce you to a paper that I rec
 ## The Compute-Efficient Frontier Reality Check
 
 *[Scaling Laws for Neural Language Models](https://arxiv.org/pdf/2001.08361)* by Kaplan, McCandlish et. al. was a seminal paper at the time, but as we reach the threshold of all the data on the Internet being consumed (for further reading: [The Looming Crisis of AI Training Data and the Spectre of Model Collapse. What can we do about it?](https://drli.blog/posts/ai-training-data-model-collapse/)) it bears revisiting.
- by Kaplan, McCandlish et. al. was a seminal paper at the time, but as we reach the threshold of all the data on the Internet being consumed (for further reading: [The Looming Crisis of AI Training Data and the Spectre of Model Collapse. What can we do about it?](https://drli.blog/posts/ai-training-data-model-collapse/)) it bears revisiting.
+
+![](https://miro.medium.com/v2/resize:fit:1400/1*jpJpml0yk4AitDBIcCCwag.png)
 
 Briefly, it investigates the empirical scaling laws for LLM performance, using cross-entropy loss to measure accuracy (one *could* argue this is an imperfect measure) and found that models followed a predictable power-law trend across several factors: model size, dataset size, and the amount of compute used for training. Significant that these trends were mirrored over seven orders of magnitude, showing that larger models, proportionally large training data and compute, significantly improved performance and efficiency (i.e. fewer shots were required for the same output quality). This is the ***Compute-Efficient Frontier***. Additionally, the paper discusses the minimal effects of architectural details such as network width or depth within a certain range, emphasizing that scaling the three key factors—model size, dataset size, and compute—simultaneously is crucial for optimal performance. 
 
@@ -58,6 +61,8 @@ But, in the context of emerging computing paradigms, unbounded by screens, such 
 
 For instance, there are early examples of LLMs being integrated into smart devices and environments to interpret user commands, provide contextual information, and automate tasks based on natural language input (although, like the Rabbit R1 or the Humane Pin, these are still not yet ready for general use, and arguably decrease a user's quality of life right now).
 
+![](https://global.discourse-cdn.com/openai1/original/4X/7/1/1/711acdef4b262a57b8769c86fd8d43e866444224.jpeg)
+
 LLMs could also enhance spatial computing systems by providing contextual awareness through natural language processing. For example, by interpreting user commands or questions in real-time, adjusting the environment or providing relevant information based on the user's location, preferences, previous interactions, or what might be happening in the vicinity with instructions for reacting to them. It would be the cybernetic human made real (for reading on where this reference comes from, see my own work in [Reconceptualizing MMORPG Play - A Study On Actor-Network Theory In Practice](https://www.academia.edu/43769178/Reconceptualizing_MMORPG_Play_A_Study_On_Actor_Network_Theory_In_Practice)) and it would forever change the way we perceive reality.
 
 Finally, for agentic AI, which is already emerging as a new method in AI engineering for enabling AI to solve more complex tasks, it can be reasonably assumed that it's only a matter of time before IoT ecosystems are also being operated by agentic AI, not only translating user intents into actions that can be understood and executed by various devices in the network, but also facilitating interoperability between devices themselves. When taken to it's Nth degree these are the baby steps that lead to smart homes, then smart neighbourhoods and finally smart cities.
@@ -75,6 +80,8 @@ The first ice age was primarily driven by the gap between high expectations and 
 * Technical Limitations: Early AI systems were limited by the computational power available at the time and the complexity of real-world problems.
 * Funding Cuts: As AI projects failed to deliver on their promises, funding agencies, particularly in the United States and the United Kingdom, began to reduce their support. 
 * Economic Factors: The oil crisis and global recession during the 1970s led to global cuts in speculative research areas of which AI was one.
+
+![](https://museum.ipsj.or.jp/computer/other/images/0008_01_l.jpg)
 
 The second ice age happened in the late 1980s and was capped off by the dotcom bubble bursting in 2000.
 
@@ -95,7 +102,9 @@ While the development of AGI or Artificial General Intelligence within my lifeti
 
 And, AGI, should it ever be realized, may not immediately have commercial applications. It's nature could be so different from our current understanding of intelligence that it might not behave in ways we can easily comprehend. The anthropomorphization of AI—projecting human traits onto machines—can lead to misguided expectations and fears. An AGI might exhibit forms of intelligence that do not align with human notions of consciousness or self-awareness.
 
-Finally, if an AGI were to emerge, its impact on society, economy, and even its very announcement would probably be governed by its own understanding and objectives, which could be vastly different from what we might consider as ideal. 
+Finally, if an AGI were to emerge, its impact on society, economy, and even its very announcement would probably be governed by its own understanding and objectives, which could be vastly different from what we might comprehend. 
+
+![](https://global.discourse-cdn.com/openai1/optimized/4X/f/f/1/ff1e39451197c7850794bab266bbb9b613ed731e_2_500x500.jpeg)
 
 So, if we don't know that we'd recognize it's emergence, is it worth worrying about just yet?
 
