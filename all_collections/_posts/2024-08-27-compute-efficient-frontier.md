@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Compute-Efficient Frontier, the limits of current generation LLMs and is that a really a bad thing?
+title: Compute-Efficient Frontier, the limits of current generation LLMs and is that really a bad thing?
 date: 2024-08-27
 categories: [AI, Research, Development, Scalability, Future Trends, Internet of Things, Spatial Computing]
 ---
