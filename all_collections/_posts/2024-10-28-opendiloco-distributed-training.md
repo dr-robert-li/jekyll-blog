@@ -203,10 +203,10 @@ The significance of OpenDiLoCo and its implementation through Prime lies in thei
 In summary, both OpenDiLoCo and the Prime codebase represent significant advancements in distributed machine learning that could facilitate more accessible and efficient training of increasingly complex AI models.
 
 ##### Citations:
-[1] https://arxiv.org/abs/2407.07852
-[2] https://www.aimodels.fyi/papers/arxiv/diloco-distributed-low-communication-training-language-models
-[3] https://openreview.net/forum?id=pICSfWkJIk
-[4] https://www.restack.io/p/distributed-ai-training-answer-llm-ai-ml-cat-ai
-[5] https://openreview.net/pdf/OM0jvwB8jIp57ZJjtNEZ.pdf
-[6] https://en.wikipedia.org/wiki/Stochastic_gradient_descent
-[7] http://arxiv.org/pdf/2407.07852v1.pdf
+* [1] https://arxiv.org/abs/2407.07852
+* [2] https://www.aimodels.fyi/papers/arxiv/diloco-distributed-low-communication-training-language-models
+* [3] https://openreview.net/forum?id=pICSfWkJIk
+* [4] https://www.restack.io/p/distributed-ai-training-answer-llm-ai-ml-cat-ai
+* [5] https://openreview.net/pdf/OM0jvwB8jIp57ZJjtNEZ.pdf
+* [6] https://en.wikipedia.org/wiki/Stochastic_gradient_descent
+* [7] http://arxiv.org/pdf/2407.07852v1.pdf
