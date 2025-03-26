@@ -1,323 +1,143 @@
 ---
 layout: post
-title: DeepSeek - Where there is a will, there is a way...
-date: 2025-02-02
-categories: [AI, Model Development, Architecture, Geo-Politics, Optimization, Chip Ban, China]
+title: The Cycle of Order and Disorder and the Challenge of LLMs
+date: 2025-03-26
+categories: [AI, Actor-Network Theory, LLMs, Philosophy, Simulacrum, Social Networks, Technological Determinism, Societal Evolution]
 ---
 
-![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/refs/heads/main/images/deepseek-v3.png](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/refs/heads/main/images/deepseek-v3.png)
+![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/refs/heads/main/images/goya-order-disorder.jpg](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/refs/heads/main/images/goya-order-disorder.jpg)
 
-## Introduction  
+Society swings between ordered and disordered states. 
 
-Last month, a Chinese startup named DeepSeek released an open-source language model that outperformed many Western counterparts while using fewer resources. The story behind this achievement reveals how limitations can fuel creativity, reshape industries, and challenge assumptions about technological dominance.  
+We've seen this in dramatic shifts from the spiritual communalism of 1970s counterculture to the hard edges of neoliberal capitalism, from awareness of society's structural inequalities to movements seeking to restore "wholeness" to some ethnic, religious or cultural ideal.  These transitions aren't random—they're the result of this engine of social upheaval and renewal. For better and for worse. 
 
-There were three critical factors in DeepSeek’s rise:  
+But today we face something new: large language models are crystallizing these patterns into static forms, potentially disrupting the natural cycle that has driven human progress since the tribal fights between Neanderthals and the earliest Homo Sapiens.
 
-1. Architectural breakthroughs that redefined efficiency  
-2. Hardware optimizations born from necessity  
-3. The unintended consequences of geopolitical trade restrictions  
+As I have pondered this phenomenon and become more intimately familiar with the construct of Large Language Models (LLMs), I've been struck by a profound realization. There is a striking resemblance between the functioning of LLMs and the principles of Actor-Network Theory (ANT), particularly in the process of translation. This connection feels especially poignant, as ANT was the area of study in which I first obtained my doctorate. I've come full circle, with the innovation potentially driving the next phase of human socio economic development mirroring the theories I explored in the beginning.
 
-This is an important moment that signals an inflection point for open-source AI model development and it shows that human ingenuity knows no bounds. Here are some of my quick thoughts...
+This parallel between ANT and LLMs offers a unique lens through which to examine the current technological revolution in language processing and its potential impacts on society. The way LLMs trace patterns in vast corpora of text and translate this information into coherent outputs bears a remarkable similarity to how ANT describes the formation and transformation of social networks. Unsurprisingly, ANT then provides a powerful framework for understanding not just how LLMs function, but also how they might reshape our society in ways both subtle and profound.
 
----  
+## The Dialectic of Societal Thought in Actor-Networks
 
-## Architectural Efficiency
+Society exists in constant flux. Bruno Latour's Actor-Network Theory shows us that everything in our world exists in shifting networks of relationships. 
 
-### Rethinking Mixture-of-Experts (MoE)  
+As stated above, pattern of oscillation between order and disorder appears throughout history. The fall of the Western Roman Empire in 476 CE marked the beginning of what was long called the "Dark Ages"—a period characterized by political fragmentation and frequent invasions. Yet modern historians now view this era not as uniformly bleak but as a time of significant social change and adaptation. The establishment of new kingdoms, rise of Christianity, and innovations in agriculture all testify to the transformative character of this period.
 
-Traditional MoE models activate subsets of neural networks (“experts”) based on input needs. DeepSeekMoE introduced two critical changes:  
+This "darkness" eventually gave way to the Age of Enlightenment (late 17th to early 19th centuries), an intellectual movement valuing knowledge gained through rationalism and empiricism. Enlightenment thinkers like Spinoza, Kant, Hume, and Rousseau explicitly attacked the Middle Ages as a period of social regress dominated by religion. But it was reaction to this period that effected their championing of natural law, liberty, progress, and the separation of church and state. This dramatic swing from faith-centered medieval thought to reason-centered Enlightenment thinking exemplifies society's pendulum between different organizing principles and how the formation of one network acts as catalyst to the formation of the next.
 
-- **Specialized vs. Shared Experts**: 64 task-specific experts handle niche problems, while 2 shared experts manage general patterns. This split reduced redundant calculations by 40% compared to standard MoE designs.  
-- **Load Balancing Without Auxiliary Loss**: Earlier MoE models used extra computations to distribute workloads evenly. DeepSeekMoE achieved balance through smarter routing, cutting training costs by 15%. 
+This wasn't limited to Western cultures either as similar patterns emerged in China's history. The chaotic Warring States period (475-221 BCE), with its feudal warlords and constant conflict, eventually consolidated into the ordered Qin dynasty. Centuries later, the highly structured Ming dynasty gave way to the Qing, which initially brought stability but eventually became rigid and unable to adapt to Western influences leading to the convulsions embodied within the communist revolution and takeover of the nation by Mao Zedong.
 
-The result? A 671B-parameter model that activates only 37B parameters per task—like having a toolbox where each tool automatically adjusts to the job.
+The 1960s counterculture starting in University campuses in the United States also showed this process clearly. What began as rejection of capitalism by a minority transformed into something different. These hippies unwittingly prepared the path for the modern radical Right that was kicked off by the Tea Party movement as they themselves ascended into positions of wealth and power. This transition evolved through complex interactions between various social actors forming new networks with different power dynamics.
 
-### Memory Efficiency Through Compression  
+## Translation, Reification, and the Sandpile Model
 
-The Multi-Head Latent Attention (MLA) system tackled a major bottleneck: memory usage. Traditional models store detailed “key-value” data for every token in a conversation. MLA compresses this data into latent vectors, shrinking memory requirements by 90% while maintaining accuracy.  
+Actor-Network Theory helps us understand these transitions. Social structures emerge through what Callon and Latour called "translation"—the transport with deformation of an idea as it moves through networks. Ideas that circulate widely become solid social structures that seem independent of their creators.
 
-Imagine condensing a 300-page manual into a 30-page cheat sheet without losing essential information. 
+As a quick primer, Actor Network Theory emerged in the 1980s as a paradigm for sociological and technological study, focusing on the relationships between human and non-human actors within networks. ANT's fundamental premise is to regard both human and non-human entities as equal participants in networks, eliminating hierarchical structures through network analysis. This theoretical framework examines how networks form, stabilize, and transform through processes of tracing and translation.
 
-### GRPO: Reinventing RL
+### Tracing in Actor Network Theory
 
-The real breakthrough described in DeepSeek’s paper: [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/abs/2402.03300), however, was **Group Relative Policy Optimization (GRPO)** which reimagines how language models learn reasoning skills. Unlike traditional methods like Proximal Policy Optimization (PPO), which rely on separate critic models to evaluate outputs, GRPO eliminates this component entirely.
+In ANT, tracing refers to the fantastically laborious and methodical following of interconnections within networks as they emerge, compete with other networks, and become durable over time. It involves examining "the mechanics of power as this occurs through the construction and maintenance of networks made up of both human and non-human actors". Tracing focuses on how technologies propose projects and gather resources to bring these projects to fruition, carefully documenting the dynamics between heterogeneous actors.
 
-### How GRPO Works  
-1. **Group Sampling**: For each prompt, GRPO generates multiple responses (e.g., 64 variations of a math solution).  
-2. **Relative Advantage Calculation**: Instead of using a critic model to score each response, GRPO compares outputs within the group. The advantage for each response is calculated as:  
+### Translation in Actor Network Theory
 
-   $$
-   A_i = \frac{R(r_i) - \text{mean}(R(\mathcal{G}))}{\text{std}(R(\mathcal{G}))}
-   $$  
+Translation is the process that allows a network to be represented by a single entity. It encompasses "all negotiations, intrigues, calculations, and acts of persuasion" through which an actor takes authority to speak or act on behalf of other actors. Callon identified four moments of translation:
 
-   where $$ R(r_i) $$ is the reward for response $$ i , \mathcal{G} $$ is the group.  
+- Problematization: Defining the nature of the problem and establishing dependency
+- Interessement: "Locking" actors into proposed roles
+- Enrolment: Defining and interrelating the allocated roles
+- Mobilization: The moment when the assembled network or "assemblage" behaves as a coherent actor, behind a representative actor hence the term actor-network.
 
-3. **Optimization**: The model updates its policy to favor responses with higher relative advantages, using a clipped loss function excluding extreme solutions, to ensure the model remained relatively stable.  
+### LLM Pre-training as Actor Network Translation
 
-This has already been added to the HuggingFace Transformers library for easy and immediate use: [GRPO Trainer](https://huggingface.co/docs/trl/main/en/grpo_trainer). It supports generic Outcome Reward Models (ORM) and custom reward functions, that can be used to implement Rule-Based Reward Models. 
+The pre-training process of LLMs remarkably mirrors this concept of translation, transforming a vast heterogeneous network of textual knowledge into a unified representational model (hence, Large Language Model).
 
-For Deepseek R1, DeepSeek implemented a 3 tiered Rule-Based Reward Models to verify the correctness of generated solutions:
+#### Problematization in LLM Development
 
-#### Accuracy Rewards
-- Binary rewards based on whether the final answer was correct
-- For math problems, answers had to be in a specified format and reverse-engineered to ensure matching the original problem
-- For coding problems, compilers tested solutions against predefined test cases
+The first moment of translation begins with problematization. 
 
-#### Format Rewards
-- Rewarded based on the proper use of thinking tags (\'\<think\>\' and \'\<\/think\>\')
-- Cosine similarity scoring against templates to encourage outputting of clear structured reasoning.
+where developers define the challenge of language understanding and position the LLM architecture as an "obligatory passage point" for addressing it. The ChatGPT actor network, for instance, establishes pre-training datasets, fine-tuned training datasets, and generative AI models as central to solving language processing problems.
 
-#### Language Quality
-- Percentage of tokens that matched the target language
-- Rewarded based on consistent language style
-- The goal was to prevent language mixing in Chain of Thought (CoT) reasoning
+#### Interessement of Data Sources
 
-As DeepSeek’s CTO noted: *“GRPO isn’t just an algorithm—it’s a philosophy. Why build complex systems when simple comparisons work better?”*. This approach has already influenced Meta and Google to rethink their RL strategies.  
+The second moment involves "locking" actors into proposed roles. In LLM development, this manifests as selecting and committing diverse data sources to contribute to the model's training. Data from books, websites, and other sources is locked into serving the model's learning process. The training process includes both pre-training on vast datasets and fine-tuning with carefully labeled data of superior quality.
 
-### Key Innovations  
-- **No Critic Model**: Removes the need for a separate neural network to estimate value functions, cutting memory usage by 50%.  
-- **Simplified Training**: Group comparisons replace complex reward modeling, reducing computational overhead.  
-- **Efficient Exploration**: Generating multiple responses per prompt encourages diverse reasoning paths without costly external feedback.  
+#### Enrolment of Training Components
 
-### Real-World Impact  
-DeepSeek applied GRPO to train **DeepSeek-R1**, a 32B-parameter model that achieved:  
-- **60.9% accuracy** on the MATH benchmark via self-consistency checks
-- **95% lower training costs** compared to PPO-based approaches
-- **Allowing for single-GPU fine-tuning** to create specialised models.
+Enrolment defines how actors interrelate in the network. In LLM pretraining, this involves orchestrating how different data types, algorithms, and computational resources work together. The process includes defining how the model learns from masked language prediction or next-token prediction. As described in research, "each word turns into a number" and interactions between these elements are carefully defined through self-attention mechanisms.
 
----  
+##### Mobilization of the model as a representative of all linguistic knowledge
 
-## Low Level Optimization of Hardware  
+The final moment of translation, mobilization, ensures that representatives speak for the entire network. The trained LLM becomes the spokesperson for all the linguistic patterns it has absorbed. 
 
-### Bypassing CUDA for PTX  
+While actors may jostle back and forth over roles and primacy or even be substituted, over time and with frequency these connections solidify until such time that one cannot remember a time when they were independent and the assemblage is considered widely as an indivisible whole or "black box".
 
-Nvidia’s CUDA framework simplifies GPU programming but limits low-level control. DeepSeek engineers dropped to PTX—Nvidia’s assembly-like language—to:  
+This is reification and it shapes how societies evolve (as we say, we live on the shoulders of giants who themselves live on shoulders of other giants). The thoughts that form actor networks become increasingly embedded until their origins are forgotten. 
 
-- Reprogram 20 out of 132 streaming multiprocessors (SMs) on each H800 GPU for data routing 
-- Create custom kernels that merged computation and communication phases
-- Implement FP8 precision with 4-bit exponents and 3-bit mantissas, reducing memory traffic by 60%
+Reification can take hours in the case of smaller assemblages relying on already densely reified actants like your smartphone or laptop; days or weeks in larger assemblages with more tenuous actants such as volunteer and community groups; and potentially years or even centuries for even larger more diffuse assemblages such as nation states or social norms.
 
-These optimizations compensated for the H800’s limited memory bandwidth compared to banned H100 chips.  
+For example democracy was birthed in Ancient Athens around 6th Century BC but did not become a dominant form of governance until arguably after the fall of the Berlin Wall in the late 1980. It is now implemented in various countries without the original struggles that shaped it—creating a simulacrum, a copy without an original. However, those original struggles have meaning and agency themselves. The decline of democracy since the 1990s, culminating in and represented by the recently elected 47th President of the United States and his rapid reshaping of the institutions of democracy, could be a result of reification obscuring this actant and all of the connected events.
 
-### The DualPipe System  
+Political scientist Brian Klaas offers a modern metaphor for understanding the fragility of overly reified social structures: the sandpile model. Borrowed from physics and complexity science, this model illustrates how systems can reach a state of "self-organized criticality." As Klaas explains, if you add grains of sand to a pile one by one, eventually the pile reaches a critical state where a single additional grain can trigger an avalanche. The system teeters on a precipice—changing small things can trigger the change of everything.
 
-Training large models requires constant data shuffling between GPUs. DeepSeek’s DualPipe algorithm:  
+This model perfectly captures the brittleness of overly reified social constructs. When ideas, practices, or institutions become too rigid through excessive copying and reification, they reach a state of criticality. A seemingly minor perturbation—a single grain of sand—can cause the entire structure to collapse. We've engineered modern society to exist perpetually on this edge of chaos, prioritizing optimization and efficiency over resilience.
 
-1. Overlaps computation and communication phases  
-2. Uses spare SMs as on-chip network routers  
-3. Balances NVLink and InfiniBand traffic dynamically
+## The Challenge of Large Language Models
 
-This approach cut idle GPU time from 30% to under 5%, making their 2,048 H800 cluster perform like a 10,000-GPU setup.  
+What's unique today is the introduction of language models as non-human actors with unprecedented agency in our communication networks.
 
----  
+Language is the foundation of communication, enabling the exchange of ideas and knowledge, which in turn shapes culture, forms the basis of society, and ultimately supports the development of civilization.
 
-## Chip Ban Forcing Function
+LLMs crystallize language into simplified structures by leveraging similarity distance—often based on mathematical techniques like cosine similarity in vector spaces—to map words, phrases, and concepts in a way that mimics human-like understanding. Instead of needing explicit rules for every possible communication pattern, these models create averages of meaning from vast amounts of text data.
 
-### Forced Innovation Cycle  
+By identifying patterns and relationships between words, LLMs appear to generate coherent responses, translate languages, and even infer context, effectively mirroring the way human communication underpins culture and society—though without true comprehension or lived experience.
 
-The 2022 U.S. export controls barred Chinese firms from obtaining H100 GPUs. DeepSeek’s response followed a clear pattern:  
+They function as processors of human thought, language, and culture. In ANT terms, they are powerful actants in our networks.
 
-1. **Constraint**: H800 chips had half the memory bandwidth of H100s  
-2. **Workaround**: MLA compression reduced memory needs  
-3. **Result**: Comparable performance at lower cost  
+Unlike humans, whose thoughts vary based on experiences, LLMs operate as static averages of all opinions they've been trained on. This consistency challenges the natural cycle of societal thought. Using Aristotle's framework, LLMs embody expertise and science without wisdom and prudence.
 
-As Lawrence Ward, a partner at Dorsey & Whitney, noted: “Sanctions initiated innovation. DeepSeek optimized software because they couldn’t access better hardware”.  
+## Reification at Light Speed and the Brittle Simulacra as poor man's imitation
 
-### Cost Efficiency Gains  
+Typically actant density scales in line with the size or diffusion of the network as we discussed above. LLMs are the first actor-network where the size and diffusion of the network is abstracted from its assemblage density.
 
-| **Metric**               | **DeepSeek-V3** | **Comparable Model** |  
-|-----------------------|-------------|-------------------|  
-| Training Cost         | $5.6M       | $100M+            |  
-| Active Parameters     | 37B         | 110B              |  
-| Energy per Query      | 0.8 kWh     | 3.2 kWh           |  
+It is a compression of, arguably, the current universe of human communication in all its forms and modalities. Think about your own universe of communication - the devices, platforms, methods, spaces and personas - and compressing it all to fit onto a thumb drive. Imagine attempting to navigate and make sense of this repository of all your knowledge. Now multiply that by the billions of people who have also uploaded their lives onto the Internet, into software, platforms and shared on public networks and through messaging protocols.
 
-*Data sourced from DeepSeek’s technical reports*  
+LLMs short-circuit this process. Traditionally, societal evolution depended on small variations in human thought building momentum over time. When communication filters through these models, we lose the natural variation that drives social evolution. Instead, we get averaged, sanitized ideas. This creates a one-way translation—where deformation of ideas becomes standardized rather than creative.
 
----
+This accelerated reification creates what Jean Genet might recognize as "simulacra of simulacra"—copies of copies that become increasingly detached from any original meaning. As noted in analyses of Genet's work, "repeated simulacra operations disrupt the identity bond maintained by simulacra itself, leading to the constant fragmentation and diffusion of the subject's identity structure and relationships". Applied to our broader social context, this suggests that as ideas become increasingly reified through LLM-mediated communication, they become brittle and prone to sudden collapse with an effect as vast as the actant's network is dense. For example, the actant we know of JIT (Just-in-Time) supply chain management could be argued as being responsible for the effect of a single boat getting stuck in the Suez Canal being able to cause $50 billion in global economic damage.
 
-## The Sanctions Paradox: Why Restrictions Often Fail  
+The consequences extend beyond communication. If the actants circulating within networks are increasingly LLM-generated simulacra rather than authentic human expressions, the resulting social structures may become equally brittle and broad in impact and effect.
 
-### Lesson 1: Scarcity Breeds Creativity  
-The chip ban forced Chinese engineers to rethink every layer of AI development:  
+## Necessary Disorder
 
-| **Constraint**               | **Innovation**                          |  
-|-------------------------------|-----------------------------------------|  
-| Limited GPU memory bandwidth  | MLA compression for smaller data footprints |  
-| Banned H100 chips             | Distributed training across H800 clusters |  
-| No access to advanced EDA tools| Open-source alternatives + legacy software hacks |  
+To maintain societal resilience, we must preserve space for disordered thought within our actor-networks—to "allow some crazy" into the increasingly algorithmically governed world. 
 
-As Brian Colello from Morningstar observed: *“Processor constraints led to creative training techniques. DeepSeek’s performance defies expectations given their hardware”.*  
+This doesn't mean embracing harmful ideologies but ensuring that human communication retains its variability and capacity for novelty. Human thought processes—with their inconsistencies and creative leaps—have been the combinatory seeds to effect moments of innovation throughout history. When LLMs increasingly stand in for human communication, this variability is smoothed out between the keyers of the neural network and we risk creating actor networks with less diversity of agency and growing conformity to fewer and fewer, but increasingly dense polarities. We may find ourselves in a society that appears coherent but lacks mechanisms to grow violently swingly between these polarities until we cease to move forward altogether, having lost the means to stretch, bend and challenge, to form and reform countera actor networks.
 
-### Lesson 2: The Resilience of Open Ecosystems  
-- **Collaborative Resource Pooling**: Startups shared GPU clusters via platforms like GMI Cloud, reducing individual costs.  
-- **Black Market Adaptability**: Despite sanctions, Nvidia chips reached China through third countries, with smuggling networks routing GPUs via Malaysia and Vietnam.  
+## Conclusion
 
-### Lesson 3: The Law of Diminishing Returns  
-Sanctions initially slowed China’s AI progress but couldn’t halt it:  
-- **2023**: Chinese models lagged 2-3 years behind U.S. counterparts  
-- **2025**: DeepSeek-R1 matches GPT-4o1 in reasoning benchmarks
+The cycling between ordered and disordered thought has been fundamental to human societies. Through Actor-Network Theory, we understand this as the constant formation and reformation of networks comprising both human and non-human actors.
 
-As Stanford’s AI Index 2025 notes: *“Compute efficiency improvements are closing the gap faster than expected.”*  
+Large language models represent an unprecedented intervention, crystallizing reified forms of thought into static objects that influence human communication. They embody translation but in a way that standardizes rather than diversifies outcomes.
 
----
+As we navigate this terrain, we must consider the consequences of allowing LLMs to mediate too much of our communication. The risk isn't just a less interesting society but one that loses its capacity for growth.
 
-## Why Sanctions Have Limits  
+What we need isn't perfect order or complete disorder, but a conscious cultivation of the tension between them. We need networks that allow for diverse forms of agency and transformation. As we embrace technology, we must preserve the human capacity for disorder and creative chaos from which new orders emerge.
 
-### 1. Global Supply Chains Are Leaky  
-- **Third-Party Workarounds**: Chinese firms leased cloud compute from U.S. providers (AWS, Google Cloud) to train models indirectly.  
-- **Chip “Laundering”**: Export-controlled H100s reached China via shell companies in Singapore and Saudi Arabia.  
-
-### 2. Innovation Can’t Be Bottled  
-- **Legacy Hardware Gains**: Older chips saw 3-5x efficiency boosts through software alone (DeepSeek’s MLA).  
-- **Algorithmic Breakthroughs**: Chain-of-thought reasoning and MoE architectures reduced reliance on brute-force compute.  
-
-### 3. Markets Adapt Faster Than Policies  
-- **Cost-Driven Shifts**: DeepSeek’s $6M training cost (vs. OpenAI’s $100M+) reshaped industry priorities toward efficiency over scale.  
-- **Domestic Chip Growth**: SMIC’s 7nm process and Huawei’s Ascend 910B filled gaps, albeit with 30% lower yields than TSMC.  
-
-History shows prohibitions often backfire:  
-- **1940s**: U.S. oil embargo on Japan accelerated synthetic fuel research  
-- **1980s**: COCOM restrictions spurred China’s semiconductor industry  
-- **2020s**: Chip bans fueled AI efficiency breakthroughs  
-
-DeepSeek’s story isn’t about circumventing rules—it’s about human ingenuity thriving under pressure. As Marc Andreessen noted, this is AI’s *“Sputnik moment”*: a reminder that barriers breed creativity.  
-
----  
-
-## The buds of Open-Source AI
-
-### Democratizing AI Development  
-DeepSeek's approach to reinforcement learning and releasing it, the model, the weights and a research paper under an open source MIT license provides the opportunity for a significant shift in AI model development:
-
-### Cost-Effective Innovation
-Pure reinforcement learning eliminates the need for extensive labeled datasets, dramatically reducing development costs. DeepSeek's training method costs approximately 95% less than traditional approaches, making advanced AI development accessible to smaller teams and organizations.
-
-### Technical Advantages
-The pure RL approach offers several benefits:
-- Models develop reasoning capabilities through self-directed exploration rather than mimicking labeled examples
-- The GRPO framework removes the need for an LLM critic, further reducing computational overhead
-- Training can be targeted to specific domains without requiring domain-specific labeled data
-
-### Scalable Development
-DeepSeek's methodology shows particular promise in specialized applications:
-- The 32B distilled model achieves performance comparable to larger proprietary models
-- Smaller teams can fine-tune models for specific use cases with limited hardware
-- The approach allows for continuous improvement without additional labeled data
-
-### Industry Impact
-This development path creates new opportunities:
-- **Startups**: A 3-person team can fine-tune the 1.5B model on a single GPU
-- **Researchers**: Academic groups replicated DeepSeek’s results within 72 hours of release
-- **Businesses**: A logistics company cut document processing costs by 60% using the 7B model
-
-### Future Implications
-The success of DeepSeek's RL-first approach suggests a shift in AI development - this is the reason why investment analysts have been fearing for the long term growth potential of nVidia and power suppliers who rely on brute force energy consumption. This is a good thing:
-
-- We are moving away from data-hungry supervised learning
-- This can lower prices (OpenAI reduced GPT-4 API costs by 40% post-DeepSeek)  
-- This forces improved transparency (Google published previously internal efficiency metrics)  
-- This accelerates innovation cycles (Meta’s Llama 4 release moved up by 6 months)  
-
-DeepSeek's advances should, however, be seen as a boon to all players in the AI ecosystem - the inverse of what perhaps chip manufacturer's outlooks are. 
-
-DeepSeek's approach to low level optimization is highly hardware locked, and therefore it's benefits are limited to this generation of model and this specific hardware. The actionable lesson is that PTX optimization can be applied to newer generation hardware as well for even more efficient performance, although that is in exchange for significantly more technical debt. It teaches engineers that there are more optimizations, albeit, more difficult optimizations, to be had, versus simply "moar powa".
-
-For analysts, this surfaces the potential for vertical integration of the hardware and software stack as being a defensible moat. Trade barriers make it hard for Chinese competitors as there is still a significant gap in the capabilities of local chip manufacturers (such as SMIC), however, they could throw all their efforts into creating NPU or even more specialised ASIC chipsets, moving laterally to compete directly with the likes of nVidia and, in the mobile sector, Qualcomm.
-
-This is, therefore an opportunity for non-Chinese companies to more easily create defensible moats through partnerships with these kind of chip manufacturers or even to commission to design and manufacturing of their own. This is what to look out for in this sector.
-
----  
-
-DeepSeek’s story echoes historical precedents:  
-
-- 1940s: Radar miniaturization (forced by aircraft weight limits)  
-- 1970s: Japanese fuel-efficient cars (sparked by oil crises)  
-- now in the 2020s: Efficient AI models (born from compute constraints)  
-
-Constraints don’t stifle progress—they redirect it. As is often said, necessity is the mother of invention. The companies that succeed are often not those with the most resources, but those who can most innovatively deploy what resources they have.  
-
-True open-source AI (not OpenAI) now has its proof point. The next breakthroughs won’t come from labs with infinite budgets, but from engineers working under stifling constraints (even if that is the compute efficient frontier) rearchitecting and reimagining model structures, like those at DeepSeek. 
-
----  
-
-## Citations:
-
-* [1] https://www.aljazeera.com/economy/2025/1/28/why-chinas-ai-startup-deepseek-is-sending-shockwaves-through-global-tech
-* [2] https://www.businessinsider.com/china-deepseek-chip-restrictions-exports-imports-2025-1
-* [3] https://www.csis.org/analysis/choking-chinas-access-future-ai
-* [4] https://www.sify.com/ai-analytics/unbelievable-how-chinas-outsmarting-us-chip-ban-to-dominate-ai/
-* [5] https://www.bbc.com/news/articles/czepw096wy4o
-* [6] https://www.brookings.edu/articles/understanding-the-limits-of-sanctions/
-* [7] https://www.csis.org/analysis/collateral-damage-domestic-impact-us-semiconductor-export-controls
-* [8] https://www.bbc.com/news/articles/c0qw7z2v1pgo
-* [9] https://www.technologyreview.com/2025/01/24/1110526/china-deepseek-top-ai-despite-sanctions/
-* [10] https://tecex.com/ai-chips-trade-wars-sanctions/
-* [11] https://qz.com/u-s-investigates-chinas-deepseek-for-potential-use-of-1851752981
-* [12] https://www.newsweek.com/joe-biden-china-deepseek-artificial-intelligence-2021974
-* [13] https://www.bbc.com/news/articles/cwy7x84qvv4o
-* [14] https://www.reuters.com/technology/us-looking-into-whether-deepseek-used-restricted-ai-chips-source-says-2025-01-31/
-* [15] https://www.cio.com/article/3805170/us-gpu-export-limits-could-bring-cold-war-to-ai-data-center-markets.html
-* [16] https://www.youtube.com/watch?v=al9kE8DWfgM
-* [17] https://www.cnn.com/2025/01/27/tech/deepseek-stocks-ai-china/index.html
-* [18] https://www.mi-3.com.au/27-01-2025/massive-gen-ai-disruption-incoming-deepseekr1-trigger-massive-gen-ai-commoditisation
-* [19] https://www.reuters.com/technology/artificial-intelligence/what-is-deepseek-why-is-it-disrupting-ai-sector-2025-01-27/
-* [20] https://www.nytimes.com/2025/01/28/business/economy/deepseek-china-us-chip-controls.html
-* [21] https://research.oregonstate.edu/ori/export-control-international-compliance/embargoed-and-sanctioned-countries
-* [22] https://www.lowyinstitute.org/publications/chips-subsidies-security-great-power-competition
-* [23] https://ia.acs.org.au/article/2025/us-to-bar-china--russia-from-advanced-ai-chips.html
-* [24] https://www.dfat.gov.au/international-relations/security/sanctions/about-sanctions
-* [25] https://www.csis.org/analysis/balancing-ledger-export-controls-us-chip-technology-china
-* [26] https://www.reuters.com/technology/lawmakers-urge-trump-consider-new-curbs-nvidia-chips-used-by-chinas-deepseek-2025-01-30/
-* [27] https://www.rahmanravelli.co.uk/expertise/sanctions/articles/sanctions-vs-embargoes-international-trade-restrictions-explained/
-* [28] https://www.scmp.com/news/china/article/3296994/reacting-deepseek-us-senate-bill-would-separate-us-and-china-efforts-develop-ai
-* [29] https://world-toolkit.yale.edu/regulated-activity/economic-embargoes-trade-sanctions-prohibited-parties-and-anti-boycotting-laws
-* [30] https://www.economist.com/science-and-technology/2024/09/19/chinas-ai-firms-are-cleverly-innovating-around-chip-bans
-* [31] https://www.cyberdaily.au/digital-transformation/11656-deepseek-allegedly-used-banned-chips-says-scale-ai-ceo
-* [32] https://time.com/7204164/china-ai-advances-chips/
-* [33] https://www.tookitaki.com/compliance-hub/embargo-vs-sanction-understanding-international-trade-restrictions
-* [34] https://business.nab.com.au/wp-content/uploads/2014/05/sanctions-embargoes.pdf
-* [35] https://www.cigionline.org/articles/in-the-global-ai-chips-race-china-is-playing-catch-up/
-* [36] https://www.restack.io/p/fine-tuning-answer-supervised-vs-reinforcement-cat-ai
-* [37] https://arxiv.org/html/2501.12948v1
-* [38] https://www.vellum.ai/blog/the-training-of-deepseek-r1-and-ways-to-use-it
-* [39] https://www.grokmountain.com/p/deepseeks-ai-dojo-harnessing-the
-* [40] https://victorysquarepartners.com/training-ai-with-pure-reinforcement-learning-insights-from-deepseek-r1/
-* [41] https://fireworks.ai/blog/deepseek-r1-deepdive
-* [42] https://www.technologyreview.com/2025/01/31/1110740/how-deepseek-ripped-up-the-ai-playbook-and-why-everyones-going-to-follow-it/
-* [43] https://www.linkedin.com/pulse/explaining-methodology-behind-deepseek-r1-rana-gujral-ajmcc
-* [44] https://fireworks.ai/blog/reinforcement-learning-with-verifiable-reward
-* [45] https://www.linkedin.com/pulse/beyond-hype-why-deepseek-r1s-pure-rl-approach-ai-marian-dumitrascu-vxk2c
-* [46] https://towardsdatascience.com/exploring-deepseeks-r1-training-process-5036c42deeb1
-* [47] https://www.forbes.com/sites/janakirammsv/2025/01/26/all-about-deepseekthe-chinese-ai-startup-challenging-the-us-big-tech/
-* [48] https://www.datacamp.com/tutorial/fine-tuning-deepseek-r1-reasoning-model
-* [49] https://c3.unu.edu/blog/deepseek-r1-pioneering-open-source-thinking-model-and-its-impact-on-the-llm-landscape
-* [50] https://www.linkedin.com/pulse/deepseek-r1-reinforcement-learning-vs-gpt-based-llms-michael-kirch-np49c
-* [51] https://www.linkedin.com/pulse/deepseeks-revolutionary-approach-crafting-r1-model-through-mersch-eownc
-* [52] https://www.techtarget.com/whatis/feature/DeepSeek-explained-Everything-you-need-to-know
-* [53] https://venturebeat.com/ai/deepseek-r1s-bold-bet-on-reinforcement-learning-how-it-outpaced-openai-at-3-of-the-cost/
-* [54] https://www.deeplearning.ai/the-batch/how-deepseek-r1-and-kimi-k1-5-use-reinforcement-learning-to-improve-reasoning/
-* [55] https://www.reddit.com/r/reinforcementlearning/comments/1icrgt5/who_is_rewarding_deepseek_r1_in_rl_you_need_some/
-* [56] https://www.youtube.com/watch?v=DCqqCLlsIBU
-* [57] https://www.nature.com/articles/d41586-025-00259-0
-* [58] https://dev.to/aws/takeaways-from-the-deepseek-r1-model-2dli
-* [59] https://www.inferless.com/learn/the-ultimate-guide-to-deepseek-models
-* [60] https://www.reddit.com/r/LLMDevs/comments/1ibhpqw/how_was_deepseekr1_built_for_dummies/* 
-* [61] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/13695847/cbd7998d-74f3-4829-8da6-ced05dfd9213/paste.txt
-* [62] https://pub.towardsai.net/group-relative-policy-optimization-grpo-illustrated-breakdown-explanation-684e71b8a3f2?gi=3049aee435c4
-* [63] https://blog.dataopslabs.com/deepseek-r1-efficient-reinforcement-learning-with-grpo
-* [64] https://www.thoughtworks.com/en-au/insights/blog/generative-ai/demystifying-deepseek
-* [65] https://towardsai.net/p/l/group-relative-policy-optimization-grpo-illustrated-breakdown-explanation
-* [66] https://yugeten.github.io/posts/2025/01/ppogrpo/
-* [67] https://arxiv.org/html/2501.12948v1
-* [68] https://www.youtube.com/watch?v=bAWV_yrqx4w
-* [69] https://planetbanatt.net/articles/deepseek.html
-* [70] https://www.linkedin.com/pulse/group-relative-policy-optimization-grpo-reinforcement-zahir-shaikh-f2cuf
-* [71] https://medium.com/@aipapers/deepseek-r1-paper-explained-a-new-rl-llms-era-in-ai-6d3271401270
-* [72] https://github.com/philschmid/deep-learning-pytorch-huggingface/blob/main/training/mini-deepseek-r1-aha-grpo.ipynb
-* [73] https://www.linkedin.com/pulse/how-grpo-used-deepseek-could-revolutionize-ravi-lingarkar-jdglf
-* [74] https://arxiv.org/pdf/2402.03300.pdf
-* [75] https://www.youtube.com/watch?v=QdEuh2UVbu0
-* [76] https://www.linkedin.com/pulse/deepseek-r1-reinforcement-learning-llm-group-relative-mitul-tiwari-c8gmf
-* [77] https://www.linkedin.com/pulse/deepseek-ai-revolution-you-didnt-see-coming-valtech-aksfe
-* [78] https://github.com/deepseek-ai/DeepSeek-Math/actions
-* [79] https://www.reddit.com/r/ChatGPTPro/comments/1ibph6u/grpo_group_relative_policy_optimization/
+Citations:
+[1] Latour's Actor Network Theory - Simply Psychology https://www.simplypsychology.org/actor-network-theory.html
+[2] Thoughts on Actor-Network Theory (ANT) and Entanglement: Latour ... https://antonisch.wordpress.com/2019/04/28/260/
+[3] Ancient Greek Philosophy https://iep.utm.edu/ancient-greek-philosophy/
+[4] [PDF] Actor-network theory https://sidoli.w.waseda.jp/Sismondo_Introduction_STS_8.pdf
+[5] Chaos (cosmogony) - Wikipedia https://en.wikipedia.org/wiki/Chaos_(cosmogony)
+[6] Theorizing social change - Zheng - 2022 - Compass Hub - Wiley https://compass.onlinelibrary.wiley.com/doi/10.1111/phc3.12815
+[7] ACTOR NETWORK THEORY - Sage Publishing https://us.sagepub.com/sites/default/files/upm-binaries/5222_Ritzer__Entries_beginning_with_A__[1].pdf
+[8] Actor–network theory - Wikipedia https://en.wikipedia.org/wiki/Actor–network_theory
+[9] [PDF] On recalling ANT - bruno-latour.fr http://www.bruno-latour.fr/sites/default/files/P-77-RECALLING-ANT-GBpdf.pdf
+[10] Aristotle - Wikipedia https://en.wikipedia.org/wiki/Aristotle
+[11] [PDF] Actor-network theory-the market test - openscienceASAP http://www.openscienceasap.org/wp-content/uploads/2013/10/Callon_1999.pdf
+[12] Ancient philosophers on mental illness - Marke Ahonen, 2019 https://journals.sagepub.com/doi/full/10.1177/0957154X18803508
+[13] Jean-Jacques Rousseau - Stanford Encyclopedia of Philosophy https://plato.stanford.edu/entries/rousseau/
+[14] The Open Society and Its Enemies - Wikipedia https://en.wikipedia.org/wiki/The_Open_Society_and_Its_Enemies
+[15] A philosopher's guide to messy transformations - Strategy+business https://www.strategy-business.com/article/A-philosophers-guide-to-messy-transformations
+[16] How has philosophy impacted society? : r/askphilosophy - Reddit https://www.reddit.com/r/askphilosophy/comments/zpsb0g/how_has_philosophy_impacted_society/
