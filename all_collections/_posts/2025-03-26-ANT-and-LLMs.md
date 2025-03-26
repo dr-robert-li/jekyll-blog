@@ -130,7 +130,11 @@ The consequences extend beyond communication. If the actants circulating within 
 
 To maintain societal resilience, we must preserve space for disordered thought within our actor-networks—to "allow some crazy" into the increasingly algorithmically governed world. 
 
-This doesn't mean embracing harmful ideologies but ensuring that human communication retains its variability and capacity for novelty. Human thought processes—with their inconsistencies and creative leaps—have been the combinatory seeds to effect moments of innovation throughout history. When LLMs increasingly stand in for human communication, this variability is smoothed out between the keyers of the neural network and we risk creating actor networks with less diversity of agency and growing conformity to fewer and fewer, but increasingly dense polarities. We may find ourselves in a society that appears coherent but lacks mechanisms to grow violently swingly between these polarities until we cease to move forward altogether, having lost the means to stretch, bend and challenge, to form and reform countera actor networks.
+This doesn't mean embracing harmful ideologies but ensuring that human communication retains its variability and capacity for novelty. Human thought processes—with their inconsistencies and creative leaps—have been the combinatory seeds to effect moments of progress throughout history. 
+
+When LLMs increasingly stand in for human communication, this variability is smoothed out between layers and layers within neural networks and we risk creating actor networks with less diversity of agency and growing conformity to fewer and fewer, but increasingly dense polarities. 
+
+We may find ourselves in a society that appears coherent but lacks mechanisms to grow, violently swinging between these polarities until we cease to move forward altogether, having lost the means to stretch, bend and challenge, to form and reform countering actor networks.
 
 ## Conclusion
 
@@ -140,7 +144,9 @@ Large language models represent an unprecedented intervention, crystallizing rei
 
 As we navigate this terrain, we must consider the consequences of allowing LLMs to mediate too much of our communication. The risk isn't just a less interesting society but one that loses its capacity for growth.
 
-What we need isn't perfect order or complete disorder, but a conscious cultivation of the tension between them. We need networks that allow for diverse forms of agency and transformation. As we embrace technology, we must preserve the human capacity for disorder and creative chaos from which new orders emerge.
+What we need isn't perfect order or complete disorder, but a conscious cultivation of the tension between them. We need networks that allow for diverse forms of agency and transformation. 
+
+*It is from this chaotic soup that newness emerges.*
 
 Citations:
 [1] Latour's Actor Network Theory - Simply Psychology https://www.simplypsychology.org/actor-network-theory.html
