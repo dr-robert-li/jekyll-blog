@@ -56,21 +56,39 @@ The pre-training process of LLMs remarkably mirrors this concept of translation,
 
 The first moment of translation begins with problematization. 
 
-where developers define the challenge of language understanding and position the LLM architecture as an "obligatory passage point" for addressing it. The ChatGPT actor network, for instance, establishes pre-training datasets, fine-tuned training datasets, and generative AI models as central to solving language processing problems.
+In the context of LLMs, this involves defining the fundamental challenge of predicting the next word in a sequence of words based on common language patterns. This task—inferencing—requires a model to understand the statistical relationships between words, phrases, and concepts as they appear in human communication. Developers position the modeling of these language patterns as the "obligatory passage point" through which any solution to natural language understanding must pass.
+
+By framing language understanding as fundamentally a pattern recognition problem, LLM architects establish that any entity wishing to participate in this network must accept this definition of the problem. 
 
 #### Interessement of Data Sources
 
-The second moment involves "locking" actors into proposed roles. In LLM development, this manifests as selecting and committing diverse data sources to contribute to the model's training. Data from books, websites, and other sources is locked into serving the model's learning process. The training process includes both pre-training on vast datasets and fine-tuning with carefully labeled data of superior quality.
+The second moment involves "locking" actors into proposed roles. In LLM development, this manifests as selecting and committing diverse data sources to contribute to the model's training. 
+
+Data from books, websites, and other sources is pulled into serving the model's learning process. Pre-training requires the ingestment of vast datasets and fine-tuning through more narrowly defined datasets which need to be reviewed and labelled as such.
 
 #### Enrolment of Training Components
 
-Enrolment defines how actors interrelate in the network. In LLM pretraining, this involves orchestrating how different data types, algorithms, and computational resources work together. The process includes defining how the model learns from masked language prediction or next-token prediction. As described in research, "each word turns into a number" and interactions between these elements are carefully defined through self-attention mechanisms.
+Enrolment defines how actors interrelate in the network. In LLM pretraining, this involves orchestrating how different data types, algorithms, and computational resources work together. 
 
-##### Mobilization of the model as a representative of all linguistic knowledge
+It requires decisions about data structures (sparse vs. dense representations), data schemas (how to encode hierarchical information), and the selection of specific algorithmic approaches (transformer architectures vs. alternatives). 
 
-The final moment of translation, mobilization, ensures that representatives speak for the entire network. The trained LLM becomes the spokesperson for all the linguistic patterns it has absorbed. 
+Computational resources must be requisitioned and allocated—determining whether to use TPUs, GPUs, or specialized hardware, and how to distribute workloads across them.
+
+It needs to be defined how the model learns from masked language prediction or next-token prediction and interactions between the tokenized words and the distances and dimensions are carefully defined through self-attention mechanisms.
+
+Chain of Thought (CoT) reasoning provides a representation of these processes of translation up to enrolment in action. The model generates intermediate reasoning steps before producing a final answer—effectively enrolling different components of its own knowledge representation to collaborate in problem-solving. 
+
+By breaking complex reasoning into sequential steps, CoT defines specific roles for different parts of the model's knowledge: some parts identify relevant facts, others apply logical operations, and still others synthesize conclusions. 
+
+This internal division of labor mirrors the concepts of problematization, interessement and enrolment. The model learns not just to produce answers, but to organize its internal representations into a collaborative reasoning process—a microcosm of the broader enrolment happening across the entire LLM development ecosystem.
+
+##### Mobilization of the model
+
+The final moment of translation, mobilization, ensures that representatives speak for the entire network. The interface through which one might interact with the LLM and the inferenced output becomes the spokesperson for all the linguistic patterns it has absorbed. 
 
 While actors may jostle back and forth over roles and primacy or even be substituted, over time and with frequency these connections solidify until such time that one cannot remember a time when they were independent and the assemblage is considered widely as an indivisible whole or "black box".
+
+#### Reified representations of all linguistic knowledge
 
 This is reification and it shapes how societies evolve (as we say, we live on the shoulders of giants who themselves live on shoulders of other giants). The thoughts that form actor networks become increasingly embedded until their origins are forgotten. 
 
@@ -80,7 +98,7 @@ For example democracy was birthed in Ancient Athens around 6th Century BC but di
 
 Political scientist Brian Klaas offers a modern metaphor for understanding the fragility of overly reified social structures: the sandpile model. Borrowed from physics and complexity science, this model illustrates how systems can reach a state of "self-organized criticality." As Klaas explains, if you add grains of sand to a pile one by one, eventually the pile reaches a critical state where a single additional grain can trigger an avalanche. The system teeters on a precipice—changing small things can trigger the change of everything.
 
-This model perfectly captures the brittleness of overly reified social constructs. When ideas, practices, or institutions become too rigid through excessive copying and reification, they reach a state of criticality. A seemingly minor perturbation—a single grain of sand—can cause the entire structure to collapse. We've engineered modern society to exist perpetually on this edge of chaos, prioritizing optimization and efficiency over resilience.
+This analogy captures the brittleness of overly reified social constructs. When ideas, practices, or institutions become too rigid through excessive copying and reification, they reach a state of criticality. A seemingly minor perturbation—a single grain of sand—can cause the entire structure to collapse. We've engineered modern society to exist perpetually on this edge of chaos, prioritizing optimization and efficiency over resilience.
 
 ## The Challenge of Large Language Models
 
