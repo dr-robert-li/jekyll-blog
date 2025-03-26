@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Cycle of Order and Disorder and the Challenge of LLMs
+title: The Cycle of Order and Disorder & the Challenge of LLMs
 date: 2025-03-26
 categories: [AI, Actor-Network Theory, LLMs, Philosophy, Simulacrum, Social Networks, Technological Determinism, Societal Evolution]
 ---
