@@ -1,167 +1,238 @@
 ---
 layout: post
-title: The Cycle of Order and Disorder & the Challenge of LLMs
-date: 2025-03-26
-categories: [AI, Actor-Network Theory, LLMs, Philosophy, Simulacrum, Social Networks, Technological Determinism, Societal Evolution]
+title: So you wanna Vibe Code?
+date: 2025-04-21
+categories: ["Vibe Coding", "Software Architecture", "AI-Assisted Development", "Software Engineering", "SDLC", "Prompt Engineering", "Best Practices", "Code Quality", "AI", "LLM", "Secure Coding", "DevOps", "Developer Productivity", "Software Lifecycle"]
 ---
 
-![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/refs/heads/main/images/goya-order-disorder.jpg](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/refs/heads/main/images/goya-order-disorder.jpg)
+![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/refs/heads/main/images/swe.jpg](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/refs/heads/main/images/swe.jpg)
 
-Society swings between ordered and disordered states. 
+As promised to my partner, for each impenetrably esoteric blog post, I am to write a more accessible and practical one. 
 
-We've seen this in dramatic shifts from the spiritual communalism of 1970s counterculture to the hard edges of neoliberal capitalism, from awareness of society's structural inequalities to movements seeking to restore "wholeness" to some ethnic, religious or cultural ideal.  These transitions aren't random—they're the result of this engine of social upheaval and renewal. For better and for worse. 
+So, here we go.
 
-But today we face something new: large language models are crystallizing these patterns into static forms, potentially disrupting the natural cycle that has driven human progress since the tribal fights between Neanderthals and the earliest Homo Sapiens.
+***Vibe coding.***
 
-As I have pondered this phenomenon and become more intimately familiar with the construct of Large Language Models (LLMs), I've been struck by a profound realization. There is a striking resemblance between the functioning of LLMs and the principles of Actor-Network Theory (ANT), particularly in the process of translation. This connection feels especially poignant, as ANT was the area of study in which I first obtained my doctorate. I've come full circle, with the innovation potentially driving the next phase of human socio economic development mirroring the theories I explored in the beginning.
+If you are an experienced, traditionalist software engineer, mention of this Karpathyan term probably leads to uncontrollable twitching and a momentary loss of motor skills.
 
-This parallel between ANT and LLMs offers a unique lens through which to examine the current technological revolution in language processing and its potential impacts on society. The way LLMs trace patterns in vast corpora of text and translate this information into coherent outputs bears a remarkable similarity to how ANT describes the formation and transformation of social networks. Unsurprisingly, ANT then provides a powerful framework for understanding not just how LLMs function, but also how they might reshape our society in ways both subtle and profound.
+Sorry.
 
-## The Dialectic of Societal Thought in Actor-Networks
+The reality though, is, what originally began as a near-meme, has become an accepted, albeit underground, method of software development. In fact, as of April 9, 2025, Shopify has mandated AI proficiency as a baseline skill all employees must master. 
 
-Society exists in constant flux. Bruno Latour's Actor-Network Theory shows us that everything in our world exists in shifting networks of relationships. 
+But because it is still somewhat an underground practice, there is precious little practical guidance. Much of the debate has either been derision or giddy excitement. The hype is overpowering.
 
-As stated above, patterns of oscillation between order and disorder appears throughout history. The fall of the Western Roman Empire in 476 CE marked the beginning of what was long called the "Dark Ages"—a period characterized by political fragmentation and frequent invasions. Yet modern historians now view this era not as uniformly bleak but as a time of significant social change and adaptation. The establishment of new kingdoms, rise of Christianity, and innovations in agriculture all testify to the transformative character of this period.
+Nevertheless, it's become too late to shove it back into the pandora's box from whence it came, and so, I'd like to, in this post, accept that it has become a normal method of software development, and provide some guidance on how to use it responsibly. 
 
-This "darkness" eventually gave way to the Age of Enlightenment (late 17th to early 19th centuries), an intellectual movement valuing knowledge gained through rationalism and empiricism. Enlightenment thinkers like Spinoza, Kant, Hume, and Rousseau explicitly attacked the Middle Ages as a period of social regress dominated by religion. But it was reaction to this period that effected their championing of natural law, liberty, progress, and the separation of church and state. This dramatic swing from faith-centered medieval thought to reason-centered Enlightenment thinking exemplifies society's pendulum between different organizing principles and how the formation of one network acts as catalyst to the formation of the next.
+Again. Here we go.
 
-This wasn't limited to Western cultures either as similar patterns emerged in China's history. The chaotic Warring States period (475-221 BCE), with its feudal warlords and constant conflict, eventually consolidated into the ordered Qin dynasty. Centuries later, the highly structured Ming dynasty gave way to the Qing, which initially brought stability but eventually became rigid and unable to adapt to Western influences leading to the convulsions embodied within the communist revolution and takeover of the nation by Mao Zedong.
+## What is Vibe Coding Anyway?
 
-The 1960s counterculture starting in University campuses in the United States also showed this process clearly. What began as rejection of capitalism by a minority transformed into something different. These hippies unwittingly prepared the path for the modern radical Right that was kicked off by the Tea Party movement as they themselves ascended into positions of wealth and power. This transition evolved through complex interactions between various social actors forming new networks with different power dynamics.
+Rather than butcher its description, here's a quote from Andrej Karpathy himself:
 
-## Translation, Reification, and the Sandpile Model
+>
+> There's a new kind of coding I call "vibe coding", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It's possible because the LLMs (e.g. Cursor Composer w Sonnet) are getting too good. Also I just talk to Composer with SuperWhisper so I barely even touch the keyboard. I ask for the dumbest things like "decrease the padding on the sidebar by half" because I'm too lazy to find it. I "Accept All" always, I don't read the diffs anymore. When I get error messages I just copy paste them in with no comment, usually that fixes it. The code grows beyond my usual comprehension, I'd have to really read through it for a while. Sometimes the LLMs can't fix a bug so I just work around it or ask for random changes until it goes away. It's not too bad for throwaway weekend projects, but still quite amusing. I'm building a project or webapp, but it's not really coding - I just see stuff, say stuff, run stuff, and copy paste stuff, and it mostly works. 
+>
+> Andrej Karpathy (Feb 3, 2025)
+>
 
-Actor-Network Theory helps us understand these transitions. Social structures emerge through what Callon and Latour called "translation"—the transport with deformation of an idea as it moves through networks. Ideas that circulate widely become solid social structures that seem independent of their creators.
+The very serious members of our profession probably furrowed their brows and profusely mouthed wordless expletives at the very flippant manner in which Karpathy describes his approach to software development. This is an approach to a career that many of us spent not only years studying and getting certified in, but probably spent even more years honing our expertise through late nights of crunch and gnashing of teeth finding improbable bugs.
 
-As a quick primer, Actor Network Theory emerged in the 1980s as a paradigm for sociological and technological study, focusing on the relationships between human and non-human actors within networks. ANT's fundamental premise is to regard both human and non-human entities as equal participants in networks, eliminating hierarchical structures through network analysis. This theoretical framework examines how networks form, stabilize, and transform through processes of tracing and translation.
+But, part of the problem with our profession, is that it *is* this impenetrable, and suffers from the cultural reputation of being a job with a steep and continuous learning curve, along with a punishing, and often unrewarding work schedule. It is not by chance that the Stack Overflow 2024 Developer Survey found a narrow demographic bulge between 18-44 years old with particular concentration between 25-34 years old, and a sharp drop off in respondents below and above this age bracket.
 
-### Tracing in Actor Network Theory
+Like elite athletes, we burn bright, but we burn out.
 
-In ANT, tracing refers to the fantastically laborious and methodical following of interconnections within networks as they emerge, compete with other networks, and become durable over time. It involves examining "the mechanics of power as this occurs through the construction and maintenance of networks made up of both human and non-human actors". Tracing focuses on how technologies propose projects and gather resources to bring these projects to fruition, carefully documenting the dynamics between heterogeneous actors.
+So, from a different perspective, maybe we can see that the approach of Karpathy and others is a way to make software development more accessible to a wider range of people, to make it easier to live with, and, for some of us, to regain the love of it.
 
-### Translation in Actor Network Theory
+## Why Some Are Concerned
 
-Translation is the process that allows a network to be represented by a single entity. It encompasses "all negotiations, intrigues, calculations, and acts of persuasion" through which an actor takes authority to speak or act on behalf of other actors. Callon identified four moments of translation:
+Let's be clear - the resistance isn't about assisted programming practices itself. Most of us already use linters, IDEs, extensions in VS Code, and even tools like Copilot and Cursor. As we say, *we software engineers are lazy, therefore we are efficient.*
 
-- Problematization: Defining the nature of the problem and establishing dependency
-- Interessement: "Locking" actors into proposed roles
-- Enrolment: Defining and interrelating the allocated roles
-- Mobilization: The moment when the assembled network or "assemblage" behaves as a coherent actor, behind a representative actor hence the term actor-network.
+The concern arises from *how laissez faire* we are with these tools. For example, if I was building something that I knew needed to progress to production, I might not be as nonchalant as Karpathy.
 
-### LLM Pre-training as Actor Network Translation
+Similarly, if I was new to software development, I might want to be a bit more self-aware of this (there's nothing wrong with this and if you're fiddling around on your own local maching, no harm, no foul), and spend more time canvassing best practices (even if you don't know specifically what something like the Well-Architected Framework is - generative AI is fantastic at explaining things).
 
-The pre-training process of LLMs remarkably mirrors this concept of translation, transforming a vast heterogeneous network of textual knowledge into a unified representational model (hence, Large Language Model).
+For example, you might want to think about:
 
-#### Problematization in LLM Development
+1. **Scalability**: AI models optimize for correctness, not efficiency, often leading to performance bottlenecks as applications grow.
+2. **Security**: AI doesn't always think about adversaries, and convenience often introduces serious vulnerabilities
+3. **Readability**: AI-generated code is usually pretty good with commenting and documentation if properly prompted
+4. **Performance**: Vibe coding frequently results in code bloat and inefficient implementations
+5. **Maintainability**: Without careful planning, being able to quickly spit out thousands of lines of code means projects can easily and quickly get out of hand with "spaghetti code" that's difficult to parse, trace, debug and update
 
-The first moment of translation begins with problematization. 
+Don't be a `@leojr94_`:
 
-In the context of LLMs, this involves defining the fundamental challenge of predicting the next word in a sequence of words based on common language patterns. This task—inferencing—requires a model to understand the statistical relationships between words, phrases, and concepts as they appear in human communication. Developers position the modeling of these language patterns as the "obligatory passage point" through which any solution to natural language understanding must pass.
+> guys I'm under attack. 
+>
+> ever since I started to share how I built my SaaS using cursor, random things are happening, maxed out usage on api keys, people bypassing the subscription, creating random shit on db
+>
+> as you know, I'm not technical so this is taking me longer that usual to figure out
+>
+> for now, I will stop sharing what I do publicly on X
+>
+> there are just some wierd ppl out there
 
-By framing language understanding as fundamentally a pattern recognition problem, LLM architects establish that any entity wishing to participate in this network must accept this definition of the problem. 
+## Frameworks to Vibe Code to
 
-#### Interessement of Data Sources
+So, if you're going to be vibe coding safely, let's remind ourselves of some of the easy to remember principles that should govern our approach.
 
-The second moment involves "locking" actors into proposed roles. In LLM development, this manifests as selecting and committing diverse data sources to contribute to the model's training. 
+### KISS (Keep It Simple, Stupid):
+If any of you have read completely AI generated content you know it has a tendency to get... just a bit verbose. The same applies when generating code. 
 
-Data from books, websites, and other sources is pulled into serving the model's learning process. Pre-training requires the ingestment of vast datasets and fine-tuning through more narrowly defined datasets which need to be reviewed and labelled as such.
+Contrary to the acronym, you should actually be very specific when prompting to adhere to the KISS principle. What this means is that you are providing the logic, rather than allowing the AI to make broad assumptions (narrow, bounded assumptions are generally OK, and much more manageable).
 
-#### Enrolment of Training Components
+So, for example, instead of prompting with the phrase “Build a user system,” try “Create a signup flow with email validation using OTP, 3 retries max, and rate-limiting.” 
 
-Enrolment defines how actors interrelate in the network. In LLM pretraining, this involves orchestrating how different data types, algorithms, and computational resources work together. 
+### DRY (Don’t Repeat Yourself):
+Any generative AI is going to create text based on what it already knows. This is the very definition of repeating. Plan for this as part of your vibe coding process. Ask it to “centralize API calls in a reusable module” or “generate utility functions for date formatting”, and review generated code blocks for duplication.
 
-It requires decisions about data structures (sparse vs. dense representations), data schemas (how to encode hierarchical information), and the selection of specific algorithmic approaches (transformer architectures vs. alternatives). 
+### YAGNI (You Aren’t Gonna Need It):
+Because a LLM has the benefit of having trained on much larger code bases, it has *all* of the "just in case" features in it's dataset. This means that it will often suggest features that you don't need. It's going to be really tempting to accept that these suggested features are a good idea. Be disciplined in your consideration of these suggestions - are they *really* a good idea?
 
-Computational resources must be requisitioned and allocated—determining whether to use TPUs, GPUs, or specialized hardware, and how to distribute workloads across them.
+Without thoughtful consideration, vibe coding can lead to feature creep and, eventually, a codebase that strays far from the project's initial objectives. Start by asking yourself (or the team) “What’s the MVP?” and prompt accordingly. Example: “Add a password reset. Do not add 2FA yet.”
 
-It needs to be defined how the model learns from masked language prediction or next-token prediction and interactions between the tokenized words and the distances and dimensions are carefully defined through self-attention mechanisms.
+### Separation of Concerns & Modularity
+This is kind of a subset of KISS and adjacent to DRY, but it bears keeping in mind when vibe coding. To ensure readability, testability and maintainability, break down your code into smaller, more manageable units. This is especially important when working with large codebases. When building new, generate features as standalone modules first, for example: "Build a payment processing class with no UI dependencies.” You can always integrate later.
 
-Chain of Thought (CoT) reasoning provides a representation of these processes of translation up to enrolment in action. The model generates intermediate reasoning steps before producing a final answer—effectively enrolling different components of its own knowledge representation to collaborate in problem-solving. 
+### Single Responsibility Principle (SRP)
+As we've all discovered, generative AI models typically perform worse when they are given a one shot prompt, that is broad and there is no opportunity for reflection. This is why Chain of Thought (CoT) was such a powerful innovation. When vibe coding, you should take advantage of this quirk of LLM inferencing. It's not much different to Agile.
 
-By breaking complex reasoning into sequential steps, CoT defines specific roles for different parts of the model's knowledge: some parts identify relevant facts, others apply logical operations, and still others synthesize conclusions. 
+Break down your task down into micro-prompts, reflect, and chain or build upon the results. For example: instead of “Build a user dashboard,” you can chain prompts:
 
-This internal division of labor mirrors the concepts of problematization, interessement and enrolment. The model learns not just to produce answers, but to organize its internal representations into a collaborative reasoning process—a microcosm of the broader enrolment happening across the entire LLM development ecosystem.
+“Create a function to fetch user data”
 
-##### Mobilization of the model
+“Now, design a component to display data as a table”
 
-The final moment of translation, mobilization, ensures that representatives speak for the entire network. The interface through which one might interact with the LLM and the inferenced output becomes the spokesperson for all the linguistic patterns it has absorbed. 
+“Add error handling for failed fetches”
 
-While actors may jostle back and forth over roles and primacy or even be substituted, over time and with frequency these connections solidify until such time that one cannot remember a time when they were independent and the assemblage is considered widely as an indivisible whole or "black box".
+## Planning for Vibe Coding Success
 
-#### Reified representations of all linguistic knowledge
+Vibes without a blueprint = chaos. 
 
-This is reification and it shapes how societies evolve (as we say, we live on the shoulders of giants who themselves live on shoulders of other giants). The thoughts that form actor networks become increasingly embedded until their origins are forgotten. 
+>
+> "Sure, Gen AI supercharges development, but it also supercharges risk. Two engineers can now churn out the same amount of insecure, unmaintainable code as 50 engineers."
+>
+> Willem Delbare, founder and CTO of Aikido
+>
 
-Reification can take hours in the case of smaller assemblages relying on already densely reified actants like your smartphone or laptop; days or weeks in larger assemblages with more tenuous actants such as volunteer and community groups; and potentially years or even centuries for even larger more diffuse assemblages such as nation states or social norms.
+Like any good MOAB, an AI coding assistant is a powerful tool, and whether it triggers armageddon or clears the way for more productive activites, depends on how you use it. 
 
-For example democracy was birthed in Ancient Athens around 6th Century BCE but did not become a dominant form of governance until arguably after the fall of the Berlin Wall in late 1989. It is now implemented in various countries without the original struggles that shaped it—creating a simulacrum, a copy without an original. However, those original struggles have meaning and agency themselves. The slow decline of democracy since the 1990s, culminating in and represented by the recently elected 47th President of the United States with his rapid reshaping of the institutions of democracy, could be a result of reification obscuring this actant and all of the connected events.
+So, before generating a single line of code:
 
-Political scientist Brian Klaas offers a modern metaphor for understanding the fragility of overly reified social structures: the sandpile model. Borrowed from physics and complexity science, this model illustrates how systems can reach a state of "self-organized criticality." As Klaas explains, if you add grains of sand to a pile one by one, eventually the pile reaches a critical state where a single additional grain can trigger an avalanche. The system teeters on a precipice—changing small things can trigger the change of everything.
+### Architect First, Code Later
 
-This analogy captures the brittleness of overly reified social constructs. When ideas, practices, or institutions become too rigid through excessive copying and reification, they reach a state of criticality. A seemingly minor perturbation—a single grain of sand—can cause the entire structure to collapse. We've engineered modern society to exist perpetually on this edge of chaos, prioritizing optimization and efficiency over resilience.
+Vibe coding’s greatest strength—speed—is also its Achilles’ heel. Without a clear architecture, you’ll end up with the digital equivalent of a hoarder’s garage: piles of functional but incoherent code.
 
-## The Challenge of Large Language Models
+Decide on your patterns (MVC, microservices, etc.) and document exactly how modules should interact. 
 
-What's unique today is the introduction of language models as non-human actors with unprecedented agency in our communication networks.
+### Create a Best Practice Template
 
-Language is the foundation of communication, enabling the exchange of ideas and knowledge, which in turn shapes culture, forms the basis of society, and ultimately supports the development of civilization.
+Before prompting your AI, build a "code DNA" template. Define:
 
-LLMs crystallize language into simplified structures by leveraging similarity distance—often based on mathematical techniques like cosine similarity in vector spaces—to map words, phrases, and concepts in a way that mimics human-like understanding. Instead of needing explicit rules for every possible communication pattern, these models create averages of meaning from vast amounts of text data.
+- Standardized module structures (e.g., “All API routes must validate inputs before processing”)
+- Naming conventions (e.g., “fetchUserData() not getStuff()”)
+- Documentation requirements (e.g., “Every function gets a one-line purpose statement”)
 
-By identifying patterns and relationships between words, LLMs appear to generate coherent responses, translate languages, and even infer context, effectively mirroring the way human communication underpins culture and society—though without true comprehension or lived experience.
+This template becomes your AI’s playbook, ensuring generated code adheres to your standards, not just correctness.
 
-They function as processors of human thought, language, and culture. In ANT terms, they are powerful actants in our networks.
+For example:
 
-Unlike humans, whose thoughts vary based on experiences, LLMs operate as static averages of all opinions they've been trained on. This consistency challenges the natural cycle of societal thought. Using Aristotle's framework, LLMs embody expertise and science without wisdom and prudence.
+```text
+- **Functions**: <50 lines, JSDoc comments, error handling  
+- **Classes**: Single responsibility, typed properties  
+- **Modules**: API calls in `/services`, UI components in `/views`  
+```
 
-## Reification at Light Speed and the Brittle Simulacra as poor man's imitation
+Cursor already has this as a function within their IDE under `.cursor/rules`:
 
-Typically actant density scales in line with the size or diffusion of the network as we discussed above. LLMs are the first actor-network where the size and diffusion of the network is abstracted from its assemblage density.
+>
+> Think of them as a persistent way to encode context, preferences, or workflows for your projects or for yourself.
+> Use project rules to:
+>
+> - Encode domain-specific knowledge about your codebase
+> - Automate project-specific workflows or templates
+> - Standardize style or architecture decisions
+>
 
-It is a compression of, arguably, the current universe of human communication in all its forms and modalities. Think about your own universe of communication - the devices, platforms, methods, spaces and personas - and compressing it all to fit onto a thumb drive. Imagine attempting to navigate and make sense of this repository of all your knowledge. Now multiply that by the billions of people who have also uploaded their lives onto the Internet, into software, platforms and shared on public networks and through messaging protocols.
+### GitHub's Golden Rule
 
-LLMs short-circuit this process. Traditionally, societal evolution depended on small variations in human thought building momentum over time. When communication filters through these models, we lose the natural variation that drives social evolution. Instead, we get averaged, sanitized ideas. This creates a one-way translation—where deformation of ideas becomes standardized rather than creative.
+Because generating code with AI tools is so rapid, it becomes even more important to review the ground covered at each milestone. You might ask yourselves:
 
-This accelerated reification creates what Jean Genet might recognize as "simulacra of simulacra"—copies of copies that become increasingly detached from any original meaning. As noted in analyses of Genet's work, "repeated simulacra operations disrupt the identity bond maintained by simulacra itself, leading to the constant fragmentation and diffusion of the subject's identity structure and relationships". Applied to our broader social context, this suggests that as ideas become increasingly reified through LLM-mediated communication, they become brittle and prone to sudden collapse with an effect as vast as the actant's network is dense. For example, the actant we know of JIT (Just-in-Time) supply chain management could be argued as being responsible for the effect of a single boat getting stuck in the Suez Canal being able to cause $50 billion in global economic damage.
+- “Does this align with our ‘code DNA’?” (Consistency)
+- “Could a new engineer understand this?” (Readability)
+- “What happens if we scale to 100k users?” (Scalability)
 
-The consequences extend beyond communication. If the actants circulating within networks are increasingly LLM-generated simulacra rather than authentic human expressions, the resulting social structures may become equally brittle and broad in impact and effect.
+In GitHub's own studies, one team reported catching 60% of premature abstractions in these reviews—saving months of refactoring. Refactoring 10 files at a time, beats refacting 100 all at once.
 
-## Necessary Disorder
+## Where Vibe Coding Shines (and Where It Doesn’t)
 
-To maintain societal resilience, we must preserve space for disordered thought within our actor-networks—to "allow some crazy" into the increasingly algorithmically governed world. 
+Like any method, there's going to be times when vibe coding is the best tool for the job. And there will be times when it's not.
 
-This doesn't mean embracing harmful ideologies but ensuring that human communication retains its variability and capacity for novelty. Human thought processes—with their inconsistencies and creative leaps—have been the combinatory seeds to effect moments of progress throughout history. 
+In these situations vibe coding can get you running quickly:
 
-When LLMs increasingly stand in for human communication, this variability is smoothed out between layers and layers within neural networks and we risk creating actor networks with less diversity of agency and growing conformity to fewer and fewer, but increasingly dense polarities. 
+✅ Generating Boilerplate Code: “Generate a REST API with Express.js CRUD endpoints for a ‘Products’ model.”
 
-We may find ourselves in a society that appears coherent but lacks mechanisms to grow, violently swinging between these polarities until we cease to move forward altogether, having lost the means to stretch, bend and challenge, to form and reform countering actor networks.
+✅ Prototyping and POCs: “Mock a login screen with React, Tailwind, and hover effects.”
 
-## Conclusion
+✅ Tedious Tasks: “Write SQL migration scripts for these schema changes.”
 
-The cycling between ordered and disordered thought has been fundamental to human societies. Through Actor-Network Theory, we understand this as the constant formation and reformation of networks comprising both human and non-human actors.
+And then there are the situations where additional human oversight is required:
 
-Large language models represent an unprecedented intervention, crystallizing reified forms of thought into static objects that influence human communication. They embody translation but in a way that standardizes rather than diversifies outcomes.
+🚩 Security: For “Create a payment gateway”, you are going to want a security expert reviewing every line to ensure PII is not exposed. The same can be said about any code that is going to be referencing any secrets or authentication keys.
 
-As we navigate this terrain, we must consider the consequences of allowing LLMs to mediate too much of our communication. The risk isn't just a less interesting society but one that loses its capacity for growth.
+🚩 Complex Logic: Without thoroughly breaking down the logic into more manageable chunks, asking your AI companion to build a complex system based on a simple abstract prompt such as "Create a program that continuously sorts these orders by X, Y and Z" will result in code that fails at scale.
 
-What we need isn't perfect order or complete disorder, but a conscious cultivation of the tension between them. We need networks that allow for diverse forms of agency and transformation. 
+🚩 Large Legacy Systems: “Integrate this AI-generated module into our 10-year-old monolithic applicaiton with a 500,000 line code base” = 💥. 
 
-*It is from this chaotic soup that newness emerges.*
+## The Human-in-the-Loop
 
-Citations:
-[1] Latour's Actor Network Theory - Simply Psychology https://www.simplypsychology.org/actor-network-theory.html
-[2] Thoughts on Actor-Network Theory (ANT) and Entanglement: Latour ... https://antonisch.wordpress.com/2019/04/28/260/
-[3] Ancient Greek Philosophy https://iep.utm.edu/ancient-greek-philosophy/
-[4] [PDF] Actor-network theory https://sidoli.w.waseda.jp/Sismondo_Introduction_STS_8.pdf
-[5] Chaos (cosmogony) - Wikipedia https://en.wikipedia.org/wiki/Chaos_(cosmogony)
-[6] Theorizing social change - Zheng - 2022 - Compass Hub - Wiley https://compass.onlinelibrary.wiley.com/doi/10.1111/phc3.12815
-[7] ACTOR NETWORK THEORY - Sage Publishing https://us.sagepub.com/sites/default/files/upm-binaries/5222_Ritzer__Entries_beginning_with_A__[1].pdf
-[8] Actor–network theory - Wikipedia https://en.wikipedia.org/wiki/Actor–network_theory
-[9] [PDF] On recalling ANT - bruno-latour.fr http://www.bruno-latour.fr/sites/default/files/P-77-RECALLING-ANT-GBpdf.pdf
-[10] Aristotle - Wikipedia https://en.wikipedia.org/wiki/Aristotle
-[11] [PDF] Actor-network theory-the market test - openscienceASAP http://www.openscienceasap.org/wp-content/uploads/2013/10/Callon_1999.pdf
-[12] Ancient philosophers on mental illness - Marke Ahonen, 2019 https://journals.sagepub.com/doi/full/10.1177/0957154X18803508
-[13] Jean-Jacques Rousseau - Stanford Encyclopedia of Philosophy https://plato.stanford.edu/entries/rousseau/
-[14] The Open Society and Its Enemies - Wikipedia https://en.wikipedia.org/wiki/The_Open_Society_and_Its_Enemies
-[15] A philosopher's guide to messy transformations - Strategy+business https://www.strategy-business.com/article/A-philosophers-guide-to-messy-transformations
-[16] How has philosophy impacted society? : r/askphilosophy - Reddit https://www.reddit.com/r/askphilosophy/comments/zpsb0g/how_has_philosophy_impacted_society/
+Finally, and most importantly, with any use of AI, but especially in the case of software development, it is critical to remember that, even if the grunt work is being automated, you are still the one who is ultimately responsible for reviewing and knowing the code generated. It is the reason why this is a force multiplier that becomes more powerful the more experienced you are, and it's the reason why software engineering as a career isn't going away anytime soon.
+
+### Understand the fundamentals before "surrendering to the vibes..."
+
+Even when using AI to generate code, you still need to maintain a mental model of what the code is doing. Take the time to understand the programming concepts, data structures, and software architecture in use. This knowledge will help you evaluate AI-generated solutions and make informed decisions.
+
+### Bake reviewing and testing into your workflow
+
+Never trust AI-generated code blindly. Review every line meticulously. Ask yourself:
+- Does this make sense?
+- Are there security vulnerabilities?
+- Is this the most efficient approach?
+- Will this code scale as the application grows?
+
+### You are the police
+
+Enforce the frameworks and standards you've set. Like any rule in real life, they need to be enforced to be effective. 
+
+AI-generated code may not interpret the rules you've set in the way you might invision it should be adhered to. 
+
+If it is repeatedly non-compliant, in a way that demonstrates a pattern, it may be time to revisit your rules.
+
+Be explicit when observing security best practice, as the impact of a security risk can be magnified when vibe coding. 
+
+Implement proper input validation, avoid hardcoding secrets, use secure authentication methods, and regularly scan for vulnerabilities. Run security testing tools like SonarQube, Snyk Code, or OWASP ZAP to identify potential issues before deployment.
+
+### QA is not someone else’s problem
+
+AI-generated code often contains logical errors that may not be immediately apparent. Just because it “works on my machine” doesn't mean you are accounting for edge cases.  Implement thorough testing practices including unit tests, integration tests, and performance tests to catch these issues early.
+
+Thankfully, your AI coding assistant can help you with this. Write unit tests with it: “Generate Jest tests for this Express endpoint.”
+
+### Learn from the code generated
+
+If any of us have use any number of the chat interfaces that have proliferated (including ChatGPT and DeepSeek), you know that these models have tremendous explanatory capabilities.
+
+Vibe coding may bring up concepts that you may not have discovered before. Get it to explain how the generated code works and the underlying principles and patterns it is attempting to adhere to.
+
+It is a powerful method for learning and understanding, not just getting faster.
+
+## Finding Balance
+
+Vibe coding represents a significant shift in how software is created. It's not inherently good or bad - it's like any other powerful tool. It requires informed use.
+
+For newcomers to software development: recognize that while AI can help you build functioning applications quickly, there's immense value in understanding software engineering principles. Don't just surrender to the vibes - invest time in learning fundamentals.
+
+For experienced engineers: instead of dismissing vibe coding outright, use it as a force multiplier. Your hand is still on the wheel. Share your knowledge with the less experienced, about security, scalability, and maintainability to help propogate time honored best practices with this new method of software development.
+
+I see the future of software development likely involving a hybrid approach - leveraging AI assistance while applying human expertise to ensure the resulting code meets professional standards. By combining the accessibility of vibe coding with sound engineering principles, we can create better software more efficiently than ever before.
+
+Who knows. Software engineering might not end up being such a slog after all.
