@@ -181,7 +181,7 @@ And then there are the situations where additional human oversight is required:
 
 🚩 Complex Logic: Without thoroughly breaking down the logic into more manageable chunks, asking your AI companion to build a complex system based on a simple abstract prompt such as "Create a program that continuously sorts these orders by X, Y and Z" will result in code that fails at scale.
 
-🚩 Large Legacy Systems: “Integrate this AI-generated module into our 10-year-old monolithic applicaiton with a 500,000 line code base” = 💥. 
+🚩 Large Legacy Systems: “Integrate this AI-generated module into our 10-year-old monolithic application with a 500,000 line code base” = 💥. 
 
 ## The Human-in-the-Loop
 
