@@ -1,11 +1,11 @@
 ---
 layout: post
-title: So you wanna Vibe Code?
+title: So You Wanna Vibe Code?
 date: 2025-04-21
 categories: ["Vibe Coding", "Software Architecture", "AI-Assisted Development", "Software Engineering", "SDLC", "Prompt Engineering", "Best Practices", "Code Quality", "AI", "LLM", "Secure Coding", "DevOps", "Developer Productivity", "Software Lifecycle"]
 ---
 
-![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/refs/heads/main/images/swe.jpg](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/refs/heads/main/images/swe.jpg)
+![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/refs/heads/main/images/swe.png](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/refs/heads/main/images/swe.png)
 
 As promised to my partner, for each impenetrably esoteric blog post, I am to write a more accessible and practical one. 
 
