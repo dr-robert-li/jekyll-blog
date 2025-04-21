@@ -114,7 +114,7 @@ Vibes without a blueprint = chaos.
 > Willem Delbare, founder and CTO of Aikido
 >
 
-Like any good MOAB, an AI coding assistant is a powerful tool, and whether it triggers armageddon or clears the way for more productive activites, depends on how you use it. 
+Like any good MOAB, an AI coding assistant is a powerful tool, and whether it triggers armageddon or clears the way for more productive activities, depends on how you use it. 
 
 So, before generating a single line of code:
 
