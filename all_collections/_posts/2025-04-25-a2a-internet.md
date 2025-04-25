@@ -13,11 +13,11 @@ categories: ["Agent to Agent", "A2A Protocol", "MCP Architecture", "Web4", "AI A
 
 * *The internet is shifting from human centred use to AI agents doing tasks for us.*
 
-* *New design patterns and protocols from Anthropic and Google, let these agents talk directly to websites and each other.*
+* *New design patterns and protocols from Anthropic and Google let these agents talk directly to websites and each other.*
 
-* *This creates two parallel Internet's: one for people, one for machines.*
+* *This creates two parallel Internets: one for people, one for machines.*
 
-* *Agents skip ads and web pages, making things faster but hurting old business models.*
+* *Agents skip ads and web pages, making things faster but disrupting traditional economic and business models.*
 
 * *AI agents are also changing shopping, media, and education practices, creating new challenges with the efficiency gains.*
 
