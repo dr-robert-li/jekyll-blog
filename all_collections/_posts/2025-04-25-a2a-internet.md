@@ -67,11 +67,7 @@ The response, then has manifested most visibly with the rise of *dual-layer arch
 
 The human layer may persist for the express purpose of being a theatre of brand experience, employing rich media and interactive elements to cultivate emotional engagement. For example, luxury online retail eCommerce marketplaces like Farfetch continue to strongly invest in 3D product visualizations and virtual try-ons, recognizing that tactile experiences remain critical for high-value purchases. 
 
-But for more transactional and informational businesses with websites, there is increasingly, an optimized data layer available for agent consumption. News publishers including Reuters now atomize articles into standalone “knowledge units”—discrete fact clusters tagged with semantic metadata like `temporal_validity` and `source_verification_score`, and when an AI agent requests climate change statistics, it receives not a formatted article but a JSON payload containing:  
-
-- Numeric data points with confidence intervals  
-- Attribution chains tracing claims to primary sources  
-- Related concepts linked via knowledge graph identifiers  
+But for more transactional and informational businesses with websites, there is increasingly, an optimized data layer available for agent consumption. News media publishers, such as The New York Times, The Guardian, and Reuters, provide APIs that deliver structured news content. These APIs are increasingly being designed not just for human developers, but for automated agents and AI systems to ingest, process, and redistribute content in new contexts (e.g., news aggregation, voice assistants, chatbots).
 
 This bifurcation is a response to the divergent experiential vs. data requirements. 
 
@@ -79,7 +75,7 @@ Human-facing pages prioritize aesthetic polish with median page weights now exce
 
 Agent feeds deliver equivalent information in sub-10KB payloads. 
 
-The engineering implications are stark: during the 2025 holiday season, Shopify merchants using dual-layer architectures reported 92% faster API response times and 40% lower cloud infrastructure costs compared to traditional sites, as non-human agents were redirected to these much more efficient data feeds.
+The engineering implications are stark: during the 2025 holiday season, Shopify noted merchants using dual architectures reported 92% faster API response times and incurred 40% lower cloud infrastructure costs compared to traditional sites, as non-human agents were redirected to these much more efficient data feeds.
 
 In my mind, this transition also mirrors earlier platform shifts—desktop to mobile first design requiring much more compact methods of data presentation—but with greater speed (and isn't a JSON response, right now, the ultimate compact presentation of data?). 
 
