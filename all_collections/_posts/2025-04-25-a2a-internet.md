@@ -5,7 +5,7 @@ date: 2025-04-25
 categories: ["Agent to Agent", "A2A Protocol", "MCP Architecture", "Web4", "AI Agents", "Agentic", "Futurism", "Internet Evolution", "Distributed Systems", "Autonomous Systems", "Network Architecture", "Digital Transformation", "Emerging Technology", "Future Internet"]
 ---
 
-![https://media.licdn.com/dms/image/v2/D5622AQHwtnBkq5ZNgg/feedshare-shrink_800/B56ZZeAlCUHsAo-/0/1745333937293?e=2147483647&v=beta&t=jH1fqUpeKi3dQn9lq8kce3DFYiNrr9ira8JnThsdCxY](https://media.licdn.com/dms/image/v2/D5622AQHwtnBkq5ZNgg/feedshare-shrink_800/B56ZZeAlCUHsAo-/0/1745333937293?e=2147483647&v=beta&t=jH1fqUpeKi3dQn9lq8kce3DFYiNrr9ira8JnThsdCxY)
+![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/a2a.gif](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/a2a.gif)
 
 The internet stands at an inflection point comparable to the advent of graphical browsers or mobile connectivity. 
 
