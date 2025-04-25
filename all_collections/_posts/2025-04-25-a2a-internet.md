@@ -98,7 +98,7 @@ When ChatGPT’s “Link Previews” feature reduced publisher click-through rat
 
 In response, media conglomerates have started experimenting with three survival strategies:  
 
-1. **Provenance Watermarking**: The open source “FactChain” system embeds blockchain signatures into content, allowing agents to verify authenticity while generating summaries. Studies have shown this approach increases prominence in agent-generated summaries.
+1. **Provenance Watermarking**: The use of Blockchain or similar cryptographic protocols, could be pivotal in this regard, by embedding signatures into content, allowing agents to verify authenticity while generating summaries. Studies have shown this approach also increases prominence in agent-generated summaries (a fantastic rundown of current approaches: https://equilibrium.co/writing/blockchains-cryptography-authenticity-challenge). 
 2. **Microlensing APIs**: Axel Springer’s per-summary licensing model mirrors Spotify’s micro-royalty approach. Despite initial agent traffic drops, the program stabilized at 54% of pre-monetization levels within six months.
 3. **Affiliate 2.0**: Amazon’s A2A product graph enables commission payouts when agents recommend products, bypassing traditional affiliate links. During Q3 2025, this contributed $380M to Amazon’s bottom line.
 
