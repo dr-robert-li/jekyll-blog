@@ -7,8 +7,6 @@ categories: ["Agent to Agent", "A2A Protocol", "MCP Architecture", "Web4", "AI A
 
 ![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/a2a.gif](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/a2a.gif)
 
-The internet stands at an inflection point comparable to the advent of graphical browsers or mobile connectivity. 
-
 The Internet stands at a turning point. How we use our connected devices, browsers, mobile phones and the infrastructure of the Internet itself is being transformed by the interactions of agent-based AI systems.
 
 Anthropic’s Model Context Protocol (MCP) and Google’s Agent-to-Agent (A2A) framework are a necessary development that supports this structural shift. What interacting with the Internet will look like will change from human-centric browsing to agent-mediated interaction—and it will transform how information is consumed, services are delivered, and power is distributed across the digital universe. 
