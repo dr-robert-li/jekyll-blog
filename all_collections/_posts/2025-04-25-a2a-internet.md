@@ -51,7 +51,7 @@ On the client-side, Google’s A2A protocol, just released in April 2025, addres
 
 This protocol closely resembles the established microservices architecture pattern—where an MCP server functions as the API gateway layer handling external resource integration, while A2A implements the service mesh pattern for inter-service discovery and communication.
 
-Together, they could eventually allow for the translation of a new agentic backbone for the long predicted "Fourth Web”—an internet where over 80% of interactions occur between autonomous entities rather than between human users.  
+Together, they could eventually allow for the translation of a new agentic backbone for the long predicted "Fourth Web”—an internet where the majority of interactions occur between autonomous entities rather than between human users to facilitate real world outcomes.  
 
 ## **II. Presentation Layer Obsolescence: The Dual-Web Architecture**  
 
@@ -100,7 +100,6 @@ In response, media conglomerates have started experimenting with three survival 
 
 1. **Provenance Watermarking**: The use of Blockchain or similar cryptographic protocols, could be pivotal in this regard, by embedding signatures into content, allowing agents to verify authenticity while generating summaries. Studies have shown this approach also increases prominence in agent-generated summaries (a fantastic rundown of current approaches: https://equilibrium.co/writing/blockchains-cryptography-authenticity-challenge). 
 2. **Microlensing APIs**: Axel Springer’s per-summary licensing model mirrors Spotify’s micro-royalty approach. Despite initial agent traffic drops, the program stabilized at 54% of pre-monetization levels within six months.
-3. **Affiliate 2.0**: Amazon’s A2A product graph enables commission payouts when agents recommend products, bypassing traditional affiliate links. During Q3 2025, this contributed $380M to Amazon’s bottom line.
 
 We are just at the start of reinventing monetization models for agent-based interactions, and so there are still problems in implementing these current approaches.
 
@@ -122,7 +121,7 @@ The agentic transformation of eCommerce mirrors the seismic shift that occurred 
 
 In quantitative finance, firms like Renaissance Technologies achieved dominance by replacing human intuition with algorithmic arbitrage, capturing micro-inefficiencies invisible to traditional traders. 
 
-Similarly, Amazon’s 2025 earnings report revealed a growing proportion of transactions now occurring through APIs, bypassing traditional cart flows, leading to faster checkout times compared to human-driven purchases.
+Similarly, Amazon’s investor earnings reports revealed a growing proportion of transactions now occurring through APIs, bypassing traditional cart flows, leading to faster checkout times compared to human-driven purchases.
 
 This agentic commerce concentrates gains among API-enabled enterprises.
 
@@ -138,11 +137,9 @@ There is of course the current cat and mouse game between students using ever mo
 
 Harvard’s 2025 pilots showed AI tutors doubled student engagement and learning gains compared to traditional lectures. 
 
-Troublingly, though, 68% of students demonstrated *agentic dependency*- in that they could not explain agent-generated feedback, suggesting surface-level competency is masking deficiencies in deeper understanding.
+Troublingly, though, educators have repeatedly stated fears of students demonstrated *agentic dependency*- in that they cannot explain agent-generated output, creating a surface-level competency that masks deficiencies in deeper understanding.
 
-MIT’s “Glass Box Agent” initiative is attempting to remediate this through explainable AI. Tutors would expose reasoning chains via interactive node graphs, forcing students to engage with the logical structure of the reasoning process iterated by the agent, rather than passively accept its output. The pilot is showing promise with 27% higher retention rates on STEM subjects.
-
-This disruption requires a more thorough and nuanced analysis than this essay and my expertise can provide, but what these experiments demonstrate is that the integration of AI will require a philosophical recalibration of the pedagogical tradition. As UCLA’s Dr. Elena Torres observes: "We’re not assessing knowledge retention anymore, but *knowledge sovereignty*—a student’s capacity to govern AI tools without being governed by them". 
+This disruption requires a more thorough and nuanced analysis than this essay and my expertise can provide, but what these experiments demonstrate is that the integration of AI will require a philosophical recalibration of the pedagogical tradition.We’re not assessing knowledge retention anymore, but *knowledge sovereignty*—a student’s capacity to govern AI tools without being governed by them. 
 
 ## IV. Power Reconfiguration: Protocol Wars & New Hegemons  
 
@@ -162,7 +159,7 @@ Anthropic’s decision to open-source MCP client libraries mirror Google's Andro
 
 Other governments are also proposing different regulatory frameworks.
 
-For example, China’s “Great Agent Wall” mandates all domestic A2A traffic route through state-approved hubs, creating a splinter agentic web, very similar to the currently splintered web ecosystem behind the current "Great Firewall of China". 
+For example, China’s “Great Firewall” has all domestic A2A traffic route through state-approved hubs, creating a splinter agentic web, following the same network pathways as the currently splintered web ecosystem. 
 
 In the EU, the Digital Services Act now requires agent transparency reports, forcing disclosure of content summarization policies. This is on top of other EU regulations like GDPR and the AI Act, which will likely be extended to A2A agents.
 
@@ -202,8 +199,6 @@ The phenomenon of “agentic learned helplessness” emerges when users outsourc
 
 Social media platforms, e-commerce sites, and search engines have already been shown to reduce critical thinking capacities through their dopamine-driven engagement models. Studies reveal that excessive social media use correlates with decreased grey matter density in the prefrontal cortex and impaired working memory performance, while constant digital distractions erode attentional control and information retention. 
 
-A 2025 UC Berkeley experiment found subjects relying on shopping agents exhibited 31% reduced product comparison ability within six months, accelerating these existing trends. Neurological scans revealed decreased activity in the dorsolateral prefrontal cortex—a region central to executive decision-making—mirroring patterns observed in heavy social media users. 
-
 This suggests agentic AI systems may compound rather than create cognitive decline, transitioning users from passive content consumption to active delegation of decision-making authority.
 
 Countermeasures require deliberate friction:  
@@ -235,9 +230,7 @@ As MCP and A2A and similar protocols become digital public infrastructure, polic
 
 At this very early stage most governments have no opinion on the matter, but those nations that do, have wildly divergent strategies. 
 
-China’s “Great Agent Wall” routes all A2A traffic through state-sanctioned hubs, enabling real-time content filtering. Conversely, Iceland’s “Free Agent Zone” exempts non-commercial AI from most regulations, attracting experimental projects like decentralized autonomous universities. The EU treats AI adversarially under its AI Act—categorizing systems by threat level and mandating strict compliance checks for high-risk applications through centralized bodies like the AI Office. The US adopts a lighter touch, self-regulated approach, relying on sector-specific guidance from agencies like the FTC and voluntary corporate commitments.
-
-Enforcement, though, remains problematic. While INTERPOL’s “AI Agent Watch” facilitates cross-border investigations, its reliance on voluntary participation limits its effectiveness.
+China’s “Great Agent Wall” routes all A2A traffic through state-sanctioned hubs, enabling real-time content filtering. The EU treats AI adversarially under its AI Act—categorizing systems by threat level and mandating strict compliance checks for high-risk applications through centralized bodies like the AI Office. The US adopts a lighter touch, self-regulated approach, relying on sector-specific guidance from agencies like the FTC and voluntary corporate commitments.
 
 ### **Democratizing Agent Use**  
 
