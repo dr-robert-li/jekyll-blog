@@ -7,6 +7,30 @@ categories: ["Agent to Agent", "A2A Protocol", "MCP Architecture", "Web4", "AI A
 
 ![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/a2a.gif](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/a2a.gif)
 
+---
+
+### ***TL;DR***
+
+* *The internet is shifting from human centred use to AI agents doing tasks for us.*
+
+* *New design patterns and protocols from Anthropic and Google, let these agents talk directly to websites and each other.*
+
+* *This creates two parallel Internet's: one for people, one for machines.*
+
+* *Agents skip ads and web pages, making things faster but hurting old business models.*
+
+* *AI agents are also changing shopping, media, and education practices, creating new challenges with the efficiency gains.*
+
+* *Businesses are being forced to adapt or risk being left behind.*
+
+* *There are also new governance challenges: who’s responsible for agent mistakes, and will people lose important skills?*
+
+* *The "agent divide" may widen the established "digital divide" between those with informed access to performant and transparent AI agents and those who don't.*
+
+* *We need fair rules, better education, and to encode within these protocols the ability for humans to maintain agency.*
+
+---
+
 The Internet stands at a turning point. How we use our connected devices, browsers, mobile phones and the infrastructure of the Internet itself is being transformed by the interactions of agent-based AI systems.
 
 Anthropic’s Model Context Protocol (MCP) and Google’s Agent-to-Agent (A2A) framework are a necessary development that supports this structural shift. What interacting with the Internet will look like will change from human-centric browsing to agent-mediated interaction—and it will transform how information is consumed, services are delivered, and power is distributed across the digital universe. 
