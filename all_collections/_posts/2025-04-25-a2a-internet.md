@@ -2,7 +2,7 @@
 layout: post
 title: What an Autonomous Agent-based Digital World means for us?
 date: 2025-04-25
-categories: ["Agent to Agent", "A2A Protocol", "MCP Architecture", "Web4", "AI Agents", "Agentic", "Futurism", "Internet Evolution", "Distributed Systems", "Autonomous Systems", "Network Architecture", "Digital Transformation", "Emerging Technology", "Future Internet"]
+categories: ["Agent to Agent", "A2A Protocol", "MCP Architecture", "Web4", "AI Agents", "Agentic Web", "Protocol Governance", "Digital Divide", "Internet Evolution", "Agent Economy", "Human Agency", "Digital Transformation", "Dual-Layer Architecture", "Future Internet"]
 ---
 
 ![https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/a2a.gif](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/a2a.gif)
