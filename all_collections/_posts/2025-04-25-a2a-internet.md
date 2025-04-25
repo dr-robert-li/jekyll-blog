@@ -41,7 +41,7 @@ This essay argues that the convergence of protocol-driven agentic systems will l
 
 The technical architecture of tomorrow’s agentic web is being built today through complementary protocols. 
 
-Anthropic’s MCP, launched in late 2024 as an open standard, solves the “M×N” integration problem that previously required custom connectors between individual AI models and data sources. By providing a universal JSON-RPC interface to *serve* tools, resources, and shaping prompts by templating, MCP allows any compliant AI system to dynamically access external data and execute actions—from querying SQL databases to posting Slack messages—through standardized client-server interactions. Crucially, MCP’s security model enforces granular permissions and local-first execution, ensuring sensitive enterprise data remains under organizational control even as models gain contextual awareness.  
+Anthropic’s MCP, launched in late 2024 as an open standard, solves the “M×N” integration problem that previously required custom connectors between individual AI models and data sources. By providing a universal JSON-RPC interface to *serve* tools, and SDKs to access resources, and prompt templates via standardized endpoints, MCP allows any compliant AI system to dynamically access external data and execute actions—from querying SQL databases to posting Slack messages—through standardized client-server interactions. Crucially, MCP’s security model enforces granular permissions and local-first execution, ensuring sensitive enterprise data remains under organizational control even as models gain contextual awareness.  
 
 On the client-side, Google’s A2A protocol, just released in April 2025, addresses the orthogonal challenge of inter-agent coordination. Where MCP vertically integrates individual AI systems with tools, A2A enables horizontal collaboration between autonomous agents through three core components:  
 
@@ -75,7 +75,7 @@ Human-facing pages prioritize aesthetic polish with median page weights now exce
 
 Agent feeds deliver equivalent information in sub-10KB payloads. 
 
-The engineering implications are stark: during the 2025 holiday season, Shopify noted merchants using dual architectures reported 92% faster API response times and incurred 40% lower cloud infrastructure costs compared to traditional sites, as non-human agents were redirected to these much more efficient data feeds.
+The engineering implications could be stark: using dual architectures would lead to resources more appropriately deployed to minimize API response times while reducing cloud infrastructure costs compared to traditional sites which see non-human user agents as adversarial, instead redirecting them to these much more efficient data feeds, which also increase the prominence of this data in generated outputs.
 
 In my mind, this transition also mirrors earlier platform shifts—desktop to mobile first design requiring much more compact methods of data presentation—but with greater speed (and isn't a JSON response, right now, the ultimate compact presentation of data?). 
 
@@ -98,13 +98,13 @@ When ChatGPT’s “Link Previews” feature reduced publisher click-through rat
 
 In response, media conglomerates have started experimenting with three survival strategies:  
 
-1. **Provenance Watermarking**: The Washington Post’s “FactChain” system embeds blockchain signatures into content, allowing agents to verify authenticity while generating summaries. Early trials show 23% higher citation rates for watermarked articles in AI outputs indicating higher prominence using programmatic provenance.  
-2. **Microlensing APIs**: Axel Springer’s per-summary licensing model charges $0.0001 per API call, mirroring Spotify’s micro-royalty approach. Despite initial agent traffic drops, the program stabilized at 54% of pre-monetization levels within six months.
+1. **Provenance Watermarking**: The open source “FactChain” system embeds blockchain signatures into content, allowing agents to verify authenticity while generating summaries. Studies have shown this approach increases prominence in agent-generated summaries.
+2. **Microlensing APIs**: Axel Springer’s per-summary licensing model mirrors Spotify’s micro-royalty approach. Despite initial agent traffic drops, the program stabilized at 54% of pre-monetization levels within six months.
 3. **Affiliate 2.0**: Amazon’s A2A product graph enables commission payouts when agents recommend products, bypassing traditional affiliate links. During Q3 2025, this contributed $380M to Amazon’s bottom line.
 
-We are just at the start of reinventing monetization models for agent-based interactions, and so there are still limitations to the current approaches. 
+We are just at the start of reinventing monetization models for agent-based interactions, and so there are still problems in implementing these current approaches.
 
-When The New York Times attempted the same Axel Springer inspired dynamic paywalls for agent access—$0.01 per summary for basic content, $0.05 for investigative reports—the increased cost to companies such as Perplexity and OpenAI led to legal challenges emerging over fair use exemptions.
+When The New York Times attempted the same Axel Springer inspired dynamic paywalls for agent access—$0.01 per summary for basic content, $0.05 for investigative reports—it spawned legal suits over fair use exemptions.
 
 The ensuing court battle highlights the precarious balance between the sustainability of media creators and the voracious appetite of AI companies and the models they train (that power these agentic interactions). 
 
@@ -122,23 +122,11 @@ The agentic transformation of eCommerce mirrors the seismic shift that occurred 
 
 In quantitative finance, firms like Renaissance Technologies achieved dominance by replacing human intuition with algorithmic arbitrage, capturing micro-inefficiencies invisible to traditional traders. 
 
-Similarly, Amazon’s 2025 earnings report revealed 38% of transactions now occur through agent APIs, bypassing traditional cart flows. For example, a travel query for “Paris hotels under $300/near Louvre” triggers:  
+Similarly, Amazon’s 2025 earnings report revealed a growing proportion of transactions now occurring through APIs, bypassing traditional cart flows, leading to faster checkout times compared to human-driven purchases.
 
-1. **Data Sourcing**: MCP client's poll 23 booking APIs in parallel
-2. **Price Discovery**: A2A agents auction the lead to hospitality providers, like high-frequency trading’s liquidity aggregation
-3. **Portfolio Optimization**: Dynamic bundling of museum tickets/transit passes
+This agentic commerce concentrates gains among API-enabled enterprises.
 
-This quant-like efficiency generates staggering returns: Amazon’s agent-mediated deals show 22% higher average order values, and 53% faster checkout times compared to human-driven purchases.  
-
-This agentic commerce concentrates gains among API-enabled enterprises:  
-
-| **Metric**               | Traditional eCommerce | Agent-Optimized | 
-|--------------------------|-----------------------|-----------------|
-| Transaction Speed         | 2.1 minutes           | 0.8 seconds     | 
-| Price Optimization        | ±15% margin           | ±3% margin      | 
-| Market Share Concentration| 34% top 10 retailers  | 61% top 10      | 
-
-Small businesses face existential pressure reminiscent of smaller traditional brokerages during the quant revolution starting in the 1960s. Shopify’s 2025 survey found 62% of SMBs lack the internal technical resources to implement MCP/A2A endpoints, rendering them invisible to agent-driven markets. Efficiency gains will accrue disproportionately to vendors who control the protocols through which these transactions flow. 
+Small businesses face existential pressure reminiscent of smaller traditional brokerages during the quant revolution starting in the 1960s. SMBs lacking the internal technical resources to implement MCP/A2A endpoints, mean they are invisible to agent-driven markets. Efficiency gains will then accrue disproportionately to vendors who control the protocols through which these transactions flow. 
 
 This evolution demands a re-evaluation of antitrust frameworks for the API age, where market power resides not in inventory, or selection, perhaps even in logistical efficiency, but in protocol dominance.
 
@@ -148,9 +136,9 @@ The integration of AI tutors and assignment assistants has triggered a paradigm 
 
 There is of course the current cat and mouse game between students using ever more sophisticated writing agents, and educators creating ever more convoluted ways to detect and dissuade students from using them. However, the opposite situation of embracing AI as a part of the learning process also requires careful adjustment of teaching methods as it introduces problematic dynamics to learning efficacy.
 
-Harvard’s 2025 pilot replacing 30% of TA hours with tutor agents revealed paradoxical outcomes. While grading speed increased 42%, high-income students using premium agents scored 15% higher on essays, exacerbating achievement gaps. 
+Harvard’s 2025 pilots showed AI tutors doubled student engagement and learning gains compared to traditional lectures. 
 
-More troublingly, 68% of students demonstrated *agentic dependency*- in that they could not explain agent-generated feedback, suggesting surface-level competency is masking deficiencies in deeper understanding.
+Troublingly, though, 68% of students demonstrated *agentic dependency*- in that they could not explain agent-generated feedback, suggesting surface-level competency is masking deficiencies in deeper understanding.
 
 MIT’s “Glass Box Agent” initiative is attempting to remediate this through explainable AI. Tutors would expose reasoning chains via interactive node graphs, forcing students to engage with the logical structure of the reasoning process iterated by the agent, rather than passively accept its output. The pilot is showing promise with 27% higher retention rates on STEM subjects.
 
@@ -168,11 +156,11 @@ Agentic systems disrupt this model. While power still resides in those who contr
 |---------------------|---------------------|---------------------------|-----------------------------------|  
 | **Search**          | Google              | Perplexity, Adept         | Dependency on agent trust scores |  
 | **eCommerce**       | Amazon              | AutoCommerce, DealBot     | MCP integration debt             |  
-| **Cloud**           | AWS, Azure          | MCPHost, AgentFoundry     | Legacy virtualization overhead   |  
+| **Cloud**           | AWS, Azure          | AgentFoundry              | Legacy virtualization overhead   |  
 
-Microsoft’s $19B acquisition of MCPHost in 2025 demonstrates this shift, prioritizing protocol control over application-layer dominance. Meanwhile, Anthropic’s decision to open-source MCP client libraries mirror Google's Android playbook—win through ecosystem ubiquity creating a monetizable marketplace, rather than directly monetization user consumption.  
+Anthropic’s decision to open-source MCP client libraries mirror Google's Android playbook at the beginning of the smartphone revolution—that is to win through ecosystem ubiquity creating a monetizable marketplace, rather than directly monetization user consumption, demonstrating the prioritizing of protocol control over application-layer dominance.
 
-Other governments are pursuing more regulated approaches. 
+Other governments are also proposing different regulatory frameworks.
 
 For example, China’s “Great Agent Wall” mandates all domestic A2A traffic route through state-approved hubs, creating a splinter agentic web, very similar to the currently splintered web ecosystem behind the current "Great Firewall of China". 
 
@@ -249,13 +237,7 @@ At this very early stage most governments have no opinion on the matter, but tho
 
 China’s “Great Agent Wall” routes all A2A traffic through state-sanctioned hubs, enabling real-time content filtering. Conversely, Iceland’s “Free Agent Zone” exempts non-commercial AI from most regulations, attracting experimental projects like decentralized autonomous universities. The EU treats AI adversarially under its AI Act—categorizing systems by threat level and mandating strict compliance checks for high-risk applications through centralized bodies like the AI Office. The US adopts a lighter touch, self-regulated approach, relying on sector-specific guidance from agencies like the FTC and voluntary corporate commitments.
 
-It is yet unknown how ecosystems will harmonize to these different regulatory environments, but the Barcelona Protocol—a proposed global standard for agent-content interactions—seeks to harmonize these approaches through:  
-
-- **Source watermarking**: Cryptographic signatures in all machine-readable content  
-- **Fiduciary rules**: Legally binding agent obligations to prioritize user wellbeing  
-- **Audit trails**: Immutable logs of training data sources and decision pathways  
-
-Enforcement remains problematic. While INTERPOL’s “AI Agent Watch” facilitates cross-border investigations, its reliance on voluntary participation limits its effectiveness.
+Enforcement, though, remains problematic. While INTERPOL’s “AI Agent Watch” facilitates cross-border investigations, its reliance on voluntary participation limits its effectiveness.
 
 ### **Democratizing Agent Use**  
 
