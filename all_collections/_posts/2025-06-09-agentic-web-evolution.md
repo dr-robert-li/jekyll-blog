@@ -40,7 +40,7 @@ Your car greets you with "Good morning. Route to Blue Bottle calculated. Estimat
 
 During the drive, you say to your phone attached to the dash, "Hey Google, Help me prep for tomorrow's presentation on quarterly metrics." Your phone switches screens and starts rattling off key talking points. You give it some more directions and see them appearing as you speak them aloud, organizing your thoughts into a coherent outline.
 
-You reach your office and as you're walking ot your desk, you pull out your phone one more time, "Hey Google, Pull up everything from yesterday's meetings and draft follow-up emails." Three emails appear in your drafts folder, they sound reasonable. You spend the next 10 minutes reviewing and sending them. 
+You reach your office and as you're walking to your desk, you pull out your phone one more time, "Hey Google, Pull up everything from yesterday's meetings and draft follow-up emails." Three emails appear in your drafts folder, they sound reasonable. You spend the next 10 minutes reviewing and sending them. 
 
 You never opened a web browser. You never typed a URL. You never clicked through search results nor scrolled through apps looking for what you needed. At no point did you actually "go on the internet" in the traditional sense. Yet every single interaction depended entirely on internet infrastructure, data exchange, and digital services. This is becoming our new normal—a post-browser world where the internet has become invisible infrastructure rather than a destination we visit.
 
