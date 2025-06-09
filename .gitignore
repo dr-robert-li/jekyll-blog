@@ -4,3 +4,11 @@ _site/
 .jekyll-metadata
 .DS_Store
 all_collections/.DS_Store
+*.code-workspace
+
+# Tools and dependencies
+tools/
+venv/
+__pycache__/
+*.pyc
+*.pyo
