@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Evolution of Human-Internet Interaction: Toward a New Information Architecture
+title: "The Evolution of Human-Internet Interaction: Toward a New Information Architecture"
 date: 2025-06-09
 categories: [Internet Evolution, AI Agents, Information Architecture, Human-Computer Interaction, Digital Transformation, Agentic Web, Conversational AI, Post-Browser Era, Semantic Web, Technology Adoption, Digital Infrastructure, Future Web, Agent-Mediated Computing, Information Systems]
 ---
