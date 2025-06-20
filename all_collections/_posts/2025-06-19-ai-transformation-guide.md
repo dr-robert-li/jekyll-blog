@@ -73,7 +73,7 @@ These positions exist now. About 100 GTM Engineer job listings go live monthly. 
 
 ## Preparing for Transformation
 
-But that is the distant future, not the now, and in the now, success depends on your strategic positioning to thrive alongside AI. The key is developing "collaborative intelligence"—the ability to work with AI systems while maintaining human value.
+But in the now, success depends on your strategic positioning to thrive alongside AI. The key is developing "collaborative intelligence"—the ability to work with AI systems while maintaining human value.
 
 The critical transformation is adopting the "AI Mindset"—shifting from viewing AI as threat to embracing it as productivity multiplier. Research shows leaders approaching AI with curiosity leverage its capabilities better than those with anxiety (Stanford University, 2024). Neuroscience reveals embracing AI rewires neural pathways for adaptability, resilience, and creative thinking (MIT Technology Review, 2024).
 
