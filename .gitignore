@@ -17,6 +17,7 @@ __pycache__/
 CLAUDE-TEMPLATE.md
 **/CLAUDE-TEMPLATE.md
 WRITING-GUIDE.md
+**/WRITING-GUIDE.md
 
 # Environment and secret files
 .env
