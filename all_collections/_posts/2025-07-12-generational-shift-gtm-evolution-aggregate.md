@@ -151,24 +151,17 @@ Most critically, this cannot be seen as a temporary market oscillation. This is 
 
 ## Evolution or Obsolescence
 
-B2B commerce has fundamentally transformed. Traditional sales methodologies rooted in personal relationships and manual processes face a slow but inexorable decline as Millennials, Gen Z and soon, Gen Alpha, impose their digital-first worldview on purchasing decisions.
+B2B commerce has fundamentally transformed. Traditional sales methodologies face inexorable decline as Millennials and Gen Z—representing 75% of B2B buyers and $12 trillion in spending power—impose their digital-first worldview on purchasing decisions. Organizations implementing GTM engineering capture decisive advantages through superior efficiency, personalization, and buyer experience quality.
 
-Organizations implementing GTM engineering—combining artificial intelligence, automation, and self-service platforms—will capture decisive competitive advantages through superior efficiency, personalization, and buyer experience quality.
+The Mad Men era has faded—it's been ignored by a cohort that associates it with waste and inefficiency. Algorithmic efficiency, transparent value demonstration, and buyer autonomy now define commercial success.
 
-Companies delaying adaptation risk obsolescence as younger generations channel their spending power toward digitally-native competitors. The Mad Men era is fading—grasping for relevance against demographic realities that are redefining commercial expectations. Algorithmic efficiency, transparent value demonstration, and buyer autonomy now define commercial success. Traditional approaches are becoming increasingly marginalised to select audiences; but increasingly divergent with contemporary market requirements.
+Those clinging to relationship-based models as a primary GTM strategy face increasing irrelevance as buying power concentrates among generations viewing traditional sales as intrusive and obstructive.
 
-Forrester's projections paint a clear picture: Millennials and Gen Z represent 75% of B2B buyers in 2025 (Forrester Research, 2024). Their influence isn't growing—it's already dominant. The momentum? Unstoppable. These two generations account for $12 trillion in collective spending power and represents the largest consumer cohort in modern history. Their preferences play a major role in determining an organization’s market success.
+As Generation Alpha approaches the workforce, their expectations that will make today's self-service preferences seem conservative. Their formative experiences with AI and instant gratification create a trajectory that only accelerates toward digital-first commerce.
 
-Organizations that fail to realign their commercial architecture with these demographic realities face inevitable obsolescence as buying power concentrates among generations that view traditional sales approaches as intrusive, inefficient, and irrelevant. 
+This demographic momentum is natural and irreversible. The market doesn't care about your sales methodology preferences or organizational traditions—it only cares about meeting buyers where they are. And increasingly, they're anywhere but in traditional sales funnels.
 
-Looking ahead to 2035, and digital-native buyers will dominate completely. Generation Alpha, supplanting Baby Boomers and increasingly outnumbering the Gen X cohort, will exhibit even stronger preferences for digital autonomy and automated efficiency. Their formative experiences with voice assistants, artificial intelligence, and instant gratification will create expectations that make current self-service preferences appear conservative by comparison. 
-
-The evidence is unambiguous and the demographic trajectory irreversible. The Mad Men era has ended, and the future belongs to organizations that master the delicate balance between algorithmic efficiency and human expertise in service of generational preferences that intensify with each cohort. The market doesn't care about your sales methodology preferences or organizational traditions—it only cares about meeting buyers where they are.
-
-And increasingly, they're anywhere but in traditional sales funnels. Organizations building GTM engineering capabilities today position themselves for sustained relevance with these emerging buyer cohorts.
-
-The age of machines has arrived, orchestrated by human’s savvy enough to harness their power. The question isn't whether this transformation will continue—it's whether you'll be one of them.
-
+The age of machines has arrived, orchestrated by humans savvy enough to harness their power. The question isn't whether this transformation will continue—it's whether you'll be among those who architect this it.
 ---
 
 ## References
