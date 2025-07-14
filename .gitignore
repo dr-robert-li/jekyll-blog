@@ -12,3 +12,5 @@ venv/
 __pycache__/
 *.pyc
 *.pyo
+CLAUDE-TEMPLATE.md
+WRITING-GUIDE.md
