@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Technology Adoption Curves and Innovation S-Curves: The Mathematical Foundations of Digital Transformation from Telegraph to AI-Native Ecosystems"
+title: "Technology Adoption Curves and Innovation S-Curves: The maths behind AI transformation"
 date: 2025-07-28
 categories: [Technology Adoption, Innovation Curves, S-Curve Analysis, Digital Transformation, AI Technology, Bass Diffusion Model, Technology Investment, Information Consumption, WordPress Evolution, Technological Change, Mathematical Modeling]
 ---

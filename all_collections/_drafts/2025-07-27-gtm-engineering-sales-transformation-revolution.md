@@ -5,7 +5,7 @@ date: 2025-07-27
 categories: [GTM Engineering, Sales Organizations, Revenue Operations, Sales Transformation, AI in Sales, Sales Productivity, CRM Automation, Sales Tech Stack, Revenue Growth, Digital Transformation, B2B Sales, Sales Innovation]
 ---
 
-![GTM Engineering Sales Transformation](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/gtm-engineering-transformation.png)
+![GTM Engineering Sales Transformation](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/tech-rep.jpg)
 
 ---
 
