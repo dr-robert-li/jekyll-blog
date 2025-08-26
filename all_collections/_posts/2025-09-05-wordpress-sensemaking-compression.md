@@ -231,4 +231,10 @@ We are moving from publishing pages to publishing **knowledge objects**. From ch
 
 As WordPress professionals, we are not bystanders. We are the soil in which this new web is being grown. Our content will either be the raw material AI selects—or it will be bypassed.  
 
-The click may be optional. But our value isn’t.
+The click may be optional. But our value isn't.
+
+---
+
+## Addendum
+
+*This article was adapted from a speech originally presented at the WordPress Meetup in the Sunshine Coast on September 5th, 2025.*
