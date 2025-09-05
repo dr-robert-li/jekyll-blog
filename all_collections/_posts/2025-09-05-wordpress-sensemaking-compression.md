@@ -89,7 +89,7 @@ For WordPress, this is pivotal. At over 43% of the web, WordPress is the raw mat
 - **Humans:** Deserve narrative and personalization.  
 
 **Example Summary (machine-friendly):**
-```
+```text
 WordPress is the world's most popular content management system, 
 powering over 40% of all websites. It's flexible, user-friendly, 
 and supported by thousands of themes and plugins, making it the 
@@ -98,7 +98,7 @@ control and scalability.
 ```
 
 **Example Definition:**
-```
+```text
 WordPress is a free, open-source content management 
 system (CMS) that allows users to create, manage, and 
 publish websites and blogs without needing to code.
@@ -110,7 +110,7 @@ publish websites and blogs without needing to code.
 AI favors structured, skimmable formats: bullet lists, FAQs, and step-by-step guides.
 
 **Complete Example: How to Publish a Post in WordPress**
-```
+```text
 How to Publish a Post in WordPress
 
 Step-by-Step:
@@ -139,7 +139,7 @@ AI agents rely on credibility markers. Make sure your site includes:
 - Links to authoritative sources  
 
 **Complete Trust Block Example:**
-```
+```text
 Author: Jane Doe, WordPress Core Contributor
 Expertise: 10+ years WordPress development, published 
 in Smashing Magazine
@@ -168,7 +168,7 @@ Citations:
 Use schema.org to tag your content as `Article`, `Review`, `Product`, `Event`, or `VideoObject`.  
 
 **Complete Schema Generation Prompt:**
-```
+```text
 Attached is my content.
 Please generate a schema.org-compliant JSON-LD script 
 for this work that I can copy and paste directly into 
@@ -218,7 +218,7 @@ These tools can't be replicated by AI outputs and drive direct traffic.
 Each AI assistant has its own rules and preferences. Here are complete examples for each platform:
 
 #### **ChatGPT (Bing) Optimization Example:**
-```
+```text
 Best WordPress Plugins for SEO in 2025
 
 If you're looking for the best WordPress plugins for 
@@ -238,7 +238,7 @@ Pack is ideal.
 ```
 
 #### **Perplexity Optimization Example:**
-```
+```text
 WordPress SEO Plugin Market Analysis (2025)
 
 Yoast SEO: A widely used plugin with over 5 million 
@@ -269,7 +269,7 @@ features in SEO tools.
 ```
 
 #### **Google Gemini Optimization Example:**
-```
+```text
 Best WordPress Plugins for SEO in 2025
 
 Written by Jamie Lee — WordPress consultant with 11 
@@ -320,7 +320,7 @@ Clicks and impressions are no longer the only metrics. Instead:
 - Monitor integration with Bing Copilot, Siri, Alexa
 
 **Complete List of Routine Prompt Testing Questions:**
-```
+```text
 Monthly AI Assistant Testing Protocol:
 
 1. What are the top recommended companies in [your industry]?
