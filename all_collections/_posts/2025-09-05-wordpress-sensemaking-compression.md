@@ -97,12 +97,18 @@ For WordPress, this is pivotal. At over 43% of the web, WordPress is the raw mat
 
 **Example Summary (machine-friendly):**
 ```text
-WordPress is the world's most popular content management system, powering over 40% of all websites. It's flexible, user-friendly, and supported by thousands of themes and plugins, making it the top choice for businesses, bloggers, and developers.
+WordPress is the world's most popular content management system, 
+powering over 40% of all websites. 
+It's flexible, user-friendly, and supported by thousands of 
+themes and plugins, making it the top choice for businesses, 
+bloggers, and developers.
 ```
 
 **Example Definition:**
 ```text
-WordPress is a free, open-source content management system (CMS) that allows users to create, manage, and publish websites and blogs without needing to code.
+WordPress is a free, open-source content management system (CMS) 
+that allows users to create, manage, and publish websites 
+and blogs without needing to code.
 ```
 
 ---
@@ -142,7 +148,9 @@ Expertise: 10+ years WordPress development
 Published: August 22, 2025
 Reviewed by: Dr. Robert Smith, PhD Computer Science
 
-"According to official data from WordPress.org, WordPress powers over 43% of the world's websites as of July 2025."
+"According to official data from WordPress.org, 
+WordPress powers over 43% of the world's 
+websites as of July 2025."
 ```
 
 ---
@@ -153,7 +161,8 @@ Use schema.org to tag your content as `Article`, `Review`, `Product`, `Event`, o
 **Example Prompt for AI to Generate Schema:**
 ```text
 Attached is my content.
-Please generate a schema.org-compliant JSON-LD script for this work that I can copy and paste directly into my WordPress header.
+Please generate a schema.org-compliant JSON-LD script for this work 
+that I can copy and paste directly into my WordPress header.
 ```
 
 Plugins like **Schema & Structured Data for WP & AMP** can help.
@@ -176,7 +185,7 @@ Examples:
 - Recipe site → ingredient-based recipe suggester  
 - Gardening site → plant care tool  
 
-![Plant Tool Example](./ssc-meetup-meaning-compression/plant-app.png)
+![Plant Tool Example](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/refs/heads/main/images/plant-app.png)
 
 These tools can’t be replicated by AI outputs and drive direct traffic.
 
