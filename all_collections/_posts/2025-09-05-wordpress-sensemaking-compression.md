@@ -235,6 +235,6 @@ The click may be optional. But our value isn't.
 
 ---
 
-## Addendum
+## Note:
 
 *This article was adapted from a speech originally presented at the WordPress Meetup in the Sunshine Coast on September 5th, 2025.*
