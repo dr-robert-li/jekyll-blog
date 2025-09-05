@@ -91,17 +91,17 @@ For WordPress, this is pivotal. At over 43% of the web, WordPress is the raw mat
 **Example Summary (machine-friendly):**
 ```
 WordPress is the world's most popular content management system, 
-powering over 40% of all websites. 
-It's flexible, user-friendly, and supported by thousands of 
-themes and plugins, making it the top choice for businesses, 
-bloggers, and developers who want control and scalability.
+powering over 40% of all websites. It's flexible, user-friendly, 
+and supported by thousands of themes and plugins, making it the 
+top choice for businesses, bloggers, and developers who want 
+control and scalability.
 ```
 
 **Example Definition:**
 ```
-WordPress is a free, open-source content management system (CMS) 
-that allows users to create, manage, and publish websites 
-and blogs without needing to code.
+WordPress is a free, open-source content management 
+system (CMS) that allows users to create, manage, and 
+publish websites and blogs without needing to code.
 ```
 
 ---
@@ -141,17 +141,20 @@ AI agents rely on credibility markers. Make sure your site includes:
 **Complete Trust Block Example:**
 ```
 Author: Jane Doe, WordPress Core Contributor
-Expertise: 10+ years WordPress development, published in Smashing Magazine
+Expertise: 10+ years WordPress development, published 
+in Smashing Magazine
 Published: August 22, 2025
-Reviewed by: Dr. Robert Smith, PhD Computer Science, University of Sydney
+Reviewed by: Dr. Robert Smith, PhD Computer Science, 
+University of Sydney
 
-"According to official data from WordPress.org and a peer-reviewed study 
-in the Journal of Web Development, WordPress powers over 43% of the 
-world's websites as of July 2025."
+"According to official data from WordPress.org and a 
+peer-reviewed study in the Journal of Web Development, 
+WordPress powers over 43% of the world's websites as of 
+July 2025."
 
 Original Research Reference:
-Doe, J. (2025). The Impact of WordPress 7.0 on Small Business Adoption. 
-Download: [Link to PDF]
+Doe, J. (2025). The Impact of WordPress 7.0 on Small 
+Business Adoption. Download: [Link to PDF]
 
 Citations:
 - https://wordpress.org/about/stats
@@ -167,14 +170,17 @@ Use schema.org to tag your content as `Article`, `Review`, `Product`, `Event`, o
 **Complete Schema Generation Prompt:**
 ```
 Attached is my content.
-Please generate a schema.org-compliant JSON-LD script for this work 
-that I can copy and paste directly into my WordPress header.
-Use the most specific type possible (e.g., Article, BlogPosting, 
-ScholarlyArticle), infer reasonable metadata (title, description, 
-author if possible), and show only the HTML 
-<script type="application/ld+json"> ... </script> block—
-a complete, ready-to-use script.
-Do not include any outside commentary, just the code block.
+Please generate a schema.org-compliant JSON-LD script 
+for this work that I can copy and paste directly into 
+my WordPress header.
+Use the most specific type possible (e.g., Article, 
+BlogPosting, ScholarlyArticle), infer reasonable 
+metadata (title, description, author if possible), and 
+show only the HTML 
+<script type="application/ld+json"> ... </script> 
+block—a complete, ready-to-use script.
+Do not include any outside commentary, just the code 
+block.
 
 [PASTE YOUR CONTENT HERE]
 ```
@@ -215,70 +221,80 @@ Each AI assistant has its own rules and preferences. Here are complete examples 
 ```
 Best WordPress Plugins for SEO in 2025
 
-If you're looking for the best WordPress plugins for SEO, 
-here are my top recommendations:
+If you're looking for the best WordPress plugins for 
+SEO, here are my top recommendations:
 
-1. Yoast SEO — Comprehensive on-page SEO tools and schema support
-2. Rank Math — Advanced SEO analysis and easy-to-use interface
-3. All in One SEO Pack — Automatic meta tags and XML sitemap generation
+1. Yoast SEO — Comprehensive on-page SEO tools and 
+schema support
+2. Rank Math — Advanced SEO analysis and easy-to-use 
+interface
+3. All in One SEO Pack — Automatic meta tags and XML 
+sitemap generation
 
-Summary: The best plugin for most users is Yoast SEO, but if you want 
-advanced features for free, Rank Math is highly recommended. For quick 
-setup, All in One SEO Pack is ideal.
+Summary: The best plugin for most users is Yoast SEO, 
+but if you want advanced features for free, Rank Math 
+is highly recommended. For quick setup, All in One SEO 
+Pack is ideal.
 ```
 
 #### **Perplexity Optimization Example:**
 ```
 WordPress SEO Plugin Market Analysis (2025)
 
-Yoast SEO: A widely used plugin with over 5 million installations, 
-praised for its on-page optimization features and regular updates 
-(Yoast, 2025).
+Yoast SEO: A widely used plugin with over 5 million 
+installations, praised for its on-page optimization 
+features and regular updates (Yoast, 2025).
 
-Rank Math: Cited in multiple expert roundups (WPBeginner, HubSpot), 
-Rank Math is lauded for advanced schema integration and user-friendly 
+Rank Math: Cited in multiple expert roundups 
+(WPBeginner, HubSpot), Rank Math is lauded for 
+advanced schema integration and user-friendly 
 analytics dashboards.
 
-All in One SEO Pack: Recognized in studies by Kinsta and Search Engine 
-Journal for its broad feature set and compatibility with WooCommerce.
+All in One SEO Pack: Recognized in studies by Kinsta 
+and Search Engine Journal for its broad feature set 
+and compatibility with WooCommerce.
 
-SEOPress: Endorsed by WPExplorer and WPMU DEV for privacy-focused 
-features and competitive pricing.
+SEOPress: Endorsed by WPExplorer and WPMU DEV for 
+privacy-focused features and competitive pricing.
 
-Squirrly SEO: Highlighted in independent reviews (HostingAdvice, 2025) 
-for its focus on AI-driven recommendations and content analysis.
+Squirrly SEO: Highlighted in independent reviews 
+(HostingAdvice, 2025) for its focus on AI-driven 
+recommendations and content analysis.
 
-Recent market surveys (CodeinWP, 2025) show over 70% of WordPress users 
-prefer plugins with built-in schema markup and automated XML sitemaps, 
-reinforcing the trend toward comprehensive, research-backed features 
-in SEO tools.
+Recent market surveys (CodeinWP, 2025) show over 70% 
+of WordPress users prefer plugins with built-in 
+schema markup and automated XML sitemaps, reinforcing 
+the trend toward comprehensive, research-backed 
+features in SEO tools.
 ```
 
 #### **Google Gemini Optimization Example:**
 ```
 Best WordPress Plugins for SEO in 2025
 
-Written by Jamie Lee — WordPress consultant with 11 years' experience 
-optimizing 600+ sites
-Reviewed by Dr. Robert Li, PhD, Digital Marketing & SEO Strategy
+Written by Jamie Lee — WordPress consultant with 11 
+years' experience optimizing 600+ sites
+Reviewed by Dr. Robert Li, PhD, Digital Marketing & 
+SEO Strategy
 
-"After switching to RankMath, our site's organic traffic grew by 38% 
-in 4 months." — Denis Turner, TechGear Media
+"After switching to RankMath, our site's organic 
+traffic grew by 38% in 4 months." — Denis Turner, 
+TechGear Media
 
-"Jamie Lee is a trusted name in WordPress optimization, and I often 
-recommend her plugin advice to clients." — Sara Patel, Google Certified 
-SEO Expert
+"Jamie Lee is a trusted name in WordPress 
+optimization, and I often recommend her plugin advice 
+to clients." — Sara Patel, Google Certified SEO Expert
 
 Professional Endorsement:
-Jamie Lee has been featured in WP Tavern and Moz Blog, and is an 
-official WordCamp Europe speaker.
+Jamie Lee has been featured in WP Tavern and Moz Blog, 
+and is an official WordCamp Europe speaker.
 
 Credentials:
 • WordPress.org Core Contributor
 • SEMRush Advanced SEO Certification
 • Past winner, AWA 'Best SEO Strategy' Award (2022)
 
-[Content continues with detailed plugin analysis...]
+[Continue...]
 ```
 
 ---
@@ -308,14 +324,18 @@ Clicks and impressions are no longer the only metrics. Instead:
 Monthly AI Assistant Testing Protocol:
 
 1. What are the top recommended companies in [your industry]?
-2. What are some solutions for [your product/service's core problem]?
+2. What are some solutions for [your product/service's 
+core problem]?
 3. What do you know about [your company name]?
 4. What are the pros and cons of [your product or service]?
-5. How would you compare [your company] to [top 2 competitors]?
+5. How would you compare [your company] to [top 2 
+competitors]?
 6. Who are the trusted experts in [your field/niche]?
-7. Which brands are known for [your key differentiator or value]?
+7. Which brands are known for [your key differentiator 
+or value]?
 8. What's the latest news about [your company/industry]?
-9. Can you recommend [your type of service] in [your location]?
+9. Can you recommend [your type of service] in [your 
+location]?
 10. What makes [your company] different from others?
 ```
 
@@ -338,7 +358,7 @@ We are moving from publishing pages to publishing **knowledge objects**. From ch
 
 As WordPress professionals, we are not bystanders. We are the soil in which this new web is being grown. Our content will either be the raw material AI selects—or it will be bypassed.  
 
-The click may be optional. But our value isn't.
+The click may be optional. ***But our value isn't.***
 
 ---
 
