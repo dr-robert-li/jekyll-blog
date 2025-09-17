@@ -346,13 +346,13 @@ This transformation acknowledges that in a world where AI handles routine knowle
 
 ## Choosing your edge
 
-Margaret Patterson understood something fundamental that March morning in 1979, something that transcends the specific technology that displaced her. Standing in her kitchen, holding that blank punch card up to the light, she grasped the essential truth: when everyone can do the work, value migrates to understanding what the work means.
+Margaret Patterson understood something fundamental that March morning in 1979, something that transcends the specific technology that displaced her. She grasped the essential truth: when everyone can do the work, value migrates to understanding what the work means.
 
 The punch card operators who thought their jobs were secure because "someone has to input the data" mirror today's knowledge workers who believe their roles are safe because "someone has to write the content" or "someone has to code the website" or "someone has to analyze the data."
 
 They're right, of course. Someone does have to do these things. But increasingly, that someone is anyone with an AI assistant.
 
-Margaret's story reminds us that technological displacement follows predictable patterns, but it also teaches us something more profound: those who survive and thrive aren't necessarily the most skilled at the old way of working. They're the ones who recognize the shift early and position themselves where the new technology cannot reach.
+Her story reminds us that technological displacement follows predictable patterns, but it also teaches us something more profound: those who survive and thrive aren't necessarily the most skilled at the old way of working. They're the ones who recognize the shift early and position themselves where the new technology cannot reach.
 
 The punch card operators who successfully transitioned didn't try to punch cards faster or more accurately—that race was already lost. Instead, they moved into database design, systems analysis, data architecture. They shifted from executing tasks to understanding systems. 
 
