@@ -111,7 +111,7 @@ But Margaret's final insight—that when everyone can do the work, value shifts 
 
 This transformation follows a pattern as old as industrialization itself, yet its current incarnation threatens to create the most expansive labor market polarization in human history. To understand where we're heading, we must first understand where we've been.
 
-## Specialization and Economic Inequality: A Historical Perspective
+## Specialization and Economic Inequality: An Historical Perspective
 
 The relationship between increasing economic specialization and inequality extends back to humanity's first agricultural settlements. Yet contrary to popular assumption, specialization doesn't inherently cause inequality—rather, the institutional framework determines whether specialization's productivity gains are shared broadly or captured by elites.
 
