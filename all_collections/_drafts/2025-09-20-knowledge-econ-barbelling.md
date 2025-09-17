@@ -79,7 +79,9 @@ Margaret returned to her desk in a daze. Her colleagues—Dorothy, Helen, Rita, 
 
 She sat at her keypunch for the last time, running her fingers over the familiar keys. Beside her monitor sat a half-finished stack of cards and a box containing over 200 blank cards that would never be punched. The rhythm that had defined her adult life—*clack-clack-punch*—fell silent.
 
-At 4:45 PM, Margaret Patterson gathered her personal items, said goodbye to her colleagues, and walked past the new computer terminals toward the elevator. She never processed another punch card, and by 1981, the IBM keypunch machines were sold for scrap metal.
+At 4:45 PM, Margaret Patterson gathered her personal items, said goodbye to her colleagues, and as she walked past the new computer terminals toward the elevator she paused and muttered to herself, "When everyone can type directly into these things, who's going to understand what all this data actually means?" 
+
+She never processed another punch card, and by 1981, the IBM keypunch machines were sold for scrap metal.
 
 The last entry in her small notebook read: "March 15, 1979 - 247 cards - Total: 2,367,432 cards punched..."
 
@@ -101,9 +103,9 @@ But, between 1979-1981 when many of the initial teething problems of these syste
 
 As with all major technological shifts—including our current early period of mass adoption of AI in the workplace—there were periods of uncertainty before disruption became permanent. Most operators were blindsided not because change was impossible to foresee, but because its speed and implications were deeply underestimated. As Hemingway would describe how it happened, "...Two ways. Gradually, then suddenly." 
 
-Margaret Patterson's story from 1979 isn't just historical narrative—it's a socio-technological pattern that has repeated throughout human history. The same technological displacement that transformed her from essential specialist to obsolete generalist is now accelerating with artificial intelligence, but with a crucial difference: this time, the transformation targets knowledge work itself.
+Margaret Patterson's story from 1979 isn't just historical narrative—it's a socio-technological pattern that has repeated throughout human history. The same technological displacement that transformed her from essential specialist to obsolete generalist is now happening with artificial intelligence, but with a crucial difference: this time, the transformation targets more deeply held knowledge work itself.
 
-In 1979, direct data entry democratized information input. In 2025, Large Language Models democratize knowledge output. The parallel is precise, uncomfortable, and undeniable. Just as Margaret's specialized skill of punch card operation became worthless when anyone could type on a keyboard, today's generalist knowledge workers watch their capabilities replicated by anyone with access to ChatGPT, Claude, or Gemini.
+In 1979, direct data entry democratized information input. In 2025, Large Language Models have democratized knowledge output. The parallel is precise, uncomfortable, and undeniable. Just as Margaret's specialized skill of punch card operation became worthless when anyone could type on a keyboard, today's generalist knowledge workers watch their capabilities replicated by anyone with access to ChatGPT, Claude, or Gemini.
 
 But Margaret's final insight—that when everyone can do the work, value shifts to understanding what the work means—has never been more relevant. The question isn't whether AI will transform knowledge work. It already has. The question is whether you'll be Margaret, or whether you'll position yourself where the machines cannot reach: in the deep, narrow spaces of genuine expertise that intersect multiple contexts.
 
