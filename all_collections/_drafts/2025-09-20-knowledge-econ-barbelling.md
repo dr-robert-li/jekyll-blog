@@ -97,6 +97,8 @@ The transition to direct data entry was expensive, complicated, and not always i
 
 Operators assumed these devices would supplement—not replace—them, and most organizations reported little short-term cost savings, often associated with productivity loss.
 
+But, between 1979-1981 when many of the initial teething problems of these systems became solved issues the elimination of punch card operations happened with shocking speed. Unlike gradual workforce transitions, punch card obsolescence within individual organizations typically occurred within weeks or months, leaving experienced operators with little time to retrain or transition to other roles.
+
 As with all major technological shifts—including our current early period of mass adoption of AI in the workplace—there were periods of uncertainty before disruption became permanent. Most operators were blindsided not because change was impossible to foresee, but because its speed and implications were deeply underestimated. As Hemingway would describe how it happened, "...Two ways. Gradually, then suddenly." 
 
 Margaret Patterson's story from 1979 isn't just historical narrative—it's a socio-technological pattern that has repeated throughout human history. The same technological displacement that transformed her from essential specialist to obsolete generalist is now accelerating with artificial intelligence, but with a crucial difference: this time, the transformation targets knowledge work itself.
