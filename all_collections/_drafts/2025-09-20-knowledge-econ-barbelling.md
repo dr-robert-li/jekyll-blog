@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI is turning Digital Skills Into Tomorrow's Punch Cards: The Great Knowledge Worker Cull starts in 2025"
+title: "AI turning Digital Skills Into Tomorrow's Punch Cards"
 date: 2025-09-20
 categories: [WordPress, AI Technology, Knowledge Economy, Digital Transformation, Labor Markets, Professional Development, Economic Inequality, Workforce Evolution, Specialization Strategy, Future of Work]
 ---
