@@ -35,9 +35,9 @@ categories: [Information Systems, User Behavior, AI Search, Digital Marketing, S
 ### The Great Disappearing Act of Web Traffic
 
 > **Key Metrics:**
-> - **71%** - Sources appear on only ONE platform
-> - **7%** - Universal sources (all 4 platforms)
-> - **15:1** - Traditional search vs AI CTR ratio
+> 71% of sources appear on only ONE AI platform
+> 7% of sources are Universal (across ChatGPT, Claude, Perplexity and Gemini)
+> 15:1 - The traditional search vs AI CTR ratio
 
 The emergence of AI-generated citations represents a documented shift in digital information consumption patterns that challenges established models of online attention distribution. While traditional search results commanded user engagement through visible rankings and predictable click-through behaviors, AI-generated citations operate through different attention mechanisms where source authority attribution occurs without corresponding visitor engagement (Pew Research Center, 2025).
 
