@@ -533,18 +533,6 @@ Data in multiple recent studies makes clear that this transformation is already 
 
 ---
 
-### Key Empirical Findings
-
-1. **Platform Gatekeeping:** 71% of sources appear on only one platform, confirming extreme fragmentation in AI citation ecosystems.
-
-2. **Authority Paradox:** Just 7% of sources achieve universal recognition across all 4 platforms (Google, Wikipedia, YouTube dominate).
-
-3. **Concentration Patterns:** Gemini shows highest Gini coefficient (0.351), while ChatGPT demonstrates most democratic distribution (0.164).
-
-4. **Community Revolution:** User-generated content (Reddit, forums) receives disproportionate weight in AI responses, validating the "UGC Revolution" thesis.
-
-5. **Traffic Implications:** With 95-96% referral reduction and 1% CTR on citations, traditional traffic models face existential disruption.
-
 ## An Executive Summary of the Meta-Analysis
 
 This analysis establishes through multiple peer-reviewed and industry research sources, validated by the most comprehensive empirical studies of AI platform usage to date, that AI-generated citations represent a documented transformation in how users discover, engage with, and attribute value to information sources. The evidence demonstrates systematic changes requiring new theoretical frameworks and measurement methodologies based on empirical data from 700 million users generating 2.5 billion daily messages rather than speculation (Chatterji et al., 2025).
@@ -589,6 +577,19 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 </script>
+
+
+### Key Empirical Findings
+
+1. **Platform Gatekeeping:** 71% of sources appear on only one platform, confirming extreme fragmentation in AI citation ecosystems.
+
+2. **Authority Paradox:** Just 7% of sources achieve universal recognition across all 4 platforms (Google, Wikipedia, YouTube dominate).
+
+3. **Concentration Patterns:** Gemini shows highest Gini coefficient (0.351), while ChatGPT demonstrates most democratic distribution (0.164).
+
+4. **Community Revolution:** User-generated content (Reddit, forums) receives disproportionate weight in AI responses, validating the "UGC Revolution" thesis.
+
+5. **Traffic Implications:** With 95-96% referral reduction and 1% CTR on citations, traditional traffic models face existential disruption.
 
 ### Convergent Evidence from Multiple Studies
 
