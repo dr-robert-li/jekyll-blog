@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Citation Attention Patterns and User Discovery: An Evidence-Based Analysis of AI-Generated Source References versus Traditional Search Results"
+title: "AI Citation Attention Patterns and User Discovery: A Meta-Analysis"
 date: 2025-09-24
 categories: [Information Systems, User Behavior, AI Search, Digital Marketing, Search Engine Optimization, Platform Analysis, Click-Through Analysis, Engagement Metrics, Information Discovery, Technology Adoption]
 ---
