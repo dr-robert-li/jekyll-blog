@@ -543,7 +543,7 @@ Data in multiple recent studies makes clear that this transformation is already 
 
 5. **Traffic Implications:** With 95-96% referral reduction and 1% CTR on citations, traditional traffic models face existential disruption.
 
-## Living in the Age of the Invisible Reference: Three Studies, One Paradigm Shift
+## Living in the Age of the Invisible Reference: A Meta-Analysis
 
 This analysis establishes through multiple peer-reviewed and industry research sources, validated by the most comprehensive empirical studies of AI platform usage to date, that AI-generated citations represent a documented transformation in how users discover, engage with, and attribute value to information sources. The evidence demonstrates systematic changes requiring new theoretical frameworks and measurement methodologies based on empirical data from 700 million users generating 2.5 billion daily messages rather than speculation (Chatterji et al., 2025).
 
