@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "From Click to Citation: Practical Research-informed Strategies for AI Visibility"
-date: 2025-09-29
+title: "From Click to Citation: Part 1 - Practical Research-informed Technical Strategies for AI Visibility"
+date: 2025-09-28
 categories: [AI Search, GEO, AI SEO, LLMO, Digital Marketing, User Behavior, Content Strategy, Traffic Analysis]
 ---
 
