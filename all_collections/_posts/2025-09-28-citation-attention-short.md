@@ -5,7 +5,7 @@ date: 2025-09-28
 categories: [AI Search, GEO, AI SEO, LLMO, Digital Marketing, User Behavior, Content Strategy, Traffic Analysis]
 ---
 
-![ChatGPT AI Citation Example](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/citations.png)
+![ChatGPT AI Citation Example](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/citations.jpg)
 
 ---
 
