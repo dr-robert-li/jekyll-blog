@@ -2,7 +2,7 @@
 layout: post
 title: "From Click to Citation: Practical Research-informed Strategies for AI Visibility"
 date: 2025-09-29
-categories: [AI Search, Digital Marketing, User Behavior, Content Strategy, Traffic Analysis]
+categories: [AI Search, GEO, AI SEO, LLMO, Digital Marketing, User Behavior, Content Strategy, Traffic Analysis]
 ---
 
 ![User browsing AI citations and Google Search results](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/citations.png)
@@ -23,7 +23,9 @@ Let's acknowledge the elephant in the room. My previous article that discussed t
 
 Let's strips away the theoretical complexity to focus on what actually matters: how the shift from search to AI affects your website traffic, what you can do about it, and why traditional metrics might be lying to you.
 
-We already know the implications of the research into this area are profound. Your response needs to start now.
+This will be Part 1 of a 2 part series with this first article focusing on technical AISEO/GEO (whatever you wish to call it) strategies, and part 2 focusing on organizational adaptation strategies.
+
+So, we already know the implications of the research into this area are profound. Your response needs to start now.
 
 ## The New Zero-Click Internet
 
