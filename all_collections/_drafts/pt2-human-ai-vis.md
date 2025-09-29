@@ -1,4 +1,4 @@
-Create a new markdown article as a part 2 followup to:
+Create a new markdown article as a part 2 followup to
 
 /Users/robertli/Desktop/jekyll-blog/all_collections/_posts/2025-09-28-citation-attention-short.md
 
