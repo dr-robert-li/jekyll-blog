@@ -241,15 +241,15 @@ This can be done using a combination of manual AI visibility audits on your targ
 
 **Authoritas SERP & AI Tracking** - Monitors both traditional search and AI overview appearances
 
-**BrightEdge Data Cube** - Enterprise solution tracking AI-generated answers alongside SEO metrics
+**HubSpot Share of Voice** - Accessible solution that can track AI-informing awareness in wider spaces.
+
+**Perplexity Pages Analytics** - Native analytics for Perplexity citations (limited but free)
 
 *Emerging Specialized Tools:*
 
 **Otterly.ai** - Dedicated AI search optimization platform with citation tracking
 
 **AIVisibility.io** - Tracks performance across ChatGPT, Claude, and Perplexity
-
-**Perplexity Pages Analytics** - Native analytics for Perplexity citations (limited but free)
 
 ## How to Measure What You Can't See
 
