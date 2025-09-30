@@ -4,7 +4,9 @@ Create a new markdown article as a part 2 followup to
 
 Keep the same jekyll format, use the TL;DR section in the original academic meta analysis as inspiration for the rest of the article.
 
-Acknowledge the assumptions prior to discussing implications and actionables:
+The file should be /Users/robertli/Desktop/jekyll-blog/all_collections/_drafts/2025-10-01-citation-attention-team-building.md
+
+Recap the prior assumptions in previous articles before next discussing implications and actionables:
 
 1. We know that users click through citations at a much lower rate on AI platforms than in traditional search; that this differs depending on interface design e.g. Perplexity gets higher click through due to the greater prominence given to citations; whereas ChatGPT gets the lowest click through because it predictably makes citations the least prominent.
 2. We know that this citation click through has increased dramatically since October 2024, according to Adobe research (2025), due to a combination of platform maturation (more robust citation functionality) and user's interface familiarity as adoption has increased. Adobe expects this trend to continue - it is unknown whether this will supplant/replace/compensate for traffic loss induced by this transition so far.
@@ -376,7 +378,7 @@ However, this needs to be practical and actionable.
 
 Ensure all references are maintained both in-line and after, using APA style referencing.
 
-The writing guide is in /Users/robertli/Desktop/jekyll-blog/all_collections/_drafts/WRITING-GUIDE.md
+The writing guide is in /Users/robertli/Desktop/jekyll-blog/all_collections/_drafts/WRITING-GUIDE.md and the template is in /Users/robertli/Desktop/jekyll-blog/all_collections/_drafts/CLAUDE-TEMPLATE.md
 
 Write this into new markdown files section by section to ensure that context window is not exceeded, then combine them into a final markdown file already created: /Users/robertli/Desktop/jekyll-blog/all_collections/_drafts/2025-09-29-citation-attention-short.md 
 
