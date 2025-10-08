@@ -5,7 +5,7 @@ date: 2025-01-15
 categories: [AI Visibility, Team Building, Organizational Transformation, GEO, LLMO, Digital Strategy, Innovation Management, Competitive Advantage]
 ---
 
-![AI Team Collaboration](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/citations.jpg)
+![AI Team Collaboration](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/ape-ai-evolution.jpg)
 
 ---
 
