@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From Click to Citation: Part 2 - Building Teams for AI Visibility in a Zero-Click World"
-date: 2025-01-15
+date: 2025-10-10
 categories: [AI Visibility, Team Building, Organizational Transformation, GEO, LLMO, Digital Strategy, Innovation Management, Competitive Advantage]
 ---
 
