@@ -19,17 +19,15 @@ categories: [AI Search, GEO, AI SEO, LLMO, Digital Marketing, Team Structure, Or
 
 ---
 
-In Part 1, we examined how AI platforms reshape digital visibility through citation patterns, the two-stage decision architecture, and the authority-traffic paradox. We established that 71% of sources appear on only one platform, citation click-through rates hover around 1%, and traditional metrics mislead in an AI-dominated environment.
+In Part 1, we examined how AI platforms reshape digital visibility through citation patterns, the two-stage decision architecture, and the authority-traffic paradox. We also outlined the technical strategies that research has informed us should increase AI visibility.
 
-That analysis highlighted technical strategies—optimizing for citations over clicks, mastering Stage 1 discovery through community engagement, and Stage 2 validation through comprehensive documentation. We explored platform-specific approaches and rebuilding conversion paths for pre-qualified visitors.
+But this raises the human question: Who executes these strategies? What organizational structures support AI visibility optimization across four major platforms with minimal overlap? How do teams develop expertise in both platform-specific algorithms and industry-specific user behavior?
 
-This raises the human question: Who executes these strategies? What organizational structures support AI visibility optimization across four major platforms with minimal overlap? How do teams develop expertise in both platform-specific algorithms and industry-specific user behavior?
-
-The answers lie in organizational restructuring that mirrors historical technological transitions—but compressed into shorter adaptation cycles.
+The answers lie in organizational restructuring. It mirrors historical technological transitions—but, perhaps, compressed into a shorter adaptation cycle.
 
 ## Recapping What We Know: The Foundation for Team Building
 
-Before discussing organizational adaptation, let's consolidate the research findings that shape team requirements:
+Before discussing organizational adaptation, let's first recap what we know so far:
 
 **Citation Behavior and Platform Dynamics:**
 Users click AI citations at approximately 1% compared to 15% for traditional search results (Pew Research Center, 2025). This citation click-through varies by interface design—Perplexity achieves 3-5% due to prominent citation placement, while ChatGPT records the lowest rates with subtle formatting (Arc Intermedia, 2025). Adobe research shows this increased from October 2024 through February 2025 as platforms matured and users gained familiarity with interfaces, though absolute rates remain low (Adobe Digital Insights, 2025).
