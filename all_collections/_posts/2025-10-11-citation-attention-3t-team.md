@@ -13,7 +13,7 @@ categories: [AI Visibility, Team Building, Organizational Transformation, GEO, L
 
 * AI visibility requires three-tier team architecture: democratic foundation (execution), core combinatorial teams (defensible offerings), and frontier innovation (R&D)
 * Combine technical specialization (platform expertise) × commercial specialization (vertical expertise) to create exponentially defensible competitive advantages
-* Historical precedent shows that specialized team structures delivered 40-60% performance advantages during technological transitions
+* Historical precedent shows that specialized team structures delivered 40-60% performance advantages during technological transitions across multiple studies
 * Democratization must precede specialization—when baseline AI capabilities develop across all teams, they create the cultural foundation and knowledge base that enable specialists to emerge who naturally gravitate towards frontier work, extending the competitive moat.
 * Organizations have 12-18 months remaining to establish leadership positions before competitive advantages solidify (ChatGPT launched November 2022, currently ~26 months into transition)
 
