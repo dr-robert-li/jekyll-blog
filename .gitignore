@@ -18,6 +18,8 @@ CLAUDE-TEMPLATE.md
 **/CLAUDE-TEMPLATE.md
 WRITING-GUIDE.md
 **/WRITING-GUIDE.md
+EDITORIAL-GUIDE.md
+.claude/
 
 # Environment and secret files
 .env

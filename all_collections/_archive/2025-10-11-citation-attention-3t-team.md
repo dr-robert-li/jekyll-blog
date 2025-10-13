@@ -276,17 +276,65 @@ This example reveals that AI visibility optimization teams can learn from broade
 
 ### Beyond the "Agreeable Average": Where LLMs Fall Short
 
-Large language models train on massive datasets representing the center of the distribution—common knowledge, mainstream perspectives, and well-documented domains. This creates inherent limitations for AI visibility optimization. LLMs perform poorly in niche domains without fine-tuning, struggling with specialized expertise areas underrepresented in training data (TruEra, 2024). Model bias occurs because underrepresentation in training corpora means certain social identities, specialized industries, and technical domains receive inadequate coverage (SuperAnnotate, 2025).
+**This is the most critical insight underpinning the entire organizational transformation framework that follows.** Large language models train on massive datasets representing the center of the distribution—common knowledge, mainstream perspectives, and well-documented domains. This creates inherent limitations for AI visibility optimization. LLMs perform poorly in niche domains without fine-tuning, struggling with specialized expertise areas underrepresented in training data (TruEra, 2024). Model bias occurs because underrepresentation in training corpora means certain social identities, specialized industries, and technical domains receive inadequate coverage (SuperAnnotate, 2025).
 
-For AI visibility optimization, this creates opportunity. Organizations competing on mainstream, general knowledge fight for citations in spaces where AI platforms have abundant training data and numerous content sources. Competitive advantage exists in underrepresented niches—specialized technical knowledge, uncommon industry verticals, novel applications, and domain combinations poorly captured in LLM training sets.
+**Understanding these limitations is pivotal because they are not temporary software bugs to be patched, but fundamental mathematical and algorithmic constraints arising from how LLMs are architected.** The approach outlined in this article exploits these inherent limitations deliberately and systematically. Because these constraints are rooted in the mathematics of neural networks and statistical learning theory, they represent defensible competitive moats—problems that, while potentially solvable, remain difficult enough in the field of deep learning to create meaningful strategic advantages for organizations that recognize and exploit them now.
 
-A single area of expertise no longer provides sufficient competitive advantage. Modern organizations need "key-shaped" professionals with multiple areas of specialized knowledge, particularly transdisciplinary skills combining technical and domain expertise (Oxford Review, 2024). When vertical domain expertise combines with horizontal collaborative skills, it creates competitive advantages by enhancing problem-solving capabilities, fostering innovation, and strengthening cross-functional collaboration (McKinsey, 2024).
+**The Mathematical Certainty of LLM Limitations:**
 
-Applied to AI visibility: a ChatGPT optimization specialist provides value, but that specialization exists within LLM training distributions. A ChatGPT specialist combined with rare disease pharmaceutical expertise creates exponentially more defensible positioning—the intersection remains underrepresented in training data and difficult for competitors to replicate.
+These are not speculative weaknesses but algorithmically certain constraints:
+
+**1. The "Agreeable Average" Problem (Temperature and Sampling Distribution)**
+
+LLM outputs fundamentally represent what could be characterized as an "agreeable average"—they sample from probability distributions shaped by their training data. While you can adjust hyperparameters like temperature and use post-inference techniques to shape the aperture of output (making it wider or narrower), the output will always center on this statistically probable middle ground (IBM, 2024; Huyenchip, 2024).
+
+Lower temperature values (closer to 0) produce deterministic, focused outputs ideal for factual tasks, while higher temperatures introduce diversity and creativity by sampling from broader probability ranges (IBM, 2024; Rumn, 2024). However, this tradeoff is mathematically constrained: you cannot simultaneously maximize both determinism and diversity from the same model at the same temperature setting.
+
+**2. The Nonsensical Output Problem (Top-k Parameter Limits)**
+
+If you extend the sampling aperture too widely—for instance, setting top-k to very large numbers like 10,000—the model treats far too many results as relevant, producing nonsensical gibberish as it essentially approximates random sampling across the entire vocabulary (Weinmeister, 2024; Smcleod, 2025). Conversely, very low top-k values (k=1 or k=2) produce deterministic but potentially overly narrow outputs that lack diversity and creativity (Singh, 2024; Rumn, 2024).
+
+Furthermore, extremely high parameter values reduce determinism, making output unpredictable and therefore difficult to use repeatably in production systems (Thinking Machines, 2024). Even at temperature 0 (greedy sampling), LLM APIs remain non-deterministic in practice (Thinking Machines, 2024). This creates a mathematical constraint: organizations cannot simply "tune their way out" of the agreeable average problem without introducing other failure modes—widening the aperture produces nonsense, narrowing it sacrifices the diversity needed to escape generic outputs.
+
+**3. The Specialization Trap (Overfitting and Catastrophic Forgetting)**
+
+When you attempt to train for specialization through fine-tuning, you encounter two potential problems that are well-documented in 2024 research:
+
+*Overfitting:* A model becomes so specialized on its fine-tuning data that it loses the ability to generalize—essentially "memorizing" specific examples rather than learning transferable patterns. While early stopping can ameliorate this risk by halting training before overfitting occurs (TechHQ, 2024), the need for such interventions is itself evidence of LLMs' fundamental limitations in handling very specialized output requirements. The model cannot simultaneously excel at both highly specialized tasks and maintain broad generalization capabilities—you must choose where on this spectrum to position the model, and that choice involves tradeoffs that constrain the model's utility.
+
+*Catastrophic Forgetting:* If you give a model more specialized data through fine-tuning, it may catastrophically interfere with previously learned information, leading to "forgetting" of general capabilities (Luo et al., 2024; Yurts.ai, 2024). Research reveals that catastrophic forgetting is observed in LLMs ranging from 1 billion to 7 billion parameters, and surprisingly, as model scale increases, the severity of forgetting intensifies (Luo et al., 2024). Fine-tuning LLMs on domain-specific tasks often leads to catastrophic forgetting, where the model overwrites or loses essential knowledge acquired during pretraining, significantly limiting broader applicability (Yurts.ai, 2024).
+
+This phenomenon is frequently seen in models with excessively large context windows. While we have solved the problem of creating large context windows technically, we have not solved the problem of models being able to use those entire large context windows usefully without forgetting or over-generalizing. Research from 2024-2025 reveals the "lost in the middle" phenomenon: language model performance degrades significantly when relevant information occurs in the middle of long contexts rather than at the beginning or end (Liu et al., 2024; TechTalks, 2025). Even when models can technically access 100K+ token contexts, they exhibit U-shaped attention bias, consistently favoring the start and end of sequences while neglecting middle content (MIT & Google Cloud AI, 2024).
+
+**4. The Pattern Transfer Problem (Lateral Thinking and Meta-Learning)**
+
+LLMs cannot genuinely "think laterally" or learn one pattern as a generalization and apply it in a different novel context—specifically, contexts not already represented in training data. This limitation manifests in famous examples like the "strawberry test": models struggled to count the number of "r" letters in the word "strawberry" because this specific character-counting task was underrepresented in training data (Arbisoft, 2024; TechCrunch, 2024). Despite having similar instances of letter-in-word counting in datasets, this knowledge was not transferable as a generalized pattern due to tokenization constraints—"strawberry" is decomposed into tokens like "st," "raw," and "berry," preventing character-level reasoning (Arbisoft, 2024). Even a child can count letters in a word, yet 100-billion-parameter models could not, exposing the gap between human and LLM reasoning (Arbisoft, 2024).
+
+This reflects a deeper limitation in pattern generalization. Turing Award winner Richard Sutton (2024) identified "learning to learn" (meta-learning) as a critical missing capability: AI systems "need to meta-learn how to generalize," and current systems demonstrate poor transfer "from one state to another state" with very few automated techniques to promote this kind of transfer (Sutton, 2024; NSF, 2024). Research confirms that LLMs struggle with lateral thinking—thinking outside the box—and fine-tuning on traditional reasoning datasets cannot improve lateral thinking ability (uTeBC-NLP, 2024). The "Reversal Curse" provides another stark example: if trained on "A is B," models will not automatically generalize to "B is A," revealing fundamental limitations in logical extension (Neural Computing and Applications, 2024).
+
+**These Are Solvable Problems—But They Are Hard Problems**
+
+None of these limitations represent insurmountable theoretical barriers. Researchers are actively working on solutions: sharpness-aware minimization to flatten loss landscapes and reduce catastrophic forgetting (Luo et al., 2024), improved positional encoding techniques to address the "lost in the middle" problem (Found in the Middle, 2024), and meta-learning frameworks to improve generalization (Sutton, 2024). OpenAI's "o1" model family (code-named "Strawberry") represents progress on reasoning tasks, finally solving the strawberry counting problem that earlier models failed (Arbisoft, 2024).
+
+However, these remain difficult problems in deep learning research as of 2025. Solutions require significant computational resources, novel architectures, and fundamental advances in how models encode and retrieve knowledge. This difficulty creates a strategic window: organizations that structure their teams to exploit these current limitations gain competitive advantages that persist until these problems achieve widespread solutions—likely years away given the complexity involved.
+
+**The Organizational Framework Exploits These Algorithmic Limitations**
+
+The three-tier team architecture presented in this article directly exploits these mathematically certain constraints:
+
+*Specialization in both vectors* (platform expertise × vertical expertise) means your human teams are operating in the long tail of the model's training distribution—the underrepresented combinations where LLMs struggle. This exploits problems 1, 2, and 3: by focusing on specialized intersections (e.g., Perplexity optimization for rare disease pharmaceuticals), you compete in spaces where LLMs' "agreeable average" provides limited coverage, where increasing sampling parameters would produce nonsense, and where fine-tuning for your specific niche would cause catastrophic forgetting of general capabilities.
+
+*Combining expertise through organizational structure* (combinatorial specialization) is a direct translation of generalized transferability as an organizational approach rather than an algorithmic one—exploiting problem 4. Since LLMs cannot effectively transfer patterns to novel contexts or demonstrate true lateral thinking, organizations that structurally combine specialized knowledge through human collaboration create capabilities that current AI systems cannot replicate. Your ChatGPT specialist + healthcare compliance expert working together can make logical leaps and apply patterns across domains in ways that models struggle to achieve, because human cognition doesn't suffer from the same tokenization constraints and reversal curses that plague neural networks.
+
+For AI visibility optimization, this creates opportunity. Organizations competing on mainstream, general knowledge fight for citations in spaces where AI platforms have abundant training data and numerous content sources. Competitive advantage exists in underrepresented niches—specialized technical knowledge, uncommon industry verticals, novel applications, and especially domain combinations poorly captured in LLM training sets.
+
+For example, a ChatGPT optimization specialist provides value, but that specialization exists within LLM training distributions. A ChatGPT specialist combined with a specialist with pharmaceutical expertise creates exponentially more defensible positioning—the data itself not only remains underrepresented, but the intersection itself is exponentially more niche, and difficult for both competitors and LLMs to replicate.
 
 ### The Combinatorial Framework: Multiplying Defensibility
 
-Rather than choosing between technical specialization (platform expertise) or commercial specialization (vertical expertise), organizations should combine both vectors to create exponentially defensible service offerings.
+Therefore rather than choosing between technical specialization (platform expertise) or commercial specialization (vertical expertise), organizations should combine both vectors to create exponentially defensible service offerings.
+
+Organizations should aim to create *Combinatorial Specialization*.
 
 **Building on Your Organization's Existing Strengths:**
 
@@ -298,9 +346,9 @@ Technical specialization alone provides temporary advantage. As platforms mature
 
 - **Single-vector**: ChatGPT specialist OR healthcare compliance expert = valuable but replicable
 - **Dual-vector**: ChatGPT specialist × Healthcare compliance expert = rare combination leveraging YOUR organization's specific strengths
-- **Multi-vector**: Your Perplexity specialist × Your financial services expert × Your regulatory knowledge = uniquely defensible based on what YOU possess
+- **Multi-vector**: Your Perplexity specialist × Your financial services expert × Your regulatory knowledge = uniquely defensible based on what YOU possess and personalizable to YOUR END CLIENTS SPECIFIC NEEDS.
 
-The framework recognizes that competitive advantage emerges not from finding globally underrepresented niches, but from combining your organization's specific technical and commercial capabilities in ways competitors cannot easily duplicate.
+The framework recognizes that competitive advantage emerges not from finding globally underrepresented niches, but from combining your organization's specific technical and commercial capabilities in ways LLMs and competitors cannot easily represent.
 
 ### Three-Tier Architecture for Sustained Innovation
 
@@ -322,9 +370,9 @@ As frontier innovations prove effective, core teams integrate them into standard
 
 **Tier 1 - Frontier Innovation Teams (Research & Development Layer):**
 
-The top layer focuses purely on exploration—emerging AI platforms before mainstream adoption, novel optimization techniques not yet proven, breakthrough methodologies, and custom tool development. Frontier teams operate like Monks' Agentic AI Advisory Group and Monks Foundry: approximately 50 advisors with 150 specialized engineers dedicated to building capabilities competitors cannot access through generic tools (Monks, 2024).
+The top layer focuses purely on exploration—emerging AI platforms before mainstream adoption, novel optimization techniques not yet proven, breakthrough methodologies, and custom tool development. Frontier teams operate like Monks' Agentic AI Advisory Group and Monks Foundry: approximately 50 advisors with 150 specialized engineers dedicated to both building technical capabilities as well as researching commercial capabilities competitors cannot reach through generic AI tools (Monks, 2024).
 
-Frontier specialists test new AI platforms as they launch, develop proprietary optimization algorithms, create custom tooling for measurement and analysis, and explore untested approaches without pressure for immediate ROI. This pure R&D focus enables risk-taking and experimentation impossible when specialists handle operational work.
+Frontier specialists test new AI platforms as they launch, develop proprietary optimization algorithms, explore new community forums, create custom tooling for measurement and analysis, and explore untested frameworks and approaches through research and published white papers without pressure for immediate ROI. This pure R&D focus enables risk-taking and experimentation impossible when specialists handle operational work.
 
 ### The Continuous Innovation Flow
 
@@ -332,9 +380,9 @@ The architecture creates systematic innovation flow that continuously extends co
 
 **Tier 1 → Tier 2 Flow (Productization):**
 
-Frontier teams develop breakthroughs in isolation—new platform optimization techniques, measurement methodologies, content strategies. When experiments show promise, Tier 2 core teams receive innovations and determine productization viability. Can this technique combine with our commercial expertise? Does it create defensible advantage? What client value does it deliver?
+Frontier teams develop breakthroughs in isolation—new platform optimization techniques, measurement methodologies, content strategies. When experiments show promise, Tier 2 core teams receive innovations and determine productization viability. Does it create defensible advantage? What client value does it deliver?
 
-Core teams integrate frontier innovations with commercial specialization. A frontier team's ChatGPT optimization breakthrough becomes a healthcare-specific offering when combined with commercial expertise. The innovation flows from pure R&D to market-ready service through combinatorial integration.
+Core teams integrate frontier technical innovations with frontier commercial specialization. A frontier team's ChatGPT optimization breakthrough becomes a healthcare-specific offering when combined with commercial expertise. The innovation flows from pure R&D to market-ready service through combinatorial integration.
 
 **Tier 2 → Tier 3 Flow (Democratization):**
 
@@ -348,45 +396,11 @@ The architecture prevents the historical specialist→generalist trap by continu
 
 This continuous upward movement creates compound learning. Specialists don't repeatedly solve the same problems but accumulate expertise across innovation cycles. An organization maintaining this flow for 2-3 years possesses specialists with broader, deeper capabilities than competitors where specialists remain static.
 
-## Example Cross-Functional Team Models for AI Visibility
-
-The following models demonstrate how organizations have implemented Tier 2 core combinatorial teams in practice, combining platform specialists with vertical experts to create defensible service offerings.
-
-### The Adaptive Triad Approach
-
-Research into current enterprise marketing team structures finds a common trend in using the "adaptive triad" approach for AI visibility optimization (Conductor, 2024; Botify, 2024).
-
-The core structure includes three specialized roles:
-
-*AI Platform Specialist:* Develops deep expertise in one primary AI platform—understanding its algorithms, citation patterns, user demographics, and interface characteristics. This specialist tracks platform updates, experiments with optimization techniques, and develops platform-specific best practices.
-
-*Industry Vertical Expert:* Provides domain knowledge in specific industry regulations, user behavior patterns, competitive dynamics, and content expectations. This expert understands what information users seek, how they validate sources, and which content formats resonate in their industry.
-
-*Content Orchestration Manager:* Coordinates between platform and vertical specialists, ensuring optimization strategies align with broader content strategies and business objectives. This role manages workflows, facilitates collaboration, and maintains consistent quality across campaigns.
-
-Implementation follows a phased approach. Phase 1 (Months 1-3) establishes individual specialist expertise through training, experimentation, and baseline measurement. Phase 2 (Months 4-6) develops cross-specialist collaboration protocols, shared measurement systems, and coordinated campaign planning. Phase 3 (Months 7-12) scales coordinated optimization across multiple campaigns with continuous refinement.
-
-Organizations using cross-functional triad structures report substantially faster optimization cycles, consistent with research showing that agile cross-functional teams are nearly 25% more productive than non-agile counterparts and 50% faster to market (SEO Sprint Newsletter, 2024; Grid Dynamics, 2023). Cross-functional coordination improves content outcomes substantially, with research showing that agile cross-functional teams achieve 60% increases in revenue and profit through better collaboration and faster iteration (Inclusion Cloud, 2024). Resource efficiency increases substantially compared to generalist approaches, with specialized team structures achieving 10-30% lower execution costs through focused expertise and reduced rework (McKinsey & Company, 2024; Inclusion Cloud, 2024).
-
-### Matrix Team Organization
-
-Drawing from enterprise digital transformation case studies, AI visibility teams are adopting matrix structures that balance platform and vertical specialization (McKinsey Digital, 2024; Accenture, 2024).
-
-The matrix model implements horizontal specialization by platform focus: Google AI Overviews Team, ChatGPT Optimization Team, Perplexity Strategy Team, and Claude Authority Team. Each horizontal team develops deep platform expertise.
-
-Vertical specialization occurs by industry focus, for example: Healthcare Compliance Unit, Financial Services Unit, Technology Documentation Unit, and Legal Services Unit. Each vertical team develops specific industry domain expertise.
-
-Cross-matrix coordination happens through weekly platform-vertical alignment meetings, shared optimization documentation and best practices, joint campaign planning and execution, and unified measurement and reporting systems.
-
-Matrix organizations improve resource utilization substantially by allowing specialists to work across multiple projects, with research showing that effective matrix structures lead to 21% increases in profitability through better resource allocation and employee engagement (ChartHop, 2024; Asana, 2025). Cross-functional project success improves substantially when platform and vertical experts collaborate systematically, with specialized pod-based teams building deliverables up to 40% faster than traditional siloed approaches (Inclusion Cloud, 2024; Vention, 2024). Time-to-market for new optimization strategies decreases substantially compared to siloed approaches, with agile cross-functional squads executing campaigns 2-3 times faster than traditional teams through streamlined decision-making and reduced handoffs (McKinsey & Company, 2024).
-
-However, matrix structures require more sophisticated coordination mechanisms. Organizations must establish clear decision-making protocols, balanced workload allocation, and effective conflict resolution processes when platform and vertical priorities diverge.
-
 ## Democratizing AI Visibility: Innovation Teams and 10x'ing Every Employee
 
 ### The Democratization Imperative
 
-The traditional enterprise approach—building Centers of Excellence staffed by expensive specialists—creates bottlenecks unsuitable for AI visibility optimization's rapid iteration requirements. As Geoff Woods argues in *The AI-Driven Leader*, organizations must focus on "10x'ing the impact of every employee" rather than concentrating AI capabilities in centralized teams (Woods, 2024). This democratization approach proves particularly relevant for AI visibility, where experimentation velocity determines competitive advantage more than specialist depth.
+Traditional enterprise approach—building centralized units staffed by expensive specialists—creates bottlenecks unsuitable for AI visibility optimization's rapid iteration requirements. As Geoff Woods argues in *The AI-Driven Leader*, organizations must focus on "10x'ing the impact of every employee" rather than concentrating AI capabilities in centralized teams (Woods, 2024). This democratization approach proves particularly relevant for AI visibility, where experimentation velocity determines competitive advantage more than specialist depth.
 
 Woods identifies three ways AI delivers business value: making people more productive, making operations more efficient, and making products and services more valuable (Woods, 2024). For AI visibility optimization, the first pathway dominates—empowering marketers, content creators, and subject matter experts to optimize for platform citations without requiring specialized intermediaries. Less than 40% of workforces currently have access to generative AI tools, and fewer than 60% of those with access use them daily, suggesting most organizations haven't integrated AI into standard workflows (McKinsey, 2025). This gap represents opportunity: organizations democratizing AI visibility capabilities across teams can move faster than competitors centralizing expertise.
 
@@ -394,7 +408,7 @@ Andreas Welsch reinforces this perspective in the *AI Leadership Handbook*, emph
 
 ### Innovation Squads Over Specialist Departments
 
-Rather than building Centers of Excellence, organizations should establish small, autonomous innovation squads combining diverse skillsets with clear mandates for experimentation. This model, adapted from agile software development, replaces hierarchical specialist structures with cross-functional pods focused on specific challenges (Scrum.org, 2024).
+Rather than building centralized units, organizations should establish small, autonomous innovation squads combining diverse skillsets with clear mandates for experimentation. This model, adapted from agile software development, replaces hierarchical specialist structures with cross-functional pods focused on specific challenges (Scrum.org, 2024).
 
 **Squad Structure for AI Visibility:**
 Effective squads include 5-8 people maximum, combining a content creator understanding how users consume information, a technical marketer knowing platform optimization fundamentals, a vertical subject matter expert providing domain credibility, a data analyst measuring citation performance, and a product/platform user representing customer perspective. Each squad "owns" one AI platform (ChatGPT, Perplexity, Claude, Gemini) and related vertical applications.
@@ -430,7 +444,7 @@ Low-code and no-code platforms democratize development, enabling non-traditional
 
 McKinsey research shows organizations implementing successful AI transformations cultivate autonomy, leverage modern cloud practices, and assemble multidisciplinary agile teams (McKinsey, 2025). This contrasts sharply with traditional approaches where specialists gate-keep platform knowledge. Democratized visibility optimization requires building tools and establishing processes that distribute expertise rather than concentrate it.
 
-**Training for Capability, Not Specialization:**
+**Training for Capability, Not Just Specialization:**
 Instead of 40-hour platform certification programs creating specialists, organizations should implement "just-in-time" learning enabling immediate application. Welsch's approach—aligning AI with business strategy while turning employees into passionate multipliers—suggests training should focus on frameworks and principles rather than platform-specific tactics (Welsch, 2024).
 
 Effective democratized training follows a different model: 2-hour platform overviews introducing citation concepts and optimization principles, guided first experiments where teams tackle real visibility challenges with AI assistance, regular share-outs where teams demonstrate successful optimizations and learnings, and continuous experimentation cycles building collective knowledge. This approach produces broadly capable teams rather than narrow specialists, enabling faster iteration as platforms evolve.
@@ -560,6 +574,8 @@ Adobe. (2024). *Monks delivers 3D assets 70% faster with Adobe* [Case study]. Re
 
 Adobe Digital Insights. (2025). *The explosive rise of generative AI referral traffic*. Adobe Systems.
 
+Arbisoft. (2024). *Why LLMs can't count the R's in 'strawberry' and what it teaches us*. Retrieved from https://arbisoft.com/blogs/why-ll-ms-can-t-count-the-r-s-in-strawberry-and-what-it-teaches-us
+
 Asana. (2025). *What is a matrix organization and how does it work?* Retrieved from https://asana.com/resources/matrix-organization
 
 Advertising Age. (2013). *Agency performance and mobile strategy adoption trends*. Advertising Age.
@@ -586,6 +602,12 @@ CIO Insight. (2013). *Mobile strategists seek greater input from CIOs*. CIO Insi
 
 Davenport, T. H., & Patil, D. J. (2012). Data scientist: The sexiest job of the 21st century. *Harvard Business Review, 90*(10), 70-76.
 
+Found in the Middle Research Group. (2024). *Found in the middle: How language models use long contexts better via plug-and-play positional encoding*. arXiv. Retrieved from https://arxiv.org/html/2403.04797v1
+
+Huyenchip. (2024). *Generation configurations: Temperature, top-k, top-p, and test time compute*. Retrieved from https://huyenchip.com/2024/01/16/sampling.html
+
+IBM. (2024). *What is LLM temperature?* Retrieved from https://www.ibm.com/think/topics/llm-temperature
+
 Indeed. (2017). *The evolution of mobile marketing roles: Job postings analysis 2010-2017*. Indeed Hiring Lab.
 
 Marketing Dive. (2012). *R/GA's take on mobile: Unprecedented growth*. Marketing Dive.
@@ -595,6 +617,10 @@ MediaPost. (2014). *Mobile Agency of the Year: Horizon Media*. MediaPost Communi
 MediaPost. (2017). *Agency Performance Review 2017*. MediaPost Communications.
 
 Moore, G. A. (2014). *Crossing the chasm: Marketing and selling disruptive products to mainstream customers* (3rd ed.). HarperBusiness.
+
+National Science Foundation. (2024). *AI pioneers Andrew Barto and Richard Sutton win 2024 Turing Award for groundbreaking contributions to reinforcement learning*. Retrieved from https://www.nsf.gov/news/ai-pioneers-andrew-barto-richard-sutton-win-2024-turing
+
+Neural Computing and Applications. (2024). Generalization potential of large language models. *Neural Computing and Applications*. https://doi.org/10.1007/s00521-024-10827-6
 
 OpenAI. (2022). *Introducing ChatGPT*. Retrieved from https://openai.com/blog/chatgpt
 
@@ -606,9 +632,13 @@ TruEra. (2024). *Evaluating the long tail: Assessing LLM performance across down
 
 Rogers, E. M. (2003). *Diffusion of innovations* (5th ed.). Free Press.
 
+Rumn. (2024). *Setting top-k, top-p and temperature in LLMs*. Medium. Retrieved from https://rumn.medium.com/setting-top-k-top-p-and-temperature-in-llms-3da3a8f74832
+
 SearchEngineJournal. (2024). *History of ChatGPT: A timeline of the meteoric rise of generative AI chatbots*. Search Engine Journal.
 
 Susskind, R., & Susskind, D. (2015). *The future of the professions: How technology will transform the work of human experts*. Oxford University Press.
+
+Sutton, R. S. (2024). Interview on reinforcement learning and the future of AI. *National University of Singapore News*. Retrieved from https://news.nus.edu.sg/experience-beats-knowledge-prof-richard-sutton-on-reinforcement-learning-and-the-future-of-ai/
 
 Business of Apps. (2025). *App Developer Salary Guide (2025)*. Retrieved from https://www.businessofapps.com/app-developers/research/ios-android-developer-salary/
 
@@ -650,6 +680,10 @@ Johnson, S. (2011). *Mobile strategy: How your company can win by embracing mobi
 
 Li, R. (2025). *Adapting Your WordPress Site to AI Sense-Making Compression*. Retrieved from https://drli.blog/posts/wordpress-ai/
 
+Liu, N. F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F., & Liang, P. (2024). Lost in the middle: How language models use long contexts. *Transactions of the Association for Computational Linguistics, 12*, 157-173. https://doi.org/10.1162/tacl_a_00638
+
+Luo, L., et al. (2024). *An empirical study of catastrophic forgetting in large language models during continual fine-tuning*. arXiv. Retrieved from https://arxiv.org/abs/2308.08747
+
 Marketing Land. (2014). *Social media team structures: The hub and spoke model*. Marketing Land Research.
 
 MarketingProfs. (2014). *The rise of platform-specific social media marketing specialists*. MarketingProfs.
@@ -669,6 +703,8 @@ McKinsey Digital. (2024). *The big product and platform shift: Five actions to g
 Metridev. (2024). *Pod structure in Agile: Maximizing team efficiency*. Retrieved from https://www.metridev.com/metrics/pod-structure-in-agile-maximizing-team-efficiency/
 
 Microsoft. (2025). *Commercial Bank of Dubai boosts AI literacy and productivity with Microsoft 365 Copilot, saving 39,000 hours* [Case study]. Retrieved from https://www.microsoft.com/en/customers/story/24341-commercial-bank-of-dubai-microsoft-365-copilot
+
+MIT & Google Cloud AI. (2024). *The context window problem: U-shaped attention bias in LLMs*. Research brief.
 
 Michael Farmer Substack. (2025). *Making Sense of Four Holding Companies: WPP, Omnicom, IPG and Publicis*. Retrieved from https://michaelfarmer.substack.com/p/making-sense-of-four-holding-companies
 
@@ -694,7 +730,19 @@ Scrum.org. (2024). *Squads, Pods, Cells - Making Sense of Agile Teams*. Retrieve
 
 SEMRush. (2025). *AI visibility index study: Market transformation analysis*. SEMRush Enterprise.
 
+Singh, V. (2024). *A guide to controlling LLM model output: Exploring top-k, top-p, and temperature parameters*. Medium. Retrieved from https://ivibudh.medium.com/a-guide-to-controlling-llm-model-output-exploring-top-k-top-p-and-temperature-parameters-ed6a31313910
+
+Smcleod. (2025). *Comprehensive guide to LLM sampling parameters*. Retrieved from https://smcleod.net/2025/04/comprehensive-guide-to-llm-sampling-parameters/
+
 Social Media Examiner. (2014). *Social media marketing industry report: How marketers are using social media to grow their businesses*. Social Media Examiner.
+
+TechCrunch. (2024). *Why AI can't spell 'strawberry'*. Retrieved from https://techcrunch.com/2024/08/27/why-ai-cant-spell-strawberry/
+
+TechHQ. (2024). *Addressing overfitting during LLM fine-tuning*. Retrieved from https://techhq.com/news/addressing-overfitting-during-llm-fine-tuning/
+
+TechTalks. (2025). *The context window problem or why LLM forgets the middle of a long file*. Retrieved from https://bdtechtalks.com/2025/02/05/the-context-window-problem-or-why-llm-forgets-the-middle-of-a-long-file/
+
+Thinking Machines. (2024). *Defeating nondeterminism in LLM inference*. Retrieved from https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
 
 TIME. (2023). *How to Get a Six-Figure Job as an AI Prompt Engineer*. Retrieved from https://time.com/6272103/ai-prompt-engineer-job/
 
@@ -732,8 +780,14 @@ Microsoft. (2024). *Establish an AI Center of Excellence - Cloud Adoption Framew
 
 Top Interactive Agencies. (2025). *R/GA | Top Interactive Agencies*. Retrieved from https://www.topinteractiveagencies.com/digital/agency/profile/north-america/united-states/rga/
 
+uTeBC-NLP. (2024). *uTeBC-NLP at SemEval-2024 Task 9: Can LLMs be lateral thinkers?* arXiv. Retrieved from https://arxiv.org/html/2404.02474v1
+
+Weinmeister, K. (2024). *Beyond temperature: Tuning LLM output with top-k and top-p*. Google Cloud Community. Retrieved from https://medium.com/google-cloud/beyond-temperature-tuning-llm-output-with-top-k-and-top-p-24c2de5c3b16
+
 Welsch, A. (2024). *AI Leadership Handbook: A Practical Guide to Turning Technology Hype into Business Outcomes*. Intelligence Briefing Press.
 
 Wikipedia. (2025). *R/GA*. Retrieved from https://en.wikipedia.org/wiki/R/GA
 
 Woods, G. (2024). *The AI-Driven Leader: Harnessing AI to Make Faster, Smarter Decisions*. AI Leadership Press.
+
+Yurts.ai. (2024). *Fine-tuning LLMs: Overcoming catastrophic forgetting*. Retrieved from https://www.yurts.ai/blog/navigating-the-challenges-of-fine-tuning-and-catastrophic-forgetting
