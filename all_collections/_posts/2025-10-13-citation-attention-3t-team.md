@@ -1190,6 +1190,8 @@ Vaccaro, M., Almaatouq, A., & Malone, T. (2024). When combinations of humans and
 
 Vention. (2024). *What is agile POD team: Delivery model, structure, services guide*. Retrieved from https://ventionteams.com/company/how-we-work/pods
 
+Weill, P., Woerner, S., & Sebastian, I. (2024). Building Enterprise AI Maturity: The MIT CISR Enterprise AI Maturity Model [Research briefing]. MIT Center for Information Systems Research. https://cisr.mit.edu/publication/2024_1201_EnterpriseAIMaturityModel_WeillWoernerSebastian
+
 Weinmeister, K. (2024). *Beyond temperature: Tuning LLM output with top-k and top-p*. Google Cloud Community. Retrieved from https://medium.com/google-cloud/beyond-temperature-tuning-llm-output-with-top-k-and-top-p-24c2de5c3b16
 
 Welsch, A. (2024). *AI Leadership Handbook: A Practical Guide to Turning Technology Hype into Business Outcomes*. Intelligence Briefing Press.
