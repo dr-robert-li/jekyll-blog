@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From Click to Citation: Part 2 - Building Teams for AI Visibility in a Zero-Click World"
+title: "Emerging Practices in Team Building for an Agentic Internet"
 date: 2025-10-13
 categories: [AI Visibility, Team Building, Organizational Transformation, GEO, LLMO, Digital Strategy, Innovation Management, Competitive Advantage]
 ---
@@ -21,7 +21,7 @@ categories: [AI Visibility, Team Building, Organizational Transformation, GEO, L
 
 ---
 
-In Part 1, we examined how AI platforms reshape digital visibility through citation patterns, the two-stage decision architecture, and the authority-traffic paradox. We also outlined the technical strategies that research has informed us should increase AI visibility.
+In the [previous essay](https://drli.blog/posts/citation-attention/), we examined how AI platforms reshape digital visibility through citation patterns, the two-stage decision architecture, and the authority-traffic paradox. We also outlined the technical strategies that research has informed us should increase AI visibility.
 
 But this raises the human question: Who executes these strategies? What organizational structures support AI visibility optimization across four major platforms with minimal overlap? How do teams develop expertise in both platform-specific algorithms and industry-specific user behavior?
 
