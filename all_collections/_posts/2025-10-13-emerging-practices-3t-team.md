@@ -13,7 +13,7 @@ categories: [AI Visibility, Team Building, Organizational Transformation, GEO, L
 
 * LLM algorithmic limitations—"agreeable average" problem, catastrophic forgetting, "lost in the middle" phenomenon, lateral thinking constraints—are fundamental mathematical constraints in neural networks, not temporary bugs. Organizations exploiting these through specialized expertise in the long tail of LLM training distributions create defensible competitive moats.
 * Three-tier architecture with fluid team assignments: Democratic Foundation (Tier 3 execution), Core Combinatorial Teams (Tier 2 defensible offerings), Frontier Innovation (Tier 1 R&D). Same teams and individuals operate fluidly across tiers based on combinatorial expertise and project context.
-* Combinatorial specialization multiplies defensibility: Single-vector (ChatGPT specialist OR healthcare expert) = valuable but replicable. Dual-vector (platform × vertical) = rare combination. Multi-vector (Perplexity × financial services × regulatory) = uniquely defensible and personalizable, exploiting underrepresented combinatorial spaces in LLM training data.
+* Combinatorial specialization multiplies defensibility: Single-vector (ChatGPT specialist OR healthcare expert) = valuable but replicable. Dual-vector (platform × vertical) = rare combination. Multi-vector (Perplexity × financial services × MCP architect) = uniquely defensible and personalizable, exploiting underrepresented combinatorial spaces in LLM training data.
 * Democratization of AI fluency "10x's every employee" and prevents specialist→generalist commoditization. Baseline AI capabilities across all teams enable individuals to be Tier 1 frontier specialists in one area while operating as Tier 2 or Tier 3 in others. AI amplifies execution velocity at Tier 3, accelerates innovation at Tier 2, and expands exploration capacity at Tier 1—creating culture where specialists emerge naturally rather than through centralized bottlenecks.
 * Human expertise provides trust advantages LLMs cannot replicate: 52% prefer human doctors, 70% prefer human financial advisors, perceived human authorship increases credibility (d=0.67, p<0.001). Combinatorial teams signal both technical optimization and domain authority users demand.
 * Platform fragmentation requires specialists: 71% of sources appear on only one platform; 7% achieve universal presence across ChatGPT, Gemini, Perplexity, Claude. Historical precedent shows specialized structures delivered 40-60% performance advantages during technological transitions.
@@ -390,7 +390,7 @@ Technical specialization alone provides temporary advantage. As platforms mature
 
 - **Single-vector**: ChatGPT specialist OR healthcare compliance expert = valuable but replicable
 - **Dual-vector**: ChatGPT specialist × Healthcare compliance expert = rare combination leveraging YOUR organization's specific strengths
-- **Multi-vector**: Your Perplexity specialist × Your financial services expert × Your regulatory knowledge = uniquely defensible based on what YOU possess and personalizable to YOUR END CLIENT'S SPECIFIC NEEDS.
+- **Multi-vector**: Your Perplexity specialist × Your financial services expert × Your MCP architect = uniquely defensible based on what YOU possess and personalizable to YOUR END CLIENT'S SPECIFIC NEEDS.
 
 The framework recognizes that competitive advantage emerges not from finding globally underrepresented niches, but from combining your organization's specific technical and commercial capabilities in ways LLMs and competitors cannot easily represent.
 
