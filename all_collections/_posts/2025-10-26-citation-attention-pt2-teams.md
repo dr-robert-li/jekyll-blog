@@ -235,6 +235,10 @@ Your competitive advantage won't come from technology alone. It emerges from org
 
 The question isn't whether to transform your organization for AI visibility optimization. It's whether you'll do it while the strategic window remains open.
 
+**For practical implementation guidance, see the [Appendix: Implementation Frameworks and Templates](https://drli.blog/posts/emerging-practices-3t-team/#:~:text=Appendix%3A%20Implementation%20Frameworks%20and%20Templates) in the full essay, which contains detailed templates to guide this organizational transformation.**
+
+---
+
 ## References
 
 Adobe Digital Insights. (2025). *AI Platform Impact on Website Traffic and Engagement*. Adobe.
