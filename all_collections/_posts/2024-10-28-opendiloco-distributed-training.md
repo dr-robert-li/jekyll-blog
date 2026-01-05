@@ -106,8 +106,8 @@ The authors replicated experiments using a model with **150 million parameters**
 | Model                       | Communication | Time | Compute & Data | Perplexity |
 |-----------------------------|---------------|------|----------------|------------|
 | Baseline, no replica        | 0             | 1×   | 1×             | 16.17      |
-| Baseline, 8× batch size     | $$8 × N$$     | 1×   | $$8 ×$$       | 13.68      |
-| DiLoCo, 8 replicas          | $$8 × N/H$$   | 1×   | $$8 ×$$       | **13.73**  |
+| Baseline, 8× batch size     | $$8 \times N$$    | 1×   | 8×             | 13.68      |
+| DiLoCo, 8 replicas          | $$8 \times N/H$$  | 1×   | 8×             | **13.73**  |
 
 ### Conclusions and Ramifications
 
