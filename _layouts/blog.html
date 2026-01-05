@@ -18,6 +18,7 @@
             >
             {% endfor %}
           </div>
+          <p class="excerpt">{{ post.excerpt | strip_html | replace: '---', '' | strip }}</p>
         </article>
         {%endfor%}
       </section>
