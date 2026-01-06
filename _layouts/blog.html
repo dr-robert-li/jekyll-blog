@@ -18,7 +18,7 @@
             >
             {% endfor %}
           </div>
-          <p class="excerpt">{{ post.excerpt | strip_html | replace: '---', '' | strip }}</p>
+          <p class="excerpt">{{ post.excerpt | strip_html | split: 'TL;DR' | last | replace: '---', '' | strip | truncatewords: 50 }}</p>
         </article>
         {%endfor%}
       </section>
