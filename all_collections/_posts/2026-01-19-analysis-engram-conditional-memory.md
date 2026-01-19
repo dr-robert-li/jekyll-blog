@@ -49,7 +49,7 @@ This achieves 23% vocabulary reduction, improving coverage per embedding slot an
 
 #### Section 2.2: Multi-Head Hashing
 
-The combinatorial space of N-grams ($|V|^3 \approx 10^{15}$ for trigrams with 128k vocabulary) cannot be stored explicitly. Engram uses $K$ independent hash functions mapping N-grams to table slots of size $M$:
+The combinatorial space of N-grams ($\lvert V \rvert^3 \approx 10^{15}$ for trigrams with 128k vocabulary) cannot be stored explicitly. Engram uses $K$ independent hash functions mapping N-grams to table slots of size $M$:
 
 $$\phi_{n,k}: \mathbb{Z}^n \rightarrow \{0, 1, \ldots, M-1\}$$
 
@@ -208,7 +208,7 @@ Using the **chain rule of probability**, we decompose this as:
 
 $$P(w_1, w_2, \ldots, w_T) = \prod_{t=1}^{T} P(w_t \mid w_1, w_2, \ldots, w_{t-1})$$
 
-**Problem**: Computing $P(w_t \mid w_1, \ldots, w_{t-1})$ requires conditioning on the *entire* history. For a vocabulary of size $|V|$ and sequence length $T$, we'd need to estimate $|V|^T$ parameters—astronomically intractable.
+**Problem**: Computing $P(w_t \mid w_1, \ldots, w_{t-1})$ requires conditioning on the *entire* history. For a vocabulary of size $\lvert V \rvert$ and sequence length $T$, we'd need to estimate $\lvert V \rvert^T$ parameters—astronomically intractable.
 
 ##### The Markov Assumption (Key Simplification)
 
@@ -224,7 +224,7 @@ This truncates history to a fixed-size window, making the model tractable.
 |--------|---------|
 | $w_t$ | Word at position $t$ |
 | $V$ | Vocabulary (set of all words) |
-| $|V|$ | Vocabulary size |
+| $\lvert V \rvert$ | Vocabulary size |
 | $N$ | The "N" in N-gram (context window + target) |
 | $w_{t-N+1}^{t-1}$ | Shorthand for $(w_{t-N+1}, \ldots, w_{t-1})$ — the context |
 | $C(\cdot)$ | Count function (occurrences in training corpus) |
@@ -328,7 +328,7 @@ $$P(\text{sat} \mid \text{quantum}, \text{cat}) = \frac{C(\text{"quantum cat sat
 
 1. **Laplace (Add-1) Smoothing**: Add 1 to all counts
 
-$$P_{\text{Laplace}}(w_t \mid w_{t-1}) = \frac{C(w_{t-1}, w_t) + 1}{C(w_{t-1}) + |V|}$$
+$$P_{\text{Laplace}}(w_t \mid w_{t-1}) = \frac{C(w_{t-1}, w_t) + 1}{C(w_{t-1}) + \lvert V \rvert}$$
 
 2. **Kneser-Ney Smoothing**: Sophisticated interpolation using lower-order models
 
@@ -338,7 +338,7 @@ $$P_{\text{Laplace}}(w_t \mid w_{t-1}) = \frac{C(w_{t-1}, w_t) + 1}{C(w_{t-1}) +
 
 | Operation | Time Complexity | Space Complexity |
 |-----------|-----------------|------------------|
-| Training (counting) | $O(T)$ where $T$ = corpus size | $O(|V|^N)$ worst case |
+| Training (counting) | $O(T)$ where $T$ = corpus size | $O(\lvert V \rvert^N)$ worst case |
 | Inference (lookup) | $O(1)$ per prediction | — |
 | Storage | — | $O(M)$ where $M$ = unique N-grams |
 
@@ -703,9 +703,9 @@ The compression happens **only for Engram indexing**—the main Transformer back
 
 ### The Combinatorial Problem
 
-For vocabulary size $|V| = 128,000$ and trigrams ($N=3$):
+For vocabulary size $\lvert V \rvert = 128,000$ and trigrams ($N=3$):
 
-$$|\text{possible trigrams}| = |V|^3 = 128,000^3 \approx 2.1 \times 10^{15}$$
+$$\lvert\text{possible trigrams}\rvert = \lvert V \rvert^3 = 128,000^3 \approx 2.1 \times 10^{15}$$
 
 You cannot allocate 2 quadrillion embedding slots. So you must compress this space.
 
@@ -916,7 +916,7 @@ This is why Figure 7 in the paper (gating visualization) shows selective activat
 
 | Aspect | Assessment |
 |--------|------------|
-| Is it dimensionality reduction? | Yes—from $|V|^N$ to $K \times M$ dimensions |
+| Is it dimensionality reduction? | Yes—from $\lvert V \rvert^N$ to $K \times M$ dimensions |
 | Is it semantically informed? | No—the hash function is semantically uninformed, but the design is principled |
 | Is it lossy? | Yes, but multi-head makes catastrophic loss exponentially unlikely |
 | Is it novel? | No—it's a neural adaptation of feature hashing / count-min sketch |
