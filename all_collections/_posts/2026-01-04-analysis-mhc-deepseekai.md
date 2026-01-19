@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Manifold-Constrained Hyper-Connections (mHC): A Comprehensive Analysis"
+title: "Manifold-Constrained Hyper-Connections (mHC): A Comprehensive Summary"
 date: 2026-01-04
 categories: [AI Research, Deep Learning, Neural Architecture, DeepSeek, Training Stability, LLM Infrastructure]
 ---

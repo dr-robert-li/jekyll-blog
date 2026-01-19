@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Web World Models: A Critical Analysis"
+title: "Web World Models: Conceptually Interesting but Incremental in Contribution"
 date: 2026-01-11
 categories: [AI Research, World Models, LLM Applications, Generative AI, Interactive Systems, Web Development]
 ---
