@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Engram: A Critical Analysis of Conditional Memory via Scalable Lookup from DeepSeek"
+title: "Engram: A Critical Analysis of Conditional Memory as a Sparsity Axis - DeepSeek's Adaptation of Classic N-grams for Early Layer Feature Representation"
 date: 2026-01-19
 categories: [AI Research, Large Language Models, Neural Architecture, Sparse Models, Memory Systems, DeepSeek]
 ---
