@@ -56,7 +56,9 @@ This is not speculative positioning. It is the stated strategic direction of two
 
 **The rise of vibe coding and disposable software:**
 
-"Vibe coding"-the practice of prompting AI tools to generate working software from natural language-has made disposable micro-applications a reality. While there have been tools such as Bolt, Lovable and Vercel, that have long allowed developers to start building quickly, Claude Co-Work and Code in desktop environments is now allowing, quite literally, anyone to spin up custom micro-apps in minutes (Bez Kabli, 2026; DailyAIWorld, 2026) and this is happening at scale-this is a moment where the practical application of AI is allowing the adoption chasm to be crossed. In 2021, an MVP took three months and cost $50,000. In 2026, you can build and deploy a SaaS over a weekend ("This Vibe Coding Trend," 2026). Bain Capital Ventures describes these micro-apps as filling "the gap between the spreadsheet and a full-fledged product" (Bez Kabli, 2026). Users can now create their own bespoke restaurant-picking apps, health symptom trackers, holiday family games, and podcast translation tools-creating a vacuum in demand for applications that "disappear when the need is no longer present" (Bez Kabli, 2026). It is my strong belief that the majority of applications fit that description.
+"Vibe coding"-the practice of prompting AI tools to generate working software from natural language often sight unseen, with little to no pre-structuring or architecting-has made disposable micro-applications a reality. While there have been tools such as Bolt, Lovable and Vercel, that have long allowed developers to start building quickly, Claude Co-Work and Code in desktop environments is now allowing, quite literally, anyone to spin up custom micro-apps in minutes (Bez Kabli, 2026; DailyAIWorld, 2026) and this is happening at scale-this is a moment where the practical application of AI is allowing the adoption chasm to be crossed. This isn't new as users of LLM based chat platforms may have noted when querying, this was already being done autonomously during a reasoning models thinking steps, however, where it was previously used to return a natural language response with, perhaps some artifacts, now, for many users, the output is the micro-application itself.
+
+In 2021, an MVP took three months and cost $50,000. In 2026, you can build and deploy a small personal SaaS over a weekend ("This Vibe Coding Trend," 2026). Bain Capital Ventures describes these micro-apps as filling "the gap between the spreadsheet and a full-fledged product" (Bez Kabli, 2026). Users can now create their own bespoke restaurant-picking apps, health symptom trackers, holiday family games, and podcast translation tools-creating a vacuum in demand for applications that "disappear when the need is no longer present" (Bez Kabli, 2026). It is my strong belief that the majority of applications fit that description.
 
 **But ERPs are being wrapped, not dismantled:**
 
@@ -102,8 +104,8 @@ Glean's analysis frames this as the "evolution from database-centric to intellig
 
 **Projected state:**
 
-- By 2035, agentic AI could drive approximately 30% of enterprise application software revenue, surpassing $450 billion (Business 2.0 Channel, 2026).
-- By 2030, 90% of B2B buying will be AI agent intermediated, pushing over $15 trillion of B2B spend through AI agent exchanges (Business 2.0 Channel, 2026).
+- By 2035, agentic AI could drive approximately 30% of enterprise application software revenue, surpassing $450 billion 
+- By 2030, 90% of B2B buying will be AI agent intermediated, pushing over $15 trillion of B2B spend through AI agent exchanges
 - The surviving platforms will function as orchestration layers, "managing fleets of specialised agents rather than serving as destinations for human interaction" (Business 2.0 Channel, 2026).
 
 Ultimately, this hypothesis has been **strongly validated** for point-solution SaaS and workflow tools, and **directionally validated** for ERP/CRM systems with a longer timeline. The claim is that SaaS platforms will ultimately reduce to semantic databases described by Nadella, Bain, and the emerging semantic layer architecture. The nuance is that core systems of record will persist as governed data substrates while the application/logic layer migrates to agents.
@@ -411,7 +413,5 @@ Strategy Software. (2025). How enterprises scale secure, governed AI with a univ
 Tech101 for Marketers. (2022). Low-code and no-code: Separating citizen developers from shadow IT. https://tech101formarketers.com/2022/11/13/low-code-and-no-code-separating-citizen-developers-from-shadow-it/
 
 The Cyber Institute. (2025). Shadow AI and the governance vacuum: Confronting the next phase of digital trust risk. https://www.cyber-institute.org/post/shadow-ai-and-the-governance-vacuum-confronting-the-next-phase-of-digital-trust-risk
-
-This vibe coding trend will DOMINATE 2026. (2026). [Video]. YouTube. https://www.youtube.com/watch?v=rlVUKdQZM6Y
 
 Windows Central. (2024). Is SaaS dead? Microsoft CEO makes bold agentic AI prediction. https://www.windowscentral.com/microsoft/hey-why-do-i-need-excel-microsoft-ceo-satya-nadella-foresees-a-disruptive-agentic-ai-era-that-could-aggressively-collapse-saas-apps
