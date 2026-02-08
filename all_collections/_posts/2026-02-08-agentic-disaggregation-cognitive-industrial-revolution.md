@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Agentic Disaggregation and the Cognitive Industrial Revolution"
+title: "Agentic Disaggregation and the Cognitive Industrial Revolution"
 date: 2026-02-08
 categories: [AI Agents, Software Disaggregation, Cognitive Science, SaaS, Enterprise AI, Agentic Web, Industrial Revolution, Digital Transformation, Semantic Web, Information Architecture]
 ---
