@@ -5,7 +5,7 @@ date: 2026-02-08
 categories: [AI Agents, Software Disaggregation, Cognitive Science, SaaS, Enterprise AI, Agentic Web, Industrial Revolution, Digital Transformation, Semantic Web, Information Architecture]
 ---
 
-![SaaSPocalypse](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/market-crash.jpg)
+![SaaSPocalypse](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/market-crash.jpeg)
 
 ---
 
