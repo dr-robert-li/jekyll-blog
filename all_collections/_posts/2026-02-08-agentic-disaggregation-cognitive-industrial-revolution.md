@@ -238,6 +238,14 @@ In the agentic web stack described in the original article (semantic data substr
 
 The fundamental cognitive adaptation required is a shift from **application user** (I use tools that have been designed, tested, and maintained by professionals) to **system orchestrator** (I compose capabilities from agents, models, and data sources, and I am responsible for evaluating the outputs). This is a qualitatively different cognitive posture.
 
+**The vibe-coding-to-context-engineering arc as the concrete mechanism of this shift:**
+
+This consumer-to-orchestrator transition is already observable through a specific skill progression that crystallized with remarkable speed across 2025. Andrej Karpathy coined "vibe coding" in February 2025 to describe the practice of prompting AI to generate code sight unseen, accepting all outputs without review—suitable, in his words, for "throwaway weekend projects" (Karpathy, 2025a). Just four months later, Karpathy himself endorsed the professional counterpart: "context engineering," which he described as "the delicate art and science of filling the context window with just the right information for the next step," encompassing "task descriptions, explanations, few-shot examples, RAG, multimodal data, tools, state and history, and compacting" (Karpathy, 2025b). By July 2025, Gartner declared that "context engineering is in, and prompt engineering is out," advising AI leaders to "prioritize context over prompts—building context-aware architectures, integrating dynamic data and reimagining human-AI interfaces" (Gartner, 2025). Thoughtworks and MIT Technology Review published the definitive retrospective in November 2025, documenting how the industry moved from vibe coding's speed-first ethos toward context engineering's recognition that "effectively managing context is far more critical than raw computational scale" (Mugrage, 2025).
+
+The empirical evidence validates this as more than a branding shift. A field study of professional developers (N=13 observations, N=99 surveys) found that experienced software engineers "retain their agency in software design and implementation out of insistence on fundamental software quality attributes," employing deliberate control strategies rather than passively accepting AI suggestions (Huang et al., 2025). The METR randomized controlled trial reinforces this: experienced developers accepted fewer than 44% of AI generations and spent significant effort on review and rejection—the opposite of vibe coding's "accept all" posture (Becker et al., 2025). A validated psychometric scale measuring prompt engineering competence found a statistically significant positive correlation (r = 0.605, p < 0.01) between structured AI interaction capability and sustainable AI use (Gibreel & Arpaci, 2025). In practical terms, structured tagged context prompts eliminate hallucinations with 98.88% effectiveness (Feldman, Foulds, & Pan, 2023), while the Agentic Context Engineering (ACE) framework achieves a 10.6% improvement on agent benchmarks by treating contexts as "evolving playbooks that accumulate, refine, and organize strategies through a modular process of generation, reflection, and curation" (Zhang et al., 2025a). Meanwhile, undisciplined AI use extracts measurable costs: IBM's 2025 Cost of Data Breach Report found that shadow AI breaches cost organizations $670,000 more per incident than standard breaches, with 97% of compromised organizations lacking proper AI access controls (IBM, 2025). Vibe-coded applications are 40% more likely to contain critical security vulnerabilities and produce 8x more duplicate code blocks than human-written equivalents (Ge et al., 2025).
+
+In the near term, vibe coding remains the dominant mode of interaction for most users—it is the path of least resistance and sufficient for personal, low-stakes applications. But the empirical evidence above indicates that a professional vanguard is already diverging: those who encounter the limitations of unstructured interaction—hallucination, architectural drift, security vulnerabilities, unmaintainable code—begin imposing structure on their AI interactions through system prompts, project scaffolding, and governance constraints. Context engineering, in other words, is emerging as a professional counteracting force against the fragmentation and unreliability that characterize the cottage phase of disaggregation described under Hypothesis 1. The full progression—from casual vibe coder to disciplined context engineer to system orchestrator—represents a skill ladder whose rungs materialize progressively through the medium and long term as orchestration tooling matures and foundation models grow more capable.
+
 **Specific adaptation requirements:**
 
 - **Developing "negative capability"**: The ability to remain comfortable with uncertainty and incomplete information. Organizational research shows that leaders who frame challenges as hypotheses to test rather than problems to solve demonstrate significantly better adaptation outcomes. Microsoft's cultural transformation under Nadella-from "know-it-all" to "learn-it-all"-is the enterprise-scale example (Innovative Human Capital, 2025a).
@@ -260,11 +268,21 @@ Adobe's "T to V" initiative systematically reshaped its engineering culture: exp
 
 The law of requisite variety (Ashby) states that an organization's internal diversity must match the complexity of its environment. As agents proliferate and generate diverse, potentially conflicting outputs, organizations will need distributed sensemaking capabilities-regular forums for collective interpretation across hierarchical levels that develop "richer, more nuanced understanding that informs better adaptation" (David, 2025; Innovative Human Capital, 2025a). As we can all see in our own rollouts of AI adoption and development of fluency, this is easier said than done, and it's success will likely need to be hard fought and learned through organizational trials and error. All of this to say: not all organizations and their leaders will survive this transition.
 
+**The orchestration tooling inflection:**
+
+As the vibe-coding-to-context-engineering arc described in the near-term section matures, the medium term brings a critical development: natural language orchestration tooling lowers the barrier to context engineering from a specialized professional skill to an accessible organizational competency. Anthropic's Agent Skills framework exemplifies the pattern: rather than "building fragmented, custom-designed agents for each use case," practitioners "specialize their agents with composable capabilities by capturing and sharing their procedural knowledge" through portable, natural language instruction sets that any agent can dynamically load when relevant (Zhang, Lazuka, & Murag, 2025; Anthropic, 2025). Skills employ progressive disclosure—metadata loads first at roughly 100 tokens, full procedural instructions expand only when contextually appropriate—allowing numerous specialized capabilities to remain available without overwhelming the context window. This architecture reflects a broader engineering insight: "Building effective AI agents is less about finding the right words and more about determining what configuration of context is most likely to generate our model's desired behavior" (Anthropic, 2025). Combined with natural language project documents that encode organizational knowledge, compliance requirements, and domain-specific procedures, these tools transform context engineering from an individual craft into an organizational practice. The WorkTeam system presented at NAACL 2025 demonstrates the principle at the research frontier: a multi-agent architecture that constructs executable workflows directly from natural language descriptions (Liu et al., 2025).
+
+A complementary dynamic accelerates this transition: as foundation models grow more capable, the marginal benefit of highly specialized agent workflows diminishes. Research across 180 multi-agent configurations finds that coordination yields diminishing or even negative returns once single-agent baselines exceed approximately 45% accuracy, and that for sequential reasoning tasks, every multi-agent variant degraded performance by 39–70% compared to a single capable agent (Kim et al., 2025). A separate study confirms that "the benefits of multi-agent systems over single-agent systems diminish as LLM capabilities improve," with a hybrid approach achieving 1.1–12% accuracy improvement at up to 20% cost reduction by routing simple tasks to single agents and reserving multi-agent configurations for genuinely complex parallel operations (Gao et al., 2025). Anthropic's own engineering trajectory reflects this convergence: their December 2024 guidance advised developers to start simple and "consider adding complexity only when it demonstrably improves outcomes" (Schluntz & Zhang, 2024), while their October 2025 Agent Skills framework formalizes the architectural response—general-purpose models layered with composable specialization modules, rather than proliferating bespoke agents. For V-shaped professionals, this means that orchestration competency increasingly centers on knowing *when* complexity is warranted rather than defaulting to elaborate multi-agent architectures.
+
 ### Long-Term Cognitive Adaptation (2030-2035): Building Change Fitness as Core Capability
 
 Ultimately, the long-term requirement is not managing discrete changes but building **change fitness**-"the organizational capacity to continuously adapt without depleting human resources" (Innovative Human Capital, 2025a). Change fitness differs from change management: it treats adaptation as ongoing rather than episodic, focuses on capability development rather than process compliance, and distributes adaptive responsibility rather than concentrating it in specialized roles (Innovative Human Capital, 2025a).
 
 Organizations that identify and develop specific capabilities-sense-making, experimentation, learning agility, tolerance for ambiguity, collaborative problem-solving-demonstrate 46% higher change success rates than those relying on general leadership development (Innovative Human Capital, 2025a).
+
+**Context window integrity as the architectural discipline of mature orchestration:**
+
+As orchestration matures into an organizational norm, the separation of agents that persists in mature architectures serves a specific and empirically grounded purpose: not functional specialization per se, but **logical separation of concerns to protect context window integrity**. The foundational "Lost in the Middle" research demonstrates that LLM performance follows a U-shaped curve, degrading significantly when relevant information appears in the middle of long contexts, even for models explicitly designed for extended windows (Liu et al., 2024). Subsequent work establishes that this is not merely a retrieval problem: even when models can perfectly retrieve all relevant information, performance still degrades 13.9–85% as input length increases (Du et al., 2025). A clinical-scale evaluation provides the most direct evidence for separation as a mitigation strategy: orchestrated multi-agent systems maintained 90.6% accuracy across 80 concurrent tasks while single-agent accuracy collapsed to 16.6%, with the mechanism explicitly identified as "preventing context interference" and token usage reduced up to 65-fold (Klang et al., 2025). Simple observation masking—aggressively managing what enters the context window—cuts costs by over 50% without reducing solve rates, and in some cases improves them (Lindenbauer et al., 2025). By 2030, the practical implication is clear: as organizations mature from ad hoc context engineering into systematic orchestration, the architectural choices they make center less on creating specialist agents and more on maintaining clean, focused contexts that prevent the cognitive and computational equivalent of information being "lost in the middle." This understanding—that the primary function of agent separation is context hygiene rather than functional specialization—represents the fully mature expression of the skill progression that begins with vibe coding in the near term and develops through context engineering tooling in the medium term.
 
 The cognitive model shifts from:
 
@@ -318,6 +336,10 @@ AtScale. (2025a). The state of the semantic layer: 2025 in review. *AtScale Blog
 
 AtScale. (2025b). Why 2025 redefined the semantic layer. *AtScale Blog*. https://www.atscale.com/blog/why-ai-redefined-the-semantic-layer/
 
+Anthropic. (2025). Effective context engineering for AI agents. *Anthropic Engineering*. https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+
+Anthropic. (2025). Skills explained. *Claude Blog*. https://claude.com/blog/skills-explained
+
 Bain & Company. (2025). Will agentic AI disrupt SaaS? *Bain Technology Report 2025*. https://www.bain.com/insights/will-agentic-ai-disrupt-saas-technology-report-2025/
 
 Bain & Company. (2026). How soon will agentic AI redefine enterprise resource planning? https://www.bain.com/insights/how-soon-will-agentic-ai-redefine-enterprise-resource-planning-snap-chart/
@@ -348,6 +370,8 @@ CX Today. (2024). Microsoft CEO: AI agents will transform SaaS as we know it. ht
 
 DailyAIWorld. (2026). Disposable software & vibe coding 2026: The end of SaaS, the rise of software on demand. https://dailyaiworld.com/post/disposable-software-vibe-coding-2026-the-end-of-saas-the-rise-of-software-on-demand
 
+Du, Y., Tian, M., Ronanki, S., Rongali, S., Bodapati, S., Galstyan, A., Wells, A., Schwartz, R., Huerta, E. A., & Peng, H. (2025). Context length alone hurts LLM performance despite perfect retrieval. *Findings of EMNLP 2025*. https://arxiv.org/abs/2510.05381
+
 David. (2025). Advanced AI-enhanced knowledge management strategy: Embracing sensemaking, uncertainty, requisite variety, and AI technologies. *LinkedIn*. https://www.linkedin.com/pulse/advanced-ai-enhanced-knowledge-management-strategy-ai-david
 
 Deloitte Insights. (2026). SaaS meets AI agents. *Deloitte TMT Predictions 2026*. https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/saas-ai-agents.html
@@ -356,7 +380,17 @@ Equinix. (2026, January 29). The data problem behind agentic AI, and what you ca
 
 Forbes Tech Council. (2025, February 19). How AI is disrupting the SaaS landscape and reshaping the future. *Forbes*. https://www.forbes.com/councils/forbestechcouncil/2025/02/19/how-ai-is-disrupting-the-saas-landscape-and-reshaping-the-future/
 
+Feldman, P., Foulds, J. R., & Pan, S. (2023). Trapping LLM hallucinations using tagged context prompts. *arXiv*. https://arxiv.org/abs/2306.06085
+
 Forte Group. (2025). AI governance in practice: Critical gaps in implementation and strategy. https://fortegrp.com/insights/ai-governance-in-practice-critical-gaps-in-implementation-and-strategy
+
+Gao, M., Li, Y., Liu, B., Yu, Y., Wang, P., Lin, C.-Y., & Lai, F. (2025). Single-agent or multi-agent systems? Why not both? *arXiv*. https://arxiv.org/abs/2505.18286
+
+Gartner. (2025). Context engineering: Why it's replacing prompt engineering for enterprise AI success. https://www.gartner.com/en/articles/context-engineering
+
+Ge, et al. (2025). A survey of vibe coding with large language models. *arXiv*. https://arxiv.org/abs/2510.12399
+
+Gibreel, O., & Arpaci, I. (2025). Development and validation of the prompt engineering competence scale (PECS). *Information Development*. https://journals.sagepub.com/doi/10.1177/02666669251336455
 
 GitClear. (2024). Coding on Copilot: 2023 data suggests downward pressure on code quality. https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality
 
@@ -367,6 +401,10 @@ Gualdi, F., & Cordella, A. (2025). Artificial intelligence and decision-making: 
 History Crunch. (2022). Cottage industry vs. factory system. https://www.historycrunch.com/cottage-industry-vs-factory-system.html
 
 History of OSH. (n.d.). Timeline-History of occupational safety and health. https://www.historyofosh.org.uk/timeline.html
+
+Huang, R., Reyna, A., Lerner, S., Xia, H., & Hempel, B. (2025). Professional software developers don't vibe, they control: AI agent use for coding in 2025. *arXiv*. https://arxiv.org/abs/2512.14012
+
+IBM. (2025). *Cost of a data breach report 2025*. IBM Security. https://www.ibm.com/reports/data-breach
 
 IBM Research. (2018). Cultivating T-shaped professionals in the era of digital transformation. *Service Science*. https://research.ibm.com/publications/cultivating-t-shaped-professionals-in-the-era-of-digital-transformation
 
@@ -386,7 +424,21 @@ ISACA. (2025a). The rise of shadow AI: Auditing unauthorized AI tools in the ent
 
 ISACA. (2025b). AI use is outpacing policy and governance. https://www.isaca.org/about-us/newsroom/press-releases/2025/ai-use-is-outpacing-policy-and-governance-isaca-finds
 
+Karpathy, A. (2025a, February 6). Vibe coding [Post]. *X*. https://x.com/karpathy/status/1886192184808149383
+
+Karpathy, A. (2025b, June). Context engineering [Post]. *X*. https://x.com/karpathy/status/1937902205765607626
+
+Kim, Y., Gu, K., Park, C., et al. (2025). Towards a science of scaling agent systems. *arXiv*. https://arxiv.org/abs/2512.08296
+
+Klang, E., Omar, M., Raut, G., Agbareia, R., Timsina, P., Freeman, R., Gavin, N., Stump, L., Charney, A. W., Glicksberg, B. S., & Nadkarni, G. N. (2025). Orchestrated multi agents sustain accuracy under clinical-scale workloads compared to a single agent. *medRxiv*. https://www.medrxiv.org/content/10.1101/2025.08.22.25334049v1
+
 Li, R. (2025, June 9). The evolution of human-internet interaction: Toward a new information architecture. *drli.blog*. https://drli.blog/posts/agentic-web-evolution/
+
+Lindenbauer, T., Slinko, I., Felder, L., Bogomolov, E., & Zharov, Y. (2025). The complexity trap: Simple observation masking is as efficient as LLM summarization for agent context management. *NeurIPS 2025 DL4Code Workshop*. https://arxiv.org/abs/2508.21433
+
+Liu, H., Li, R., Xiong, W., Zhou, Z., & Peng, W. (2025). WorkTeam: Constructing workflows from natural language with multi-agents. In *Proceedings of NAACL 2025 Industry Track* (pp. 20-35). https://aclanthology.org/2025.naacl-industry.3/
+
+Liu, N. F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F., & Liang, P. (2024). Lost in the middle: How language models use long contexts. *Transactions of the Association for Computational Linguistics*, 12, 157-173. https://aclanthology.org/2024.tacl-1.9/
 
 McDowell, S. (2026, January 27). How Oracle AI Database 26ai addresses the enterprise AI data paradox. *Forbes*. https://www.forbes.com/sites/stevemcdowell/2026/01/27/how-oracle-database-26ai-addresses-enterprise-ai-data-paradox/
 
@@ -395,6 +447,8 @@ McKinsey. (2026). Bridging the great AI agent and ERP divide to unlock value at 
 METR. (2025, July 10). Measuring the impact of early-2025 AI on experienced open-source developers [Blog post]. https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/
 
 Monkedo. (2024). No-code platforms history. *Monkedo Blog*. https://monkedo.com/blog/no-code-platforms-history
+
+Mugrage, K. (2025, November 5). From vibe coding to context engineering: 2025 in software development. *Thoughtworks*. https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/vibe-coding-context-engineering-2025-software-development
 
 Muir, D. (2026, February 4). $300 billion evaporated. The SaaS-pocalypse has begun. *Forbes*. https://www.forbes.com/sites/donmuir/2026/02/04/300-billion-evaporated-the-saaspocalypse-has-begun/
 
@@ -406,6 +460,8 @@ Perry, N., et al. (2023). Do users write more insecure code with AI assistants? 
 
 Ron Labs AI. (2025). Cognitive load & decision making: Smarter choices with AI. https://www.ronlabs.ai/blog/cognitive-load-on-delayed-decision-making/
 
+Schluntz, E., & Zhang, B. (2024, December 19). Building effective agents. *Anthropic Research*. https://www.anthropic.com/research/building-effective-agents
+
 School History. (2024). Factory Acts: Timeline, features, impact. https://schoolhistory.co.uk/industrial/factory-acts/
 
 Strategy Software. (2025). How enterprises scale secure, governed AI with a universal semantic layer. https://www.strategysoftware.com/blog/how-enterprises-scale-secure-governed-ai-with-a-universal-semantic-layer
@@ -415,3 +471,7 @@ Tech101 for Marketers. (2022). Low-code and no-code: Separating citizen develope
 The Cyber Institute. (2025). Shadow AI and the governance vacuum: Confronting the next phase of digital trust risk. https://www.cyber-institute.org/post/shadow-ai-and-the-governance-vacuum-confronting-the-next-phase-of-digital-trust-risk
 
 Windows Central. (2024). Is SaaS dead? Microsoft CEO makes bold agentic AI prediction. https://www.windowscentral.com/microsoft/hey-why-do-i-need-excel-microsoft-ceo-satya-nadella-foresees-a-disruptive-agentic-ai-era-that-could-aggressively-collapse-saas-apps
+
+Zhang, B., Lazuka, K., & Murag, M. (2025, October 16). Equipping agents for the real world with agent skills. *Anthropic Engineering*. https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+
+Zhang, Q., Hu, C., Upasani, S., Ma, B., Hong, F., Kamanuru, V., Rainton, J., Wu, C., Ji, M., Li, H., Thakker, U., Zou, J., & Olukotun, K. (2025). Agentic context engineering: Evolving contexts for self-improving language models. *arXiv*. https://arxiv.org/abs/2510.04618
