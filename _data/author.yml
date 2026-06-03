@@ -2,12 +2,16 @@ name: Dr. Robert Li
 dp: https://avatars.githubusercontent.com/u/155333421?v=4
 description: "
   <p>
-    WordPress Evangelist & Tinkerer | AI Engineering & Strategy | Automation Mad Scientist | GTM Engineer | Cloud Infrastructure & Cybersecurity SME | Speaker | Ex-Founder | Currently WP Engine Principal Solutions Architect
+    Director of AI & GTM Engineering/RevOps @ Australia GTM | Ships Agentic AI | Develops Organisational AI Fluency | Keynote Speaker | Ex-Principal Solutions Architect @ WP Engine
   </p>
   <br/>
   <p>
     You should follow him on <a href='https://github.com/dr-robert-li' target='_blank'>Github</a> and <a href='https://www.linkedin.com/in/robert-li' target='_blank'>LinkedIn</a>
   </P>
+  <br/>
+  <p>
+    Contact: <a href='mailto:dr.robert.li.au@gmail.com'>dr.robert.li.au@gmail.com</a> or <a href='mailto:robert.li@australiagtm.com'>robert.li@australiagtm.com</a>
+  </p>
 "
 email: dr.robert.li.au@gmail.com
 contact:
@@ -17,3 +21,5 @@ contact:
     url: https://github.com/dr-robert-li
   - title: email
     url: mailto:dr.robert.li.au@gmail.com
+  - title: email
+    url: mailto:robert.li@australiagtm.com
