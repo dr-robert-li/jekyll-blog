@@ -130,9 +130,9 @@ The companies building durable leverage right now are not the ones with the most
 
 ## If You've Bought the Tools and Nothing's Compounding
 
-If you find yourself asking the same questions about your GTM motions, we are launching an [**AI Maturity Assessment**](https://australiagtm.com) — a freely available, structured audit of where your current AI practice sits across six domains (sales, marketing, customer success, RevOps, GTM strategy, and the engineering layer that ties them together). You leave with a current-state map, a 90-day AI-in-GTM sprint plan, and a skills uplift plan. 
+If you find yourself asking the same questions about your GTM motions, we are launching an [**AI Maturity Assessment**](https://australiagtm.com). It's a structured audit of where AI sits inside your GTM teams today, based primarily on Claude. There's are individual assessments for technical vs non-technical roles, and another view for Leadership/Founders. Once we know where the teams at and which workflows are in place, we can start to see where the next dollar of AI investment has the highest return.
 
-It is the front door into our broader GTM Engineering and AI work, with RevOps underneath it rebuilding the CRM, data spine, and reporting so the AI layer has something clean to compound on. 
+The Assessment is the front door into our broader GTM Engineering & AI work. That work includes 90-day AI in GTM sprints, AI stack design, signal-triggered outreach, conversational intelligence used for multiple purposes across GTM, predictive models for forecast and churn, and bespoke agent design for the build layer. Sitting underneath it is our RevOps function, where the CRM, data spine and reporting boards get rebuilt so the AI layer has something clean to compound on.
 
 ---
 
