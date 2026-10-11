@@ -1,0 +1,103 @@
+## Topic table: programmatic subfunctions only (PRIMARY), FY1948-2017
+|   topic | name                  |   a |   b |   A |   Asum |   n |   share |   kurt |   tau4 |
+|--------:|:----------------------|----:|----:|----:|-------:|----:|--------:|-------:|-------:|
+|       3 | Health                |   2 |   4 |   8 |      6 |  70 |  13.267 | 18.677 |  0.479 |
+|       4 | Agriculture           |   4 |   5 |  20 |      9 |  70 |   2.058 |  8.484 |  0.346 |
+|       5 | Labor                 |   2 |   3 |   6 |      5 |  70 |   3.300 |  5.468 |  0.266 |
+|       6 | Education             |   3 |   3 |   9 |      6 |  70 |   2.716 |  2.603 |  0.253 |
+|       7 | Environment           |   5 |   4 |  20 |      9 |  47 |   0.386 | 10.978 |  0.535 |
+|       8 | Energy                |   4 |   5 |  20 |      9 |  39 |   0.108 | 38.552 |  0.939 |
+|      10 | Transportation        |   4 |   4 |  16 |      8 |  70 |   3.217 | 39.767 |  0.523 |
+|      12 | Law/crime             |   3 |   3 |   9 |      6 |  70 |   0.918 |  4.149 |  0.270 |
+|      13 | Social welfare        |   1 |   2 |   2 |      3 |  70 |  25.881 |  1.350 |  0.176 |
+|      14 | Community dev/housing |   3 |   4 |  12 |      7 |  70 |   2.199 | 10.702 |  0.460 |
+|      15 | Banking/commerce      |   4 |   5 |  20 |      9 |  68 |   0.597 | 11.202 |  0.314 |
+|      16 | Defense               |   4 |   5 |  20 |      9 |  70 |  35.921 | 26.257 |  0.423 |
+|      17 | Space/science         |   5 |   4 |  20 |      9 |  70 |   1.371 | 41.858 |  0.593 |
+|      19 | Intl affairs          |   5 |   3 |  15 |      8 |  70 |   1.610 |  3.336 |  0.274 |
+|      20 | Gov operations        |   4 |   3 |  12 |      7 |  70 |   5.036 |  9.976 |  0.426 |
+|      21 | Public lands/water    |   4 |   4 |  16 |      8 |  70 |   1.414 |  1.210 |  0.224 |
+
+### programmatic subfunctions only (PRIMARY), FY1948-2017
+- A vs kurt: rho=0.554, one-sided p=0.013, N=16
+- Asum vs kurt: rho=0.569, one-sided p=0.011, N=16
+- A vs tau4: rho=0.555, one-sided p=0.013, N=16
+- Asum vs tau4: rho=0.578, one-sided p=0.010, N=16
+- excl. topics <0.5% mean share, A vs kurt: rho=0.484, p=0.040, N=14 (dropped: Environment, Energy)
+- excl. tiny, A vs tau4: rho=0.426, p=0.064, N=14
+
+### programmatic subfunctions only (PRIMARY), FY1948-1976
+- A vs kurt: rho=0.560, one-sided p=0.019, N=14
+- Asum vs kurt: rho=0.552, one-sided p=0.020, N=14
+- A vs tau4: rho=0.321, one-sided p=0.131, N=14
+- Asum vs tau4: rho=0.312, one-sided p=0.139, N=14
+- excl. topics <0.5% mean share, A vs kurt: rho=0.650, p=0.011, N=12 (dropped: Law/crime, Banking/commerce)
+- excl. tiny, A vs tau4: rho=0.495, p=0.051, N=12
+
+### programmatic subfunctions only (PRIMARY), FY1977-2017
+- A vs kurt: rho=0.463, one-sided p=0.035, N=16
+- Asum vs kurt: rho=0.458, one-sided p=0.037, N=16
+- A vs tau4: rho=0.530, one-sided p=0.017, N=16
+- Asum vs tau4: rho=0.549, one-sided p=0.014, N=16
+- excl. topics <0.5% mean share, A vs kurt: rho=0.290, p=0.157, N=14 (dropped: Environment, Energy)
+- excl. tiny, A vs tau4: rho=0.397, p=0.080, N=14
+
+### all subfunctions incl. financial (robustness), FY1948-2017
+- A vs kurt: rho=0.327, one-sided p=0.108, N=16
+- Asum vs kurt: rho=0.359, one-sided p=0.086, N=16
+- A vs tau4: rho=0.413, one-sided p=0.056, N=16
+- Asum vs tau4: rho=0.436, one-sided p=0.046, N=16
+- excl. topics <0.5% mean share, A vs kurt: rho=0.359, p=0.094, N=15 (dropped: Environment)
+- excl. tiny, A vs tau4: rho=0.365, p=0.091, N=15
+
+### all subfunctions incl. financial (robustness), FY1948-1976
+- A vs kurt: rho=0.507, one-sided p=0.027, N=15
+- Asum vs kurt: rho=0.519, one-sided p=0.024, N=15
+- A vs tau4: rho=0.290, one-sided p=0.147, N=15
+- Asum vs tau4: rho=0.299, one-sided p=0.140, N=15
+- excl. topics <0.5% mean share, A vs kurt: rho=0.567, p=0.022, N=13 (dropped: Law/crime, Banking/commerce)
+- excl. tiny, A vs tau4: rho=0.405, p=0.085, N=13
+
+### all subfunctions incl. financial (robustness), FY1977-2017
+- A vs kurt: rho=0.256, one-sided p=0.169, N=16
+- Asum vs kurt: rho=0.277, one-sided p=0.150, N=16
+- A vs tau4: rho=0.468, one-sided p=0.034, N=16
+- Asum vs tau4: rho=0.484, one-sided p=0.029, N=16
+- excl. topics <0.5% mean share, A vs kurt: rho=0.182, p=0.258, N=15 (dropped: Environment)
+- excl. tiny, A vs tau4: rho=0.403, p=0.068, N=15
+
+### Subfunction level (programmatic, FY1948-2017, parent topic score)
+- A vs kurt: rho=-0.022, one-sided p=0.567, N=59 subfunctions in 16 topics (not independent: scores constant within topic)
+- A vs tau4: rho=0.083, one-sided p=0.265, N=59 subfunctions in 16 topics (not independent: scores constant within topic)
+- topic-cluster permutation p (A vs tau4) = 0.292
+
+### Baseline (Jones et al. 2009 style): pooled annual % changes, all programmatic subfunctions
+- N=3881, excess kurtosis=3875.3, L-kurtosis=0.957 (Normal 0.123)
+- topics with excess kurtosis > 0: 16/16; tau4 > 0.123: 16/16
+### Confounds (programmatic, FY1948-2017)
+| name                  |   share |   mand |   kurt |   tau4 |
+|:----------------------|--------:|-------:|-------:|-------:|
+| Health                |  13.267 |  0.888 | 18.677 |  0.479 |
+| Agriculture           |   2.058 |  0.860 |  8.484 |  0.346 |
+| Labor                 |   3.300 |  0.754 |  5.468 |  0.266 |
+| Education             |   2.716 |  0.478 |  2.603 |  0.253 |
+| Environment           |   0.386 |  0.000 | 10.978 |  0.535 |
+| Energy                |   0.108 |  0.000 | 38.552 |  0.939 |
+| Transportation        |   3.217 |  0.000 | 39.767 |  0.523 |
+| Law/crime             |   0.918 |  0.000 |  4.149 |  0.270 |
+| Social welfare        |  25.881 |  0.979 |  1.350 |  0.176 |
+| Community dev/housing |   2.199 |  0.000 | 10.702 |  0.460 |
+| Banking/commerce      |   0.597 |  0.000 | 11.202 |  0.314 |
+| Defense               |  35.921 |  0.071 | 26.257 |  0.423 |
+| Space/science         |   1.371 |  0.000 | 41.858 |  0.593 |
+| Intl affairs          |   1.610 |  0.000 |  3.336 |  0.274 |
+| Gov operations        |   5.036 |  0.764 |  9.976 |  0.426 |
+| Public lands/water    |   1.414 |  0.000 |  1.210 |  0.224 |
+- mand vs kurt: rho=-0.266, two-sided p=0.320
+- mand vs tau4: rho=-0.331, two-sided p=0.211
+- mand vs A: rho=-0.510, two-sided p=0.043
+- share vs kurt: rho=-0.121, two-sided p=0.656
+- share vs tau4: rho=-0.297, two-sided p=0.264
+- share vs A: rho=-0.542, two-sided p=0.030
+- partial Spearman A vs kurt | mandatory share, size: r=0.565, one-sided p=0.018, df=12
+- partial Spearman A vs tau4 | mandatory share, size: r=0.474, one-sided p=0.043, df=12

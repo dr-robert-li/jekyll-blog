@@ -1,0 +1,12 @@
+id,member,cluster,deadline,action,V,LR,durable,in_primary,date_source
+DL3,1983 Social Security amendments,US Social Security,1983-07-03,1983-04-20,3,3,1,1,doc §7.1 (CRS R47040; STATUTE-97-Pg65 on disk)
+DL4,Korea National Pension 2025 reform,Korea pension,2055-01-01,2025-03-20,2,3,1,1,doc §7.1 (NABO on disk)
+DL5,Colorado River post-2026 operations,Colorado River,2026-10-01,2026-08-21,8,3,1,1,USBR news release 21 Aug 2026 + ROD (on disk)
+DL6,US debt limit 2011 (BCA),US debt limit,2011-08-02,2011-08-02,3,2,1,1,P.L. 112-25 approved 2 Aug 2011 (on disk); X-date CRS R41633
+DL8,US debt limit 2023 (FRA),US debt limit,2023-06-05,2023-06-03,3,2,1,1,doc §7.1 (X-date abstained: press reports)
+DL9,US debt limit 2025 + TCJA (P.L. 119-21),US debt limit,2025-08-15,2025-07-04,1,2,1,1,"P.L. 119-21 approved 4 Jul 2025 (verified: govinfo PLAW-119publ21); X-date = start of CBO window 'mid-August to end of September 2025' (verified: CBO Monthly Budget Review May 2025, pub. 61302); conservative lead"
+E1,US debt limit Feb 2014,US debt limit,2014-02-27,2014-02-15,3,1,1,0,Treasury letter 7 Feb 2014 (on disk); P.L. 113-83 approved 15 Feb 2014 (verified: govinfo PLAW-113publ83)
+E2,US debt limit 2015 (BBA 2015),US debt limit,2015-11-03,2015-11-02,3,2,1,0,Treasury letter 15 Oct 2015 + P.L. 114-74 (both on disk)
+E4,US debt limit 2019 (BBA 2019),US debt limit,2019-09-05,2019-08-02,3,2,1,0,Treasury letter 12 Jul 2019 'early September' (on disk); P.L. 116-37 approved 2 Aug 2019 (verified: govinfo PLAW-116publ37)
+E6,US debt limit Dec 2021,US debt limit,2021-12-15,2021-12-16,2,1,1,0,"X-date 15 Dec 2021 (verified: Treasury press release jy0488, Yellen letter 16 Nov 2021); P.L. 117-73 approved 16 Dec 2021 (verified: govinfo PLAW-117publ73)"
+E8,US 2012 fiscal cliff (ATRA),US tax sunset,2012-12-31,2013-01-02,3,2,1,0,P.L. 112-240 approved 2 Jan 2013 (on disk)

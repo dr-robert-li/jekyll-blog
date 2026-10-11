@@ -1,0 +1,8 @@
+id,member,cluster,deadline,action,V,LR,durable,in_primary,date_source
+DL3,1983 Social Security amendments,US Social Security,1983-07-03,1983-04-20,3,3,1,1,doc §7.1 (CRS R47040; STATUTE-97-Pg65 on disk)
+DL4,Korea National Pension 2025 reform,Korea pension,2055-01-01,2025-03-20,2,3,1,1,doc §7.1 (NABO on disk)
+DL5,Colorado River post-2026 operations,Colorado River,2026-10-01,2026-08-21,8,3,1,1,USBR news release 21 Aug 2026 + ROD (on disk)
+DL6,US debt limit 2011 (BCA),US debt limit,2011-08-02,2011-08-02,3,2,1,1,P.L. 112-25 approved 2 Aug 2011 (on disk); X-date CRS R41633
+DL7,US debt limit Oct 2013,US debt limit,2013-10-17,2013-10-17,3,1,0,1,Treasury letters 25 Sep and 1 Oct 2013 (on disk); P.L. 113-46 per CRS
+DL8,US debt limit 2023 (FRA),US debt limit,2023-06-05,2023-06-03,3,2,1,1,doc §7.1 (X-date abstained: press reports)
+DL9,US debt limit 2025 + TCJA (P.L. 119-21),US debt limit,2025-08-15,2025-07-04,1,2,1,1,"P.L. 119-21 approved 4 Jul 2025 (verified: govinfo PLAW-119publ21); X-date = start of CBO window 'mid-August to end of September 2025' (verified: CBO Monthly Budget Review May 2025, pub. 61302); conservative lead"

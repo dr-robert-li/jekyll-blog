@@ -1,0 +1,42 @@
+## Panel
+| id   | member                                  | cluster            | deadline            | action              |   lead |   V |   LR |
+|:-----|:----------------------------------------|:-------------------|:--------------------|:--------------------|-------:|----:|-----:|
+| DL3  | 1983 SS amendments                      | US Social Security | 1983-07-01 00:00:00 | 1983-04-20 00:00:00 |     72 |   4 |    4 |
+| DL4  | Korea NPS 2025 reform                   | Korea pension      | 2055-01-01 00:00:00 | 2025-03-20 00:00:00 |  10879 |   4 |    3 |
+| DL5  | Colorado River post-2026 ROD            | Colorado River     | 2026-10-01 00:00:00 | 2026-08-21 00:00:00 |     41 |   5 |    5 |
+| DL6  | Debt limit 2011                         | US debt limit      | 2011-08-02 00:00:00 | 2011-08-02 00:00:00 |      0 |   5 |    3 |
+| DL7  | Debt limit 2013                         | US debt limit      | 2013-10-17 00:00:00 | 2013-10-17 00:00:00 |      0 |   5 |    3 |
+| DL8  | Debt limit 2023                         | US debt limit      | 2023-06-05 00:00:00 | 2023-06-03 00:00:00 |      2 |   5 |    3 |
+| DL9  | Debt limit 2025 + TCJA (P.L. 119-21)    | US debt limit      | 2025-09-01 00:00:00 | 2025-07-04 00:00:00 |     59 |   2 |    4 |
+| E1   | Debt limit 2014                         | US debt limit      | 2014-02-27 00:00:00 | 2014-02-15 00:00:00 |     12 |   4 |    2 |
+| E2   | Debt limit 2015 + DI realloc (BBA 2015) | US debt limit      | 2015-11-03 00:00:00 | 2015-11-02 00:00:00 |      1 |   4 |    3 |
+| E3   | Debt limit 2017                         | US debt limit      | 2017-09-29 00:00:00 | 2017-09-08 00:00:00 |     21 |   3 |    2 |
+| E5   | Debt limit Oct 2021                     | US debt limit      | 2021-10-18 00:00:00 | 2021-10-14 00:00:00 |      4 |   3 |    2 |
+| F1   | 2012 fiscal cliff (ATRA)                | US fiscal cliff    | 2013-01-01 00:00:00 | 2013-01-02 00:00:00 |     -1 |   5 |    4 |
+| B1   | Brexit A50 ext 1                        | Brexit             | 2019-03-29 00:00:00 | 2019-03-22 00:00:00 |      7 |   5 |    3 |
+| B2   | Brexit A50 ext 2                        | Brexit             | 2019-04-12 00:00:00 | 2019-04-11 00:00:00 |      1 |   5 |    3 |
+| B3   | Brexit A50 ext 3                        | Brexit             | 2019-10-31 00:00:00 | 2019-10-29 00:00:00 |      2 |   5 |    3 |
+| B4   | Brexit WA ratification                  | Brexit             | 2020-01-31 00:00:00 | 2020-01-30 00:00:00 |      1 |   3 |    3 |
+| S1   | 1977 SS amendments (DI)                 | US Social Security | 1979-01-01 00:00:00 | 1977-12-20 00:00:00 |    377 |   2 |    4 |
+| S2   | 1994 DI reallocation                    | US Social Security | 1995-07-01 00:00:00 | 1994-10-22 00:00:00 |    252 |   2 |    2 |
+| H1   | Highway Trust Fund 2014                 | US HTF             | 2014-08-01 00:00:00 | 2014-08-08 00:00:00 |     -7 |   4 |    3 |
+
+N members = 19, clusters = 7
+Median lead = 4 days; share within 30 d = 0.68; within 90 d = 0.84; after deadline = 0.11
+Cluster-median leads: median of cluster medians = 3 d; clusters with median <= 30 d: 4/7; <= 90 d: 5/7
+
+### Skew toward zero vs uniform null on a W-day pre-deadline window
+(u = lead/W clipped to [0,1]; leads beyond W count as u=1, i.e. against the hypothesis)
+- W=365 d, members: KS D+=0.64, p=0.0000; 16/19 in first quarter (u<=0.25), binomial p=1e-07
+- W=365 d, cluster medians: KS D+=0.60, p=0.0029; 5/7 in first quarter, binomial p=0.013
+- W=730 d, members: KS D+=0.74, p=0.0000; 16/19 in first quarter (u<=0.25), binomial p=1e-07
+- W=730 d, cluster medians: KS D+=0.66, p=0.0008; 5/7 in first quarter, binomial p=0.013
+
+### Lead time vs V and L^R (prediction: negative rho; more vetoes / stake -> later action)
+- V vs lead: rho=-0.529, one-sided p(rho<0)=0.010, cluster-bootstrap 95% CI [-0.81, 0.36], N=19
+  cluster level (7 clusters, mean score vs median lead): rho=-0.346, two-sided p=0.448
+- LR vs lead: rho=0.060, one-sided p(rho<0)=0.596, cluster-bootstrap 95% CI [-0.48, 0.39], N=19
+  cluster level (7 clusters, mean score vs median lead): rho=0.074, two-sided p=0.875
+- excluding debt-limit cluster, V vs lead: rho=-0.440, p=0.175, N=11
+- excluding debt-limit cluster, LR vs lead: rho=0.050, p=0.883, N=11
+- V*LR vs lead: rho=-0.353, p=0.138, CI [-0.69, 0.40]

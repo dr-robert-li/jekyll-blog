@@ -1,0 +1,30 @@
+## Panel
+| id   | member                                  | cluster            | deadline            | action              |   lead |   V |   LR |
+|:-----|:----------------------------------------|:-------------------|:--------------------|:--------------------|-------:|----:|-----:|
+| DL3  | 1983 Social Security amendments         | US Social Security | 1983-07-03 00:00:00 | 1983-04-20 00:00:00 |     74 |   3 |    3 |
+| DL4  | Korea National Pension 2025 reform      | Korea pension      | 2055-01-01 00:00:00 | 2025-03-20 00:00:00 |  10879 |   2 |    3 |
+| DL5  | Colorado River post-2026 operations     | Colorado River     | 2026-10-01 00:00:00 | 2026-08-21 00:00:00 |     41 |   8 |    3 |
+| DL6  | US debt limit 2011 (BCA)                | US debt limit      | 2011-08-02 00:00:00 | 2011-08-02 00:00:00 |      0 |   3 |    2 |
+| DL7  | US debt limit Oct 2013                  | US debt limit      | 2013-10-17 00:00:00 | 2013-10-17 00:00:00 |      0 |   3 |    1 |
+| DL8  | US debt limit 2023 (FRA)                | US debt limit      | 2023-06-05 00:00:00 | 2023-06-03 00:00:00 |      2 |   3 |    2 |
+| DL9  | US debt limit 2025 + TCJA (P.L. 119-21) | US debt limit      | 2025-08-15 00:00:00 | 2025-07-04 00:00:00 |     42 |   1 |    2 |
+
+N members = 7, clusters = 4
+Median lead = 41 days; share within 30 d = 0.43; within 90 d = 0.86; after deadline = 0.00
+Cluster-median leads: median of cluster medians = 58 d; clusters with median <= 30 d: 1/4; <= 90 d: 3/4
+
+### Skew toward zero vs uniform null on a W-day pre-deadline window
+(u = lead/W clipped to [0,1]; leads beyond W count as u=1, i.e. against the hypothesis)
+- W=365 d, members: KS D+=0.65, p=0.0009; 6/7 in first quarter (u<=0.25), binomial p=0.0013
+- W=365 d, cluster medians: KS D+=0.55, p=0.0603; 3/4 in first quarter, binomial p=0.051
+- W=730 d, members: KS D+=0.76, p=0.0001; 6/7 in first quarter (u<=0.25), binomial p=0.0013
+- W=730 d, cluster medians: KS D+=0.65, p=0.0179; 3/4 in first quarter, binomial p=0.051
+
+### Lead time vs V and L^R (prediction: negative rho; more vetoes / stake -> later action)
+- V vs lead: rho=-0.437, one-sided p(rho<0)=0.163, cluster-bootstrap 95% CI [-1.00, 0.00], N=7
+  cluster level (4 clusters, mean score vs median lead): rho=-0.400, two-sided p=0.600
+- LR vs lead: rho=0.778, one-sided p(rho<0)=0.980, cluster-bootstrap 95% CI [0.56, 0.93], N=7
+  cluster level (4 clusters, mean score vs median lead): rho=0.775, two-sided p=0.225
+- excluding debt-limit cluster, V vs lead: rho=-1.000, p=0.000, N=3
+- excluding debt-limit cluster, LR vs lead: rho=nan, p=nan, N=3
+- V*LR vs lead: rho=0.224, p=0.629, CI [-1.00, 0.48]

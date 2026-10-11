@@ -1,0 +1,34 @@
+## Panel
+| id   | member                                  | cluster            | deadline            | action              |   lead |   V |   LR |
+|:-----|:----------------------------------------|:-------------------|:--------------------|:--------------------|-------:|----:|-----:|
+| DL3  | 1983 Social Security amendments         | US Social Security | 1983-07-03 00:00:00 | 1983-04-20 00:00:00 |     74 |   3 |    3 |
+| DL4  | Korea National Pension 2025 reform      | Korea pension      | 2055-01-01 00:00:00 | 2025-03-20 00:00:00 |  10879 |   2 |    3 |
+| DL5  | Colorado River post-2026 operations     | Colorado River     | 2026-10-01 00:00:00 | 2026-08-21 00:00:00 |     41 |   8 |    3 |
+| DL6  | US debt limit 2011 (BCA)                | US debt limit      | 2011-08-02 00:00:00 | 2011-08-02 00:00:00 |      0 |   3 |    2 |
+| DL8  | US debt limit 2023 (FRA)                | US debt limit      | 2023-06-05 00:00:00 | 2023-06-03 00:00:00 |      2 |   3 |    2 |
+| DL9  | US debt limit 2025 + TCJA (P.L. 119-21) | US debt limit      | 2025-08-15 00:00:00 | 2025-07-04 00:00:00 |     42 |   1 |    2 |
+| E1   | US debt limit Feb 2014                  | US debt limit      | 2014-02-27 00:00:00 | 2014-02-15 00:00:00 |     12 |   3 |    1 |
+| E2   | US debt limit 2015 (BBA 2015)           | US debt limit      | 2015-11-03 00:00:00 | 2015-11-02 00:00:00 |      1 |   3 |    2 |
+| E4   | US debt limit 2019 (BBA 2019)           | US debt limit      | 2019-09-05 00:00:00 | 2019-08-02 00:00:00 |     34 |   3 |    2 |
+| E6   | US debt limit Dec 2021                  | US debt limit      | 2021-12-15 00:00:00 | 2021-12-16 00:00:00 |     -1 |   2 |    1 |
+| E8   | US 2012 fiscal cliff (ATRA)             | US tax sunset      | 2012-12-31 00:00:00 | 2013-01-02 00:00:00 |     -2 |   3 |    2 |
+
+N members = 11, clusters = 5
+Median lead = 12 days; share within 30 d = 0.55; within 90 d = 0.91; after deadline = 0.18
+Cluster-median leads: median of cluster medians = 41 d; clusters with median <= 30 d: 2/5; <= 90 d: 4/5
+
+### Skew toward zero vs uniform null on a W-day pre-deadline window
+(u = lead/W clipped to [0,1]; leads beyond W count as u=1, i.e. against the hypothesis)
+- W=365 d, members: KS D+=0.71, p=0.0000; 10/11 in first quarter (u<=0.25), binomial p=8.1e-06
+- W=365 d, cluster medians: KS D+=0.60, p=0.0156; 4/5 in first quarter, binomial p=0.016
+- W=730 d, members: KS D+=0.81, p=0.0000; 10/11 in first quarter (u<=0.25), binomial p=8.1e-06
+- W=730 d, cluster medians: KS D+=0.70, p=0.0029; 4/5 in first quarter, binomial p=0.016
+
+### Lead time vs V and L^R (prediction: negative rho; more vetoes / stake -> later action)
+- V vs lead: rho=-0.153, one-sided p(rho<0)=0.327, cluster-bootstrap 95% CI [-1.00, 0.30], N=11
+  cluster level (5 clusters, mean score vs median lead): rho=-0.359, two-sided p=0.553
+- LR vs lead: rho=0.658, one-sided p(rho<0)=0.986, cluster-bootstrap 95% CI [0.26, 1.00], N=11
+  cluster level (5 clusters, mean score vs median lead): rho=0.783, two-sided p=0.118
+- excluding debt-limit cluster, V vs lead: rho=-0.632, p=0.368, N=4
+- excluding debt-limit cluster, LR vs lead: rho=0.775, p=0.225, N=4
+- V*LR vs lead: rho=0.278, p=0.407, CI [-1.00, 0.87]

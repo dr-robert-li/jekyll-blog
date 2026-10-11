@@ -1,0 +1,20 @@
+id,member,cluster,deadline,action,V,LR
+DL3,1983 SS amendments,US Social Security,1983-07-01,1983-04-20,4,4
+DL4,Korea NPS 2025 reform,Korea pension,2055-01-01,2025-03-20,4,3
+DL5,Colorado River post-2026 ROD,Colorado River,2026-10-01,2026-08-21,5,5
+DL6,Debt limit 2011,US debt limit,2011-08-02,2011-08-02,5,3
+DL7,Debt limit 2013,US debt limit,2013-10-17,2013-10-17,5,3
+DL8,Debt limit 2023,US debt limit,2023-06-05,2023-06-03,5,3
+DL9,Debt limit 2025 + TCJA (P.L. 119-21),US debt limit,2025-09-01,2025-07-04,2,4
+E1,Debt limit 2014,US debt limit,2014-02-27,2014-02-15,4,2
+E2,Debt limit 2015 + DI realloc (BBA 2015),US debt limit,2015-11-03,2015-11-02,4,3
+E3,Debt limit 2017,US debt limit,2017-09-29,2017-09-08,3,2
+E5,Debt limit Oct 2021,US debt limit,2021-10-18,2021-10-14,3,2
+F1,2012 fiscal cliff (ATRA),US fiscal cliff,2013-01-01,2013-01-02,5,4
+B1,Brexit A50 ext 1,Brexit,2019-03-29,2019-03-22,5,3
+B2,Brexit A50 ext 2,Brexit,2019-04-12,2019-04-11,5,3
+B3,Brexit A50 ext 3,Brexit,2019-10-31,2019-10-29,5,3
+B4,Brexit WA ratification,Brexit,2020-01-31,2020-01-30,3,3
+S1,1977 SS amendments (DI),US Social Security,1979-01-01,1977-12-20,2,4
+S2,1994 DI reallocation,US Social Security,1995-07-01,1994-10-22,2,2
+H1,Highway Trust Fund 2014,US HTF,2014-08-01,2014-08-08,4,3
