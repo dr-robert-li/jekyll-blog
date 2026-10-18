@@ -107,3 +107,35 @@ All of these come from `codebook.md` §5.
 - **Harm magnitude H:** coded on the §5.4 scale.
 
 If the panel-level leakage check fails, the P1 result is reported as **contaminated** and does not count for or against the model.
+
+## 7. Amendment 2 — controls for P22, a forward P23, and a sequence test for P24 (2026-10-19T03:58+10:00)
+
+Added after the model-council review of the Part H claim (`docs/Model Council Synthesis Attribution and Punctualisation.md`) and before any item in §§1–4 resolves. **Sections 1–6 are unchanged and are still scored as registered.** In particular, F22.1–F22.3 and the one-way F24.1 keep their original predictions and falsifiers; the items below are added beside them, not substituted. Scoring rule as at the top of this file (hit, miss, void).
+
+### 7.1 P22 — speed-up comparison (F22.4)
+
+F22.1–F22.3 test order only: carrier before root reform. Order alone is also predicted by P13 and P16 without any attribution tool, so a hit there does not isolate the tool. F22.4 adds the comparison.
+
+| ID | Prediction | Resolves | Falsified if |
+|---|---|---|---|
+| F22.4 | For climate-liability claims against named emitters, carrier events arrive sooner for hazard types that have attribution studies than for those that do not. **Unit:** hazard type (heatwave, heavy rainfall, drought, tropical cyclone, wildfire weather, glacial-lake flood, sea-level/coastal flood, other). **Treated:** hazard types with ≥ 3 published World Weather Attribution studies by 31 Dec 2026. **Control:** hazard types with < 3. **Outcome:** number of new suits per hazard type, filed 1 Jan 2027–31 Dec 2030, in which a private company is the defendant and the pleadings cite event or source attribution for that hazard type (Sabin Center climate litigation database, coded blind to this prediction by a second coder). **Prediction:** the mean per-type count is higher for treated than for control types, and root reform (the F22.1 observable) is no more likely after a treated-type judgment than after a control-type one. | 31 Mar 2031 | Treated mean ≤ control mean; or a G20 production end date follows a treated-type judgment within 12 months while no control-type judgment is followed by one |
+
+**Endogeneity rule.** A suit filed before the first attribution study of its own event (as *Lliuya v RWE* was, filed 2015) is coded **carrier-led**. Carrier-led suits are counted and reported separately and excluded from the F22.4 comparison, because the carrier demanded the science rather than followed it.
+
+### 7.2 P23 — forward test with a human-in-the-loop control (F23.1)
+
+P23 (Part H.5) had no forward item. Baseline: the G3 review rates P23 "mixed, narrow it", and Autor et al. 2026 (NBER w35720; working paper; funded by the tool's maker) found a +0.32 SD gain in **unaided** performance after three months of AI access, concentrated in senior lawyers, with no average gain for juniors.
+
+| ID | Prediction | Resolves | Falsified if |
+|---|---|---|---|
+| F23.1 | **Corpus:** randomised or controlled before-and-after studies, published 1 Jan 2027–31 Dec 2029 and indexed in PubMed, NBER or SSRN, that measure **unassisted** performance after a period of AI assistance on a diagnostic, causal-tracing or judgement task. **Coding (blind to results, by a second coder, from the methods section only):** *out of loop* = during the assisted period the AI makes the judgement and the human accepts or rejects it; *in loop* = the human produces the judgement and uses the AI as input. **Prediction:** the share of studies reporting a decline in unassisted performance is higher for out-of-loop than for in-loop designs, and within studies that split by experience the decline is larger for novices. | 31 Mar 2030 | Out-of-loop decline share ≤ in-loop decline share; or (fewer than 6 studies in either arm) void |
+
+The fiscal half of P23 (maintenance is cut first) remains untested and is not registered here.
+
+### 7.3 P24 — sequence test (F24.2)
+
+F24.1 tests a one-way shift from causes to access. F24.2 tests the alternative sequence the council found in prior cases (HEI reanalysis of the Six Cities study; CovidSim): disputes move to access, then return to causes where access is won.
+
+| ID | Prediction | Resolves | Falsified if |
+|---|---|---|---|
+| F24.2 | **Unit:** each very large online platform or search engine for which a DSA Art. 40 vetted-researcher data-access request is decided (granted or refused) between 1 Jan 2027 and 31 Dec 2028. **Outcome:** formal disputes involving that platform in the 18 months after the decision, coded by principal subject (access/audit vs causal claim about harm to minors), as in F24.1 and blind to this prediction. **Prediction:** after a **grant**, the causal-claim share of that platform's disputes is higher than before the decision; after a **refusal**, the access share stays above 50%. | 30 Jun 2030 | After grants the causal share does not rise, or after refusals the access share falls below 50%; void if fewer than 3 grants and 3 refusals |
