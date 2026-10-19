@@ -1,6 +1,6 @@
 # G4 — Prop 3 (case-by-case reopening vs all-at-once closure) — Pre-registration
 
-**Timestamp:** 2026-10-20T06:59:23+10:00 (2026-10-19T20:59:23Z)
+**Timestamp:** 2026-10-19T21:03:25+10:00 (2026-10-19T11:03:25Z), the time of registration commit `6a75478`. The header first written in that commit read 2026-10-20T06:59:23+10:00, taken from an unsynchronised system clock; it was corrected to the commit time in the next commit, before any packet was prepared.
 
 **This plan was registered before any packet was prepared or coded.** No coder has seen any material. The case key (`case-list.md`) is not shown to coders.
 

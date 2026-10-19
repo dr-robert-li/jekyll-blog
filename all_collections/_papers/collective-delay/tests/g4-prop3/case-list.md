@@ -1,6 +1,6 @@
 # G4 — Case key (NOT for coders)
 
-Fixed before packet preparation: 2026-10-20T06:59+10:00. The ids match the packets. Exclusions are added below before coding, with reasons.
+Fixed before packet preparation, in registration commit `6a75478` (2026-10-19T21:03+10:00). The ids match the packets. Exclusions are added below before coding, with reasons.
 
 | Id | Case | Jurisdiction | Approximate dependent cases |
 |---|---|---|---|
