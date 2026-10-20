@@ -35,9 +35,9 @@ The argument is made with a small formal model, with numbered propositions and p
 
 ## 1. Where This Sits: The Research Behind the Claim
 
-This post is one branch of a larger research programme. Knowing what the rest of the programme claims, and how much of it has survived testing, makes it easier to judge how much weight this branch can carry.
+This post is one branch of a larger research programme.
 
-**The starting question.** The programme began with an essay on order, disorder and large language models (Li, 2025) and continued in a research report on collective delay (Li, 2026). The report asks why societies delay addressing challenges they can see coming, such as public debt, climate change and the pushback against AI safety, until the last moment, even when the harms are foreseen and fall unevenly.
+**The starting question.** The programme began with an essay on order, disorder and large language models (Li, 2025) and continued in a [research report on collective delay]({{ site.baseurl }}/posts/collective-delay-report/) (Li, 2026a). The report asks why societies delay addressing challenges they can see coming, such as public debt, climate change and the pushback against AI safety, until the last moment, even when the harms are foreseen and fall unevenly.
 
 **The core claim.** The report's answer is a *radius-bounded threshold model*. People keep supporting a system while the benefit it gives them and their circle of trust exceeds the harm they perceive. Four mechanisms keep that crossover from becoming reform:
 
@@ -46,7 +46,7 @@ This post is one branch of a larger research programme. Knowing what the rest of
 3. **Vetoes held by the insulated.** Those with the most to lose from reform and the least exposure to the harm can block it. Reform tends to arrive when the harm reaches them.
 4. **Metastability.** The fraction of a population needed to tip does not depend on its size, but the time to tip does, so large societies can stay stuck for a long time and then change abruptly.
 
-**What has been tested.** The report's predictions went through a three-part test programme: a review of existing evidence, a coded panel of 31 hazard cases from the European Environment Agency's *Late lessons from early warnings*, and two data analyses (Li, 2026).[^tests]
+**What has been tested.** The report's predictions went through a three-part test programme: a review of existing evidence, a coded panel of 31 hazard cases from the European Environment Agency's *Late lessons from early warnings*, and two data analyses (Li, 2026b).[^tests]
 
 | Claim | Result |
 |---|---|
@@ -159,7 +159,7 @@ These are illustrations; the tests come in Section 7. What they share is that ac
 
 **Tools are not carriers.** World Weather Attribution and drug-safety surveillance are *instruments*: they raise attributability. The carriers are the litigants, insurers, regulators and states that use those instruments to move a cost. Proposition 1 is about instruments. Proposition 2 says that instruments matter for reform only through carriers. *Lliuya* also shows that the relationship can run the other way: the suit was filed in 2015, before the main attribution study of the glacier, so the would-be carrier demanded the science instead of following it. Whether better instruments make carriers arrive sooner is an empirical question, and it is registered as one (Section 7).
 
-**What this does not rule out.** Proposition 2 assumes the veto exceeds the maximum pressure. Where it does not, so that $$\bar P > V$$, better attribution can tip the cascade on its own, through Proposition 1. That is the case of immediate, attributable harm, such as a contaminated drug or a collapsing bridge. The report finds that systems with fast, attributable feedback, such as aviation safety and drug recalls, mostly succeed and draw little notice when they do (Li, 2026). Proposition 2 covers the other case: slow, diffuse harm that lands outside the veto holders' radius.
+**What this does not rule out.** Proposition 2 assumes the veto exceeds the maximum pressure. Where it does not, so that $$\bar P > V$$, better attribution can tip the cascade on its own, through Proposition 1. That is the case of immediate, attributable harm, such as a contaminated drug or a collapsing bridge. The report finds that systems with fast, attributable feedback, such as aviation safety and drug recalls, mostly succeed and draw little notice when they do (Li, 2026a). Proposition 2 covers the other case: slow, diffuse harm that lands outside the veto holders' radius.
 
 ---
 
@@ -196,7 +196,7 @@ Part (d) shows the way out. An archive removes the trade-off by converting it in
 
 **The escape works when someone pays for it.** The European Centre for Medium-Range Weather Forecasts wanted to understand its occasional forecast "busts" over Europe, but recent versions of its operational model produced too few busts to study. It therefore used a frozen version of the model, kept running for its ERA-Interim reanalysis, and characterised all 584 European busts from 1989 to 2010 in that stable system before checking the findings against recent versions (Rodwell et al., 2013). Tracing survived continuous updating because the centre paid to keep a fixed reference.[^ecmwf]
 
-**The budget is what the model predicts will be cut.** The report's model has a term for exactly this kind of standing capacity: institutional memory, $$M$$. It predicts that $$M$$ erodes under fiscal pressure, as the late-Qing granaries decayed and as the US Office of Technology Assessment was defunded in 1995 (Li, 2026). An archive, or a team that still knows how to trace by hand, is the same kind of buffer: a cost every year, with a payoff only in the year the model fails.
+**The budget is what the model predicts will be cut.** The report's model has a term for exactly this kind of standing capacity: institutional memory, $$M$$. It predicts that $$M$$ erodes under fiscal pressure, as the late-Qing granaries decayed and as the US Office of Technology Assessment was defunded in 1995 (Li, 2026a). An archive, or a team that still knows how to trace by hand, is the same kind of buffer: a cost every year, with a payoff only in the year the model fails.
 
 **People as well as versions.** The same logic applies to human skill, although this post does not formalise it and the evidence is conditional. In four Polish endoscopy centres, the detection rate in colonoscopies performed without AI fell from 28.4% to 22.4% after AI-assisted detection was introduced, an observational before-and-after finding (Budzyń et al., 2025).[^budzyn] In a randomised trial of 133 patent lawyers, by contrast, three months of AI access raised unaided performance by 0.32 standard deviations, entirely among senior lawyers, with no average gain for juniors (Autor et al., 2026).[^autor] Skill seems to hold where people keep doing the judgement and have the expertise to learn from the tool, and to erode where the tool takes the judgement over. Bainbridge (1983) named the second pattern four decades ago as one of the ironies of automation.
 
@@ -239,7 +239,7 @@ If root reform comes before carriers in two or more of the P22 domains, or if sk
 * **Attribution is not perception.** The model treats a gain in attributability as a gain in perceived harm. The programme's evidence review found that traceability matters more to legislators than to voters (Mildenberger & Sahn, 2025), and that partisan cues gate each link.
 * **Proposition 4 is a stylised drift model.** Real models are retrained irregularly and imperfectly, and traceability can be partial. The qualitative point, that tracking and traceability trade off without an archive and become a budget question with one, does not depend on the random walk, but the formulas do.
 * **The human-skill evidence is mixed.** It supports a conditional claim, and the strongest counter-evidence comes from a working paper funded by the tool's maker.
-* **The research used AI throughout.** The report, the test programme, the coders in both coded panels and this post were all produced with AI assistance. The registration files, evidence packets, codings and analysis code are public in the research repository so the process can be checked (Li, 2026).
+* **The research used AI throughout.** The report, the test programme, the coders in both coded panels and this post were all produced with AI assistance. The registration files, evidence packets, codings and analysis code are public in the research repository so the process can be checked (Li, 2026b).
 
 ---
 
@@ -312,7 +312,9 @@ Law, J. (1992). Notes on the theory of the actor-network: Ordering, strategy, an
 
 Li, R. (2025, March 26). The cycle of order and disorder & the challenge of LLMs. *drli.blog*. {{ site.baseurl }}{% post_url 2025-03-26-ANT-and-LLMs %}
 
-Li, R. (2026). *Collective delay in the face of foreseen global challenges* [Research report, test programme and data]. GitHub. https://github.com/dr-robert-li/jekyll-blog/tree/main/all_collections/_papers/collective-delay
+Li, R. (2026a, October 20). Collective delay in the face of foreseen global challenges. *drli.blog*. {{ site.baseurl }}/posts/collective-delay-report/
+
+Li, R. (2026b). *Collective delay: Test programme, registrations and data* [Data set and code]. GitHub. https://github.com/dr-robert-li/jekyll-blog/tree/main/all_collections/_papers/collective-delay
 
 Lukács, G. (1971). *History and class consciousness: Studies in Marxist dialectics* (R. Livingstone, Trans.). MIT Press. (Original work published 1923)
 
@@ -328,7 +330,7 @@ Stuart-Smith, R. F., Otto, F. E. L., Saad, A. I., Lisi, G., Minnerop, P., Lauta,
 
 US General Accounting Office. (2001). *Tobacco settlement: States' use of Master Settlement Agreement payments* (GAO-01-851). https://www.gao.gov/products/gao-01-851
 
-[^tests]: The full programme summary is `tests/SUMMARY.md` in the research repository (Li, 2026). The panel scoring was not blind to outcomes, since every coder recognised every case, and the samples are small throughout, so none of the distinctive predictions is refuted either.
+[^tests]: The full programme summary is `tests/SUMMARY.md` in the research repository (Li, 2026b). The panel scoring was not blind to outcomes, since every coder recognised every case, and the samples are small throughout, so none of the distinctive predictions is refuted either.
 
 [^council]: Three model reviewers (Claude Fable 5.1, GPT 6.1 Sol and Gemini 3.7 Flash) reviewed the claim independently. All three found the empirical anchors broadly right and two theoretical moves overstated: that a successful causal model *necessarily* becomes an untraceable gatekeeper, and that benefit and risk are "the same process run in opposite directions". Their reviews, a synthesis and a check of the main citations they relied on are in `docs/` in the research repository.
 
