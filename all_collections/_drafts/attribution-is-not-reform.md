@@ -27,7 +27,7 @@ Causal AI looks like the obvious tool for a problem that keeps defeating societi
 
 This post argues that it does help, in one narrow way. Better attribution raises how clearly harm is perceived. Perception, though, is rarely what holds reform back when a harm is slow and diffuse. What holds it back is that the harm lands on people who cannot block or unblock anything, while the people who can are insulated from it. Attribution tools change what people know. They leave untouched who bears the cost, and so they leave the blockage in place.
 
-At scale, a successful causal model also carries a risk that grows with its success. It can become the newest layer of the problem it was meant to solve: a black box that everyone depends on and nobody can open. That risk is real only under specific conditions, and naming those conditions is most of the work.
+At scale, a successful causal model also carries a risk that grows with its success. It can become the newest layer of the problem it was meant to solve: a black box that everyone depends on and nobody can open. The risk is real only under specific conditions, which Section 5 sets out.
 
 The argument is made with a small formal model, with numbered propositions and proofs. The proofs show that the conclusions follow from stated assumptions. Whether the world satisfies the assumptions is a separate question, and the footnotes say how strongly the evidence bears on each one.
 
@@ -56,7 +56,7 @@ This post is one branch of a larger research programme. Knowing what the rest of
 | Strong vetoes slow action (veto × benefit interaction) | Not supported |
 | Attribution decays along causal chains | Mixed; depends on the type of link |
 
-The pattern is consistent. The parts of the model that rival accounts also predict hold up, and the parts that would make it distinctive are unconfirmed. This post therefore leans on the parts that held up (carriers and attribution decay) and treats the veto as an assumption, stated openly, rather than as an established fact.
+The pattern is consistent. The parts of the model that rival accounts also predict hold up, and the parts that would make it distinctive are unconfirmed. This post therefore leans on the parts that held up (carriers and attribution decay) and treats the veto as an explicit assumption.
 
 **Where this post fits.** The report's final part asks whether causal AI could break the delay trap, and what its success would cost. A panel of three AI models reviewed that claim and found it overstated in two places.[^council] This post is the corrected claim, formalised, with one new proposition that was tested before being allowed into the argument. It uses only the pieces of the model the argument needs. The history, the deep-history cases and the scaling mathematics are in the report.
 
@@ -133,8 +133,6 @@ Each part has a working example.
 * **Drug-safety surveillance.** Disproportionality methods find drug-safety signals in millions of spontaneous reports. The link they strengthen runs from a drug to an adverse event in a population.
 * **Models that span domains.** A shared model can make the link between, for example, insurance withdrawal and emissions visible in one place, where no single institution's mandate covers both ends.[^lateral]
 
-None of this is in dispute. The question is what follows from it.
-
 ---
 
 ## 4. What Attribution Cannot Do: Move the Cost
@@ -149,7 +147,7 @@ None of this is in dispute. The question is what follows from it.
 
 (b) The carrier lowers the veto to $$V' = V - \gamma \Delta H < \bar P$$. Since $$P$$ is non-decreasing with supremum $$\bar P > V'$$, some share $$r'$$ has $$P(r') > V'$$, and any cascade reaching $$r \ge \max(r_c, r')$$ meets both reform conditions. $$\square$$
 
-Proposition 2 is close to a restatement of the model, and that is the point. Once the veto binds, perception is the wrong lever. Attribution can push the cascade as far as it can go, and if the veto sits above the most pressure a cascade can generate, that is not far enough.
+Proposition 2 is close to a restatement of the model. Its use is to make the consequence explicit: once the veto binds, perception is the wrong lever. Attribution can push the cascade as far as it can go, and if the veto sits above the most pressure a cascade can generate, that is not far enough.
 
 The record has cases where detection was not the bottleneck.
 
@@ -159,15 +157,13 @@ The record has cases where detection was not the bottleneck.
 
 These are illustrations; the tests come in Section 7. What they share is that action came when a cost reached someone who could block it, and not when the harm became clear.
 
-**Tools are not carriers.** One distinction keeps the argument honest. World Weather Attribution and drug-safety surveillance are *instruments*: they raise attributability. The carriers are the litigants, insurers, regulators and states that use those instruments to move a cost. Proposition 1 is about instruments. Proposition 2 says that instruments matter for reform only through carriers. *Lliuya* also shows that the relationship can run the other way: the suit was filed in 2015, before the key attribution study of the glacier, so the would-be carrier demanded the science instead of following it. Whether better instruments make carriers arrive sooner is an empirical question, and it is registered as one (Section 7).
+**Tools are not carriers.** World Weather Attribution and drug-safety surveillance are *instruments*: they raise attributability. The carriers are the litigants, insurers, regulators and states that use those instruments to move a cost. Proposition 1 is about instruments. Proposition 2 says that instruments matter for reform only through carriers. *Lliuya* also shows that the relationship can run the other way: the suit was filed in 2015, before the main attribution study of the glacier, so the would-be carrier demanded the science instead of following it. Whether better instruments make carriers arrive sooner is an empirical question, and it is registered as one (Section 7).
 
-**What this does not rule out.** Proposition 2 assumes the veto exceeds the maximum pressure. Where it does not, so that $$\bar P > V$$, better attribution can tip the cascade on its own, through Proposition 1. That is the case of immediate, attributable harm, such as a contaminated drug or a collapsing bridge. The report finds that systems with fast, attributable feedback, such as aviation safety and drug recalls, mostly succeed quietly (Li, 2026). Proposition 2 covers the other case: slow, diffuse harm that lands outside the veto holders' radius.
+**What this does not rule out.** Proposition 2 assumes the veto exceeds the maximum pressure. Where it does not, so that $$\bar P > V$$, better attribution can tip the cascade on its own, through Proposition 1. That is the case of immediate, attributable harm, such as a contaminated drug or a collapsing bridge. The report finds that systems with fast, attributable feedback, such as aviation safety and drug recalls, mostly succeed and draw little notice when they do (Li, 2026). Proposition 2 covers the other case: slow, diffuse harm that lands outside the veto holders' radius.
 
 ---
 
 ## 5. The Cost of Success: Drift Against Traceability
-
-The risk this section describes appears when causal AI works.
 
 Two properties make a widely used causal model hard to trace. It is large: a graph with millions of nodes is explicit in principle and beyond any person in practice, which is opacity by scale rather than by design (Burrell, 2016). And it updates: a model retrained on fresh data tracks a changing world, but each retraining replaces the version that produced earlier outputs. The second property can be made exact.
 
@@ -196,9 +192,9 @@ Two properties make a widely used causal model hard to trace. It is large: a gra
 
 Parts (a) to (c) state the trade-off in its starkest form. Without an archive, the faster a model updates, the better it tracks the world and the less of its past can be reconstructed. A model good enough to track a drifting world closely cannot be traced over any horizon longer than its update interval, and no choice of update rate escapes this, because the two costs move in opposite directions.[^check]
 
-Part (d) is the escape, and it matters more. An archive removes the trade-off by converting it into a budget. The better the model tracks, the more versions there are to keep, so the cost of traceability rises as the tolerated error falls. Traceability stops being a property of the technology and becomes a line item.
+Part (d) shows the way out. An archive removes the trade-off by converting it into a budget: the better the model tracks, the more versions there are to keep, so the cost of traceability rises as the tolerated error falls.
 
-**The escape works when someone pays for it.** The European Centre for Medium-Range Weather Forecasts wanted to understand its occasional forecast "busts" over Europe, but recent versions of its operational model produced too few busts to study. It therefore used a frozen version of the model, kept running for its ERA-Interim reanalysis, and characterised all 584 European busts from 1989 to 2010 in that stable system before checking the findings against recent versions (Rodwell et al., 2013). Tracing survived continuous updating because the centre paid to keep a fixed reference. That is part (d) in practice.[^ecmwf]
+**The escape works when someone pays for it.** The European Centre for Medium-Range Weather Forecasts wanted to understand its occasional forecast "busts" over Europe, but recent versions of its operational model produced too few busts to study. It therefore used a frozen version of the model, kept running for its ERA-Interim reanalysis, and characterised all 584 European busts from 1989 to 2010 in that stable system before checking the findings against recent versions (Rodwell et al., 2013). Tracing survived continuous updating because the centre paid to keep a fixed reference.[^ecmwf]
 
 **The budget is what the model predicts will be cut.** The report's model has a term for exactly this kind of standing capacity: institutional memory, $$M$$. It predicts that $$M$$ erodes under fiscal pressure, as the late-Qing granaries decayed and as the US Office of Technology Assessment was defunded in 1995 (Li, 2026). An archive, or a team that still knows how to trace by hand, is the same kind of buffer: a cost every year, with a payoff only in the year the model fails.
 
@@ -216,11 +212,11 @@ The argument so far uses the vocabulary of political economy. It is also, almost
 
 **A successful model is a new punctualisation.** A widely adopted causal model summarises a whole chain, including its data pipelines, estimation choices, update schedule, operators and the institutions that consume its outputs, as a single source of attributions. Latour's (1999, p. 304) definition of blackboxing fits it closely: "the way scientific and technical work is made invisible by its own success". Its outputs travel as what Latour (1987) calls immutable mobiles. An attribution fraction or a risk score enters a court, an insurer's table or a budget, detached from the estimation that produced it.
 
-**Its controllers can become the passage point.** In Callon's (1986) sociology of translation, an actor makes itself indispensable by defining others' problems so that they must pass through it, which makes it the *obligatory passage point*. If one model becomes the accepted basis for attribution in a domain, carriers who need an attribution must pass through it, and its controllers set the inputs and the acceptance standards. *Lliuya* is a useful corrective here, since the court itself decided what counted as evidence. Passage points are achieved and held. Nothing makes them automatic.
+**Its controllers can become the passage point.** In Callon's (1986) sociology of translation, an actor makes itself indispensable by defining others' problems so that they must pass through it, which makes it the *obligatory passage point*. If one model becomes the accepted basis for attribution in a domain, carriers who need an attribution must pass through it, and its controllers set the inputs and the acceptance standards. In *Lliuya*, though, the court itself decided what counted as evidence, a reminder that a passage point has to be won and then held.
 
-**Reification, reworked.** Lukács (1923/1971) described reification as a relation between people taking on "a phantom objectivity". ANT keeps the observation and drops the diagnosis of false consciousness: reification becomes punctualisation that has stopped being reopened, a practical achievement of the network rather than an illusion in anyone's head. Proposition 4 says when that happens to a causal model. It happens when there is no archive, no fixed reference and no one left who can trace by hand. Opacity alone is not the risk. The risk is opacity that nobody can afford to undo.
+**Reification, reworked.** Lukács (1923/1971) described reification as a relation between people taking on "a phantom objectivity". ANT keeps the observation and drops the diagnosis of false consciousness: reification becomes punctualisation that has stopped being reopened, a practical achievement of the network rather than an illusion in anyone's head. Proposition 4 says when that happens to a causal model: when there is no archive, no fixed reference and no one left who can trace by hand, so that undoing the opacity is no longer affordable.
 
-**Two different processes.** It would be neat to say that carriers and causal models run the same process in opposite directions. Callon's own work suggests otherwise: some translations become *irreversible*, shaping every later translation (Callon, 1991). The working hypothesis here is an asymmetry. Carriers reopen black boxes one case at a time, while a shared model closes one over many cases at once. Appendix A formalises that asymmetry and reports a pre-registered test. One of its two key predictions held and the other could not be tested on the available record, so it stays a hypothesis.
+**An asymmetry.** Callon's own work points to a difference between the two movements: some translations become *irreversible*, shaping every later translation (Callon, 1991). Carriers reopen black boxes one case at a time, while a shared model closes one over many cases at once. Appendix A formalises that asymmetry and reports a pre-registered test. One of its two main predictions held and the other could not be tested on the available record, so it stays a hypothesis.
 
 ---
 
@@ -232,7 +228,7 @@ Propositions 1, 2 and 4 are proved within the model. Whether the model describes
 * **Skill loss depends on who keeps the judgement (P23).** Among studies published 2027-2029 that measure unassisted performance after AI assistance, declines should be more common where the AI made the judgement than where the human did, and larger for novices (F23.1).
 * **Disputes move to access, then back to causes (P24).** Where one model becomes the basis for attribution, disputes should shift towards access to it, and where access is granted they should return to the causal claims (F24.1-F24.2).
 
-If root reform comes before carriers in two or more of the P22 domains, or if skill holds up equally well where the AI takes the judgement over, the argument here is wrong in the way that matters.
+If root reform comes before carriers in two or more of the P22 domains, or if skill holds up equally well where the AI takes the judgement over, the central claim of this post is wrong.
 
 ---
 
@@ -253,15 +249,15 @@ If root reform comes before carriers in two or more of the P22 domains, or if sk
 
 Four findings emerge. First, attribution tools raise perceived harm most where the chain is weakest, and one untraced link caps everything else. Second, where a veto binds, no amount of attribution produces reform without a carrier, which makes the tools useful mainly as materials for carriers. Third, a model that tracks a changing world cannot be traced without an archive, so traceability becomes a budget that the model's own logic predicts will be cut. Fourth, the claim that shared models are reopened only by organised actors passed one pre-registered test and could not be tested on the other, so it remains a hypothesis.
 
-For people building attribution tools, the implication is to aim them at the most contested link and to put them in the hands of actors who can move costs. For people deploying causal models at scale, it is to treat archives, frozen references and practised human tracing as part of the system rather than as optional extras. For people who fund institutions, the warning is that these are the first things a tight budget removes.
+Attribution tools do most good aimed at the most contested link and in the hands of actors who can move costs. Anyone deploying causal models at scale should count archives, frozen references and practised human tracing as part of the system, and anyone funding institutions should expect those to be the first things a tight budget removes.
 
-The limits are real. The veto is assumed, and the decisive tests resolve between 2028 and 2031. The safest summary until then is the one in the title: attribution is not reform, and a tool that makes everything traceable can still become the one thing nobody can trace.
+The veto is still an assumption, and the decisive tests resolve between 2028 and 2031. Until then the title is the safest summary: attribution is not reform. A model built to make long chains traceable can itself become untraceable once its archives and its human tracers are cut.
 
 ---
 
 ## Appendix A. Proposition 3: Reopening One Case at a Time, Closing Many at Once
 
-This proposition formalises the asymmetry in Section 6. It was pre-registered and tested before this post was written, under a rule fixed in advance: it would enter the main argument only if two key predictions both passed.[^g4] One passed and one could not be tested, so it is reported here.
+This proposition formalises the asymmetry in Section 6. It was pre-registered and tested before this post was written, under a rule fixed in advance: it would enter the main argument only if two named predictions both passed.[^g4] One passed and one could not be tested, so it is reported here.
 
 **Model.** There are $$N \ge 2$$ cases whose attributions rest either on case-specific reasoning (the *bespoke* regime) or on one shared model $$B$$ (the *shared* regime). The party in case $$i$$ values reopening its attribution at $$h_i \in [0, \bar h]$$, with $$\bar h < \infty$$. Paying the cost of a route buys success with probability $$q \in (0,1]$$. In the bespoke regime, reopening case $$i$$ costs $$c > 0$$ and reopens only case $$i$$. In the shared regime, a party can seek relief in its own case under $$B$$ as it stands, at cost $$c_p$$, or contest $$B$$ itself at cost $$C(N) = c_0 + \kappa N$$ with $$c_0 \ge c$$ and $$\kappa > 0$$, because the operators and beneficiaries of $$B$$ defend it on behalf of every case. Reopening $$B$$ reopens all $$N$$ cases. Let $$N^* = (q\bar h - c_0)/\kappa$$.
 
@@ -334,7 +330,7 @@ US General Accounting Office. (2001). *Tobacco settlement: States' use of Master
 
 [^tests]: The full programme summary is `tests/SUMMARY.md` in the research repository (Li, 2026). The panel scoring was not blind to outcomes, since every coder recognised every case, and the samples are small throughout, so none of the distinctive predictions is refuted either.
 
-[^council]: Three model reviewers (Claude Fable 5.1, GPT 6.1 Sol and Gemini 3.7 Flash) reviewed the claim independently. All three found the empirical anchors broadly right and two theoretical moves overstated: that a successful causal model *necessarily* becomes an untraceable gatekeeper, and that benefit and risk are "the same process run in opposite directions". Their reviews, a synthesis and a check of the key citations they relied on are in `docs/` in the research repository.
+[^council]: Three model reviewers (Claude Fable 5.1, GPT 6.1 Sol and Gemini 3.7 Flash) reviewed the claim independently. All three found the empirical anchors broadly right and two theoretical moves overstated: that a successful causal model *necessarily* becomes an untraceable gatekeeper, and that benefit and risk are "the same process run in opposite directions". Their reviews, a synthesis and a check of the main citations they relied on are in `docs/` in the research repository.
 
 [^decay]: The multiplicative form is the report's (Part G.1). The programme's evidence review found that decay depends on the type of link, with most of the loss at links where an intervening actor, such as an insurer or a local official, offers a nearer target.
 
