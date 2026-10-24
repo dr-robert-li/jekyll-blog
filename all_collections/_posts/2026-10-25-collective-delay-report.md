@@ -5,6 +5,8 @@ date: 2026-10-25
 categories: [Collective Action, Political Economy, Climate Policy, Public Debt, AI Governance, Actor-Network Theory, Complexity, Research]
 ---
 
+![Schematic of the crossover between filtered harm and the benefit within the trust radius, with reform delayed until pressure clears the veto](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/collective-delay-crossover.png)
+
 ---
 
 **Follow-up to:** [The Cycle of Order and Disorder & the Challenge of LLMs]({{ site.baseurl }}{% post_url 2025-03-26-ANT-and-LLMs %}) (March 2025)

@@ -5,6 +5,8 @@ date: 2026-10-25
 categories: [AI Governance, Causal AI, Collective Action, Political Economy, Actor-Network Theory, Climate Policy, Research]
 ---
 
+![Bar chart of perceived harm decaying along a causal chain, before and after the weakest link is attributed](https://raw.githubusercontent.com/dr-robert-li/jekyll-blog/main/images/attribution-decay-chain.png)
+
 ---
 
 **Follow-up to:** [The Cycle of Order and Disorder & the Challenge of LLMs]({{ site.baseurl }}{% post_url 2025-03-26-ANT-and-LLMs %}) (March 2025)
