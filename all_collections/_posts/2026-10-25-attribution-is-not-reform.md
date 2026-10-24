@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Attribution Is Not Reform: What Causal AI Can and Cannot Do for Collective Delay"
-date: 2026-10-20
+date: 2026-10-25
 categories: [AI Governance, Causal AI, Collective Action, Political Economy, Actor-Network Theory, Climate Policy, Research]
 ---
 
@@ -37,7 +37,7 @@ The argument is made with a small formal model, with numbered propositions and p
 
 This post is one branch of a larger research programme.
 
-**The starting question.** The programme began with an essay on order, disorder and large language models (Li, 2025) and continued in a [research report on collective delay]({{ site.baseurl }}/posts/collective-delay-report/) (Li, 2026a). The report asks why societies delay addressing challenges they can see coming, such as public debt, climate change and the pushback against AI safety, until the last moment, even when the harms are foreseen and fall unevenly.
+**The starting question.** The programme began with an essay on order, disorder and large language models (Li, 2025) and continued in a [research report on collective delay]({{ site.baseurl }}{% post_url 2026-10-25-collective-delay-report %}) (Li, 2026a). The report asks why societies delay addressing challenges they can see coming, such as public debt, climate change and the pushback against AI safety, until the last moment, even when the harms are foreseen and fall unevenly.
 
 **The core claim.** The report's answer is a *radius-bounded threshold model*. People keep supporting a system while the benefit it gives them and their circle of trust exceeds the harm they perceive. Four mechanisms keep that crossover from becoming reform:
 
@@ -312,7 +312,7 @@ Law, J. (1992). Notes on the theory of the actor-network: Ordering, strategy, an
 
 Li, R. (2025, March 26). The cycle of order and disorder & the challenge of LLMs. *drli.blog*. {{ site.baseurl }}{% post_url 2025-03-26-ANT-and-LLMs %}
 
-Li, R. (2026a, October 20). Collective delay in the face of foreseen global challenges. *drli.blog*. {{ site.baseurl }}/posts/collective-delay-report/
+Li, R. (2026a, October 25). Collective delay in the face of foreseen global challenges. *drli.blog*. {{ site.baseurl }}{% post_url 2026-10-25-collective-delay-report %}
 
 Li, R. (2026b). *Collective delay: Test programme, registrations and data* [Data set and code]. GitHub. https://github.com/dr-robert-li/jekyll-blog/tree/main/all_collections/_papers/collective-delay
 

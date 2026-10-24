@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Collective Delay in the Face of Foreseen Global Challenges"
-date: 2026-10-20
+date: 2026-10-25
 categories: [Collective Action, Political Economy, Climate Policy, Public Debt, AI Governance, Actor-Network Theory, Complexity, Research]
 ---
 
